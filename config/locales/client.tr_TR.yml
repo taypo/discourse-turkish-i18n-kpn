@@ -108,7 +108,7 @@ tr_TR:
     generic_error: "Sorry, an error has occurred."
     generic_error_with_reason: "An error occurred: %{error}"
     sign_up: "Üye Ol"
-    log_in: "Log In"
+    log_in: "Giriş"
     age: "Age"
     last_post: "Last Post"
     joined: "Joined"
@@ -122,8 +122,8 @@ tr_TR:
     privacy_policy: "Privacy Policy"
     privacy: "Privacy"
     terms_of_service: "Terms of Service"
-    mobile_view: "Mobile View"
-    desktop_view: "Desktop View"
+    mobile_view: "Mobil Görünüm"
+    desktop_view: "Masaüstü Görünüm"
     you: "You"
     or: "or"
     now: "just now"
@@ -305,7 +305,7 @@ tr_TR:
       bio: "About me"
       invited_by: "Invited By"
       trust_level: "Trust Level"
-      notifications: "Notifications"
+      notifications: "Bildirimler"
       disable_jump_reply: "Don't jump to your new post after replying"
       dynamic_favicon: "Show incoming message notifications on favicon (experimental)"
       edit_history_public: "Let other users view my post revisions"
@@ -381,29 +381,29 @@ tr_TR:
         title: "Profile Background"
 
       email:
-        title: "Email"
-        instructions: "Never shown to the public."
-        ok: "Looks good. We will email you to confirm."
-        invalid: "Please enter a valid email address."
+        title: "E-posta"
+        instructions: "Diğer kullanıcılara gösterilmez."
+        ok: "Doğru günüyor. Onaylamak için bir e-posta gönderilecek."
+        invalid: "Lütfen geçerli bir e-posta adresi giriniz."
         authenticated: "Your email has been authenticated by {{provider}}."
         frequency: "We'll only email you if we haven't seen you recently and you haven't already seen the thing we're emailing you about."
 
       name:
-        title: "Name"
-        instructions: "Your full name."
-        too_short: "Your name is too short."
-        ok: "Your name looks good."
+        title: "İsim"
+        instructions: "Tam adınız."
+        too_short: "Adınız çok kısa."
+        ok: ""
       username:
-        title: "Username"
-        instructions: "Unique, no spaces, short."
+        title: "Kullanıcı Adı"
+        instructions: "Tekil, boşluk kullanmadan ve kısa."
         short_instructions: "People can mention you as @{{username}}."
-        available: "Your username is available."
+        available: "Kullanıcı adı uygun."
         global_match: "Email matches the registered username."
-        global_mismatch: "Already registered. Try {{suggestion}}?"
-        not_available: "Not available. Try {{suggestion}}?"
-        too_short: "Your username is too short."
-        too_long: "Your username is too long."
-        checking: "Checking username availability..."
+        global_mismatch: "Kullanıcı adı var. Şunları deneyebilirsiniz: {{suggestion}}?"
+        not_available: "Kullanıcı adı uygun değil. Şunları deneyebilirsiniz: {{suggestion}}?"
+        too_short: "Kullanıcı adınız çok kısa."
+        too_long: "Kullanıcı adınız çok uzun."
+        checking: "Kullanıcı adı uygunluğu kontrol ediliyor..."
         enter_email: 'Username found. Enter matching email.'
         prefilled: "Email matches this registered username."
 
@@ -419,7 +419,7 @@ tr_TR:
       last_emailed: "Last Emailed"
       last_seen: "Seen"
       created: "Joined"
-      log_out: "Log Out"
+      log_out: "Çıkış"
       location: "Location"
       website: "Web Site"
       email_settings: "Email"
@@ -484,11 +484,11 @@ tr_TR:
           error: "There was an error uploading '{{filename}}': {{message}}"
 
       password:
-        title: "Password"
-        too_short: "Your password is too short."
-        common: "That password is too common."
-        ok: "Your password looks good."
-        instructions: "At least %{count} characters."
+        title: "Şifre"
+        too_short: "Şifreniz çok kısa."
+        common: "Bu şifre çok yaygın."
+        ok: "Şifreniz uygun."
+        instructions: "En az %{count} karakter."
 
       associated_accounts: "Associated accounts"
       ip_address:
@@ -532,17 +532,17 @@ tr_TR:
     read_only_mode:
       enabled: "An administrator enabled read-only mode. You can continue to browse the site but interactions may not work."
       login_disabled: "Login is disabled while the site is in read only mode."
-    too_few_topics_notice: "Create at least 5 public topics and %{posts} public posts to get discussion started. New users cannot earn trust levels unless there's content for them to read. This message appears only to staff."
+    too_few_topics_notice: "En az 5 konu açıp, en az %{posts} yazarak sohbetin başlamasına yardımcı olun. Yeni kullanıcılar, okuyacakları ve katılacakları konular olmadan güven seviyeleri kazanamazlar. Bu mesaj sadece site yöneticilerine gösterilir."
 
     learn_more: "learn more..."
 
-    year: 'year'
-    year_desc: 'topics created in the last 365 days'
-    month: 'month'
-    month_desc: 'topics created in the last 30 days'
-    week: 'week'
-    week_desc: 'topics created in the last 7 days'
-    day: 'day'
+    year: 'yıl'
+    year_desc: 'son 365 gün içinde açılmış konular'
+    month: 'ay'
+    month_desc: 'son 30 gün içinde açılmış konular'
+    week: 'hafta'
+    week_desc: 'son 7 gün içinde açılmış konular'
+    day: 'gün'
 
     first_post: First post
     mute: Mute
@@ -577,7 +577,7 @@ tr_TR:
     search_hint: 'username'
 
     create_account:
-      title: "Create New Account"
+      title: "Yeni Hesap Oluştur"
       failed: "Something went wrong, perhaps this email is already registered, try the forgot password link"
 
     forgot_password:
@@ -655,23 +655,23 @@ tr_TR:
       reply_original: "Reply on Original Topic"
       reply_here: "Reply Here"
       reply: "Reply"
-      cancel: "Cancel"
-      create_topic: "Yeni Konu"
+      cancel: "İptal"
+      create_topic: "Gönder"
       create_pm: "Create Private Message"
-      title: "Or press Ctrl+Enter"
+      title: "Yada Ctrl+Enter ile gönderebilirsiniz"
 
       users_placeholder: "Add a user"
-      title_placeholder: "What is this discussion about in one brief sentence?"
+      title_placeholder: "Basit bir cümleyle konu başlığı?"
       edit_reason_placeholder: "why are you editing?"
       show_edit_reason: "(add edit reason)"
-      reply_placeholder: "Type here. Use Markdown or BBCode to format. Drag or paste an image to upload it."
-      view_new_post: "View your new post."
+      reply_placeholder: "Buraya yazın. Markdown yada BBCode kullanabilirsiniz. Sürükleyerek yada yapıştırarak(paste) resim yükleyebilirsiniz."
+      view_new_post: "Yeni açtığınız konuyu görüntüleyin."
       saving: "Saving..."
       saved: "Saved!"
       saved_draft: "You have a post draft in progress. Select this bar to resume editing."
-      uploading: "Uploading..."
-      show_preview: 'show preview &raquo;'
-      hide_preview: '&laquo; hide preview'
+      uploading: "Yükleniyor..."
+      show_preview: 'önizlemeyi göster &raquo;'
+      hide_preview: '&laquo; önizlemeyi gizle'
 
       quote_post_title: "Quote whole post"
       bold_title: "Strong"
@@ -694,8 +694,8 @@ tr_TR:
       heading_title: "Heading"
       heading_text: "Heading"
       hr_title: "Horizontal Rule"
-      undo_title: "Undo"
-      redo_title: "Redo"
+      undo_title: "Geri Al"
+      redo_title: "Yinele"
       help: "Markdown Editing Help"
       toggler: "hide or show the composer panel"
 
@@ -707,8 +707,8 @@ tr_TR:
 
     notifications:
       title: "notifications of @name mentions, replies to your posts and topics, private messages, etc"
-      none: "You have no notifications right now."
-      more: "view older notifications"
+      none: "Hiç bildiriminiz bulunmuyor."
+      more: "eski bildirimleri göster"
       total_flagged: "total flagged posts"
       mentioned: "<i title='mentioned' class='icon'>@</i><p><span>{{username}}</span> {{description}}</p>"
       quoted: "<i title='quoted' class='fa fa-quote-right'></i><p><span>{{username}}</span> {{description}}</p>"
@@ -868,7 +868,7 @@ tr_TR:
       browse_all_categories: Browse all categories
 
       view_latest_topics: view latest topics
-      suggest_create_topic: Why not create a topic?
+      suggest_create_topic: Bir konu açmak ister misin?
       jump_reply_up: jump to earlier reply
       jump_reply_down: jump to later reply
       deleted: "The topic has been deleted"
@@ -1360,11 +1360,11 @@ tr_TR:
         high {with an extremely high like to post ratio}
         other {}}
     original_post: "Original Post"
-    views: "Views"
-    views_lowercase: "views"
-    replies: "Replies"
-    views_long: "this topic has been viewed {{number}} times"
-    activity: "Activity"
+    views: "Gösterim"
+    views_lowercase: "gösterim"
+    replies: "Cevaplar"
+    views_long: "bu konu {{number}} kez görüntülenmiş"
+    activity: "Aktif"
     likes: "Likes"
     likes_lowercase: "likes"
     likes_long: "there are {{number}} likes in this topic"
