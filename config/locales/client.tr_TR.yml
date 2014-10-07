@@ -266,9 +266,9 @@ tr_TR:
       all_subcategories: "all"
       no_subcategory: "none"
       category: "Category"
-      posts: "Konular"
-      topics: "Mesajlar"
-      latest: "Güncel"
+      posts: "Posts"
+      topics: "Topics"
+      latest: "Latest"
       latest_by: "latest by"
       toggle_ordering: "toggle ordering control"
       subcategories: "Subcategories"
@@ -1380,13 +1380,13 @@ tr_TR:
       with_topics: "%{filter} topics"
       with_category: "%{filter} %{category} topics"
       latest:
-        title: "Latest"
+        title: "Güncel"
         help: "topics with recent posts"
       hot:
         title: "Hot"
         help: "a selection of the hottest topics"
       starred:
-        title: "Starred"
+        title: "Yıldızlı"
         help: "topics you starred"
       read:
         title: "Read"
@@ -1397,9 +1397,9 @@ tr_TR:
         help: "all topics grouped by category"
       unread:
         title:
-          zero: "Unread"
-          one: "Unread (1)"
-          other: "Unread ({{count}})"
+          zero: "Okunmamış"
+          one: "Okunmamış (1)"
+          other: "Okunmamış ({{count}})"
         help: "topics you are currently watching or tracking with unread posts"
         lower_title_with_count:
           zero: ""
@@ -1412,9 +1412,9 @@ tr_TR:
           other: "{{count}} new"
         lower_title: "new"
         title:
-          zero: "New"
-          one: "New (1)"
-          other: "New ({{count}})"
+          zero: "Yeni"
+          one: "Yeni (1)"
+          other: "Yeni ({{count}})"
         help: "topics created in the last few days"
       posted:
         title: "My Posts"
@@ -1426,7 +1426,7 @@ tr_TR:
           other: "{{categoryName}} ({{count}})"
         help: "latest topics in the {{categoryName}} category"
       top:
-        title: "Top"
+        title: "Popüler"
         help: "the most active topics in the last year, month, week or day"
         yearly:
           title: "Top Yearly"
