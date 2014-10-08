@@ -192,9 +192,9 @@ tr:
     preview: "önizleme"
     cancel: "iptal"
 
-    save: "Save Changes"
-    saving: "Saving..."
-    saved: "Saved!"
+    save: "Değişiklikleri Kaydet"
+    saving: "Kaydediliyor..."
+    saved: "kaydedildi!"
 
     upload: "Upload"
     uploading: "Uploading..."
@@ -248,18 +248,18 @@ tr:
         everyone: "Everyone"
 
     user_action_groups:
-      "1": "Likes Given"
-      "2": "Likes Received"
-      "3": "Bookmarks"
-      "4": "Topics"
-      "5": "Posts"
-      "6": "Replies"
-      "7": "Mentions"
-      "9": "Quotes"
-      "10": "Starred"
-      "11": "Edits"
-      "12": "Sent Items"
-      "13": "Inbox"
+      "1": "Verilen Beğeniler"
+      "2": "Alınan Beğeniler"
+      "3": "Yer İşaretleri"
+      "4": "Konular"
+      "5": "Mesajlar"
+      "6": "Cevaplar"
+      "7": "Atıflar"
+      "9": "Alıntılar"
+      "10": "Yıldızlar"
+      "11": "Düzenlemeler"
+      "12": "Gönderilen"
+      "13": "Gelen Kutusu"
 
     categories:
       all: "all categories"
@@ -302,7 +302,7 @@ tr:
       activity_stream: "Activity"
       preferences: "Ayarlar"
       bookmarks: "Yer İşaretleri"
-      bio: "About me"
+      bio: "Benim Hakkımda"
       invited_by: "Invited By"
       trust_level: "Trust Level"
       notifications: "Bildirimler"
@@ -347,7 +347,7 @@ tr:
         success: "(email sent)"
         in_progress: "(sending email)"
         error: "(error)"
-        action: "Send Password Reset Email"
+        action: "Şifre Sıfırlamak İçin E-Posta Gönder"
         set_password: "Set Password"
 
       change_about:
@@ -367,18 +367,18 @@ tr:
         success: "We've sent an email to that address. Please follow the confirmation instructions."
 
       change_avatar:
-        title: "Change your avatar"
-        gravatar: "<a href='//gravatar.com/emails' target='_blank'>Gravatar</a>, based on"
-        refresh_gravatar_title: "Refresh your Gravatar"
-        letter_based: "System assigned avatar"
+        title: "Avatarınızı Değiştirin"
+        gravatar: "<a href='//gravatar.com/emails' target='_blank'>Gravatar</a>, şu mail ile:"
+        refresh_gravatar_title: "Gravatar'ı yenileyin"
+        letter_based: "Sistem tarafından atanan avatar"
         uploaded_avatar: "Custom picture"
-        uploaded_avatar_empty: "Add a custom picture"
-        upload_title: "Upload your picture"
-        upload_picture: "Upload Picture"
-        image_is_not_a_square: "Warning: we've cropped your image; it is not square."
+        uploaded_avatar_empty: "Kendiniz Yükleyin"
+        upload_title: "Kendi resminizi yükleyin"
+        upload_picture: "Resim yükle"
+        image_is_not_a_square: "Uyarı: resminizi biraz kestik, kare değildi."
 
       change_profile_background:
-        title: "Profile Background"
+        title: "Profil arka plan resmi"
 
       email:
         title: "E-posta"
@@ -386,7 +386,7 @@ tr:
         ok: "Doğru günüyor. Onaylamak için bir e-posta gönderilecek."
         invalid: "Lütfen geçerli bir e-posta adresi giriniz."
         authenticated: "Your email has been authenticated by {{provider}}."
-        frequency: "We'll only email you if we haven't seen you recently and you haven't already seen the thing we're emailing you about."
+        frequency: "Sadece sizi bir süredir görmediğimizde ve ilgili konuyu/mesajı zaten okumadıysanız e-posta gönderiyoruz."
 
       name:
         title: "İsim"
@@ -396,7 +396,7 @@ tr:
       username:
         title: "Kullanıcı Adı"
         instructions: "Tekil, boşluk kullanmadan ve kısa."
-        short_instructions: "People can mention you as @{{username}}."
+        short_instructions: "İnsanlar size @{{username}} şeklinde atıfta bulunabilir."
         available: "Kullanıcı adı uygun."
         global_match: "Email matches the registered username."
         global_mismatch: "Kullanıcı adı var. Şunları deneyebilirsiniz: {{suggestion}}?"
@@ -415,26 +415,26 @@ tr:
       password_confirmation:
         title: "Password Again"
 
-      last_posted: "Last Post"
+      last_posted: "Son Mesaj"
       last_emailed: "Last Emailed"
-      last_seen: "Son Görülme"
+      last_seen: "Son Ziyaret"
       created: "Üye Oluş"
       log_out: "Çıkış"
       location: "Konum"
-      website: "Web Site"
+      website: "Web Sitesi"
       email_settings: "E-Posta"
       email_digests:
-        title: "When you don't visit the site, send an email digest of what's new:"
-        daily: "daily"
-        weekly: "weekly"
-        bi_weekly: "every two weeks"
+        title: "Siteyi ziyaret etmediğiniz zaman yeni konularla ilgili e-posta gönder:"
+        daily: "günlük"
+        weekly: "haftalık"
+        bi_weekly: "2 haftada bir"
 
-      email_direct: "Receive an email when someone quotes you, replies to your post, or mentions your @username"
-      email_private_messages: "Receive an email when someone sends you a private message"
-      email_always: "Do not suppress email notifications when I am active on the site"
+      email_direct: "Biri sizden alıntı yaptığı zaman, mesajınıza cevap verildiğinde yada @isim şeklinde atıfta bulunulduğuna e-posta gönder"
+      email_private_messages: "Özel mesaj aldığınızda e-posta gönder"
+      email_always: "Siteyi aktif olarak kullandığım zaman bile e-posta gönderimini kesme"
 
-      other_settings: "Other"
-      categories_settings: "Categories"
+      other_settings: "Diğer"
+      categories_settings: "Kategoriler"
 
       new_topic_duration:
         label: "Consider topics new when"
@@ -569,12 +569,12 @@ tr:
       remove_allowed_user: "Do you really want to remove {{name}} from this private message?"
 
     email: 'E-Posta'
-    username: 'Username'
-    last_seen: 'Seen'
-    created: 'Created'
-    created_lowercase: 'created'
+    username: 'Kullanıcı Adı'
+    last_seen: 'Görüntülenmiş'
+    created: 'Oluşturulma'
+    created_lowercase: 'oluşturulma'
     trust_level: 'Güven Seviyesi'
-    search_hint: 'username'
+    search_hint: 'kullanıcı_adı'
 
     create_account:
       title: "Yeni Hesap Oluştur"
