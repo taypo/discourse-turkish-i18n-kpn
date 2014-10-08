@@ -651,7 +651,7 @@ tr:
         post_length: "Post must be at least {{min}} characters"
         category_missing: "You must choose a category"
 
-      save_edit: "Save Edit"
+      save_edit: "Düzenlemeyi Kaydet"
       reply_original: "Reply on Original Topic"
       reply_here: "Reply Here"
       reply: "Cevapla"
@@ -662,8 +662,8 @@ tr:
 
       users_placeholder: "Add a user"
       title_placeholder: "Basit bir cümleyle konu başlığı?"
-      edit_reason_placeholder: "why are you editing?"
-      show_edit_reason: "(add edit reason)"
+      edit_reason_placeholder: "neden düzenliyorsunuz?"
+      show_edit_reason: "(düzenleme gerekçesi ekle)"
       reply_placeholder: "Buraya yazın. Markdown yada BBCode kullanabilirsiniz. Sürükleyerek yada yapıştırarak(paste) resim yükleyebilirsiniz."
       view_new_post: "Yeni açtığınız konuyu görüntüleyin."
       saving: "Saving..."
@@ -800,7 +800,7 @@ tr:
         new: "There are no more new topics."
         unread: "There are no more unread topics."
         starred: "There are no more starred topics."
-        category: "There are no more {{category}} topics."
+        category: "Daha fazla {{category}} konusu yok."
         top: "There are no more top topics."
 
     topic:
@@ -846,8 +846,8 @@ tr:
       options: "Topic Options"
       show_links: "show links within this topic"
       toggle_information: "toggle topic details"
-      read_more_in_category: "Want to read more? Browse other topics in {{catLink}} or {{latestLink}}."
-      read_more: "Want to read more? {{catLink}} or {{latestLink}}."
+      read_more_in_category: "Daha fazla okumak ister misiniz? {{catLink}} kategorisindeki diğer konulara yada {{latestLink}}."
+      read_more: "Daha fazla okumak ister misiniz? {{catLink}} yada {{latestLink}}."
 
       # keys ending with _MF use message format, see /spec/components/js_local_helper_spec.rb for samples
       read_more_MF: "There {
@@ -1038,9 +1038,9 @@ tr:
 
     post:
       reply: "Replying to {{link}} by {{replyAvatar}} {{username}}"
-      reply_topic: "Reply to {{link}}"
+      reply_topic: "Cevapla: {{link}}"
       quote_reply: "quote reply"
-      edit: "Editing {{link}} by {{replyAvatar}} {{username}}"
+      edit: "{{replyAvatar}} {{username}}'nın yazdığı {{link}} düzenleniyor"
       edit_reason: "Reason: "
       post_number: "post {{number}}"
       in_reply_to: "reply to"
