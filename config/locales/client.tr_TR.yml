@@ -544,11 +544,11 @@ tr_TR:
     week_desc: 'son 7 gün içinde açılmış konular'
     day: 'gün'
 
-    first_post: First post
+    first_post: İlk mesaj
     mute: Mute
     unmute: Unmute
-    last_post: Last post
-    last_post_lowercase: last post
+    last_post: Son mesaj
+    last_post_lowercase: son mesaj
 
     summary:
       enabled_description: "You're viewing a summary of this topic: the most interesting posts as determined by the community."
@@ -738,7 +738,7 @@ tr_TR:
       image_link: "link your image will point to"
 
     search:
-      title: "search topics, posts, users, or categories"
+      title: "konu, mesaj yada kullanıcı ara"
       no_results: "No results found."
       searching: "Searching ..."
       post_format: "#{{post_number}} by {{username}}"
