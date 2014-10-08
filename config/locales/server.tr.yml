@@ -26,11 +26,11 @@ tr:
       date_only: "%b %-d, %Y"
 
   title: "Discourse"
-  topics: "Topics"
-  posts: "posts"
+  topics: "Konular"
+  posts: "mesajlar"
   loading: "Loading"
   powered_by_html: 'Powered by <a href="http://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled'
-  log_in: "Log In"
+  log_in: "Giriş"
 
   via: "%{username} via %{site_name}"
   is_reserved: "is reserved"
@@ -403,11 +403,11 @@ tr:
     error: "There was an error changing your email address. Perhaps the address is already in use?"
 
   activation:
-    action: "Activate your account"
-    already_done: "Sorry, this account confirmation link is no longer valid. Perhaps your account is already active?"
-    please_continue: "Your new account is confirmed, and you are now logged in."
-    continue_button: "Continue to %{site_name}"
-    welcome_to: "Welcome to %{site_name}!"
+    action: "Hesabınızı onaylayın"
+    already_done: "Üzgünüz, bu hesap onaylama linki artık geçerli değil. Belki de hesabınız daha önceden onaylanmış olabilir."
+    please_continue: "Yeni hesabınız onaylandı ve giriş yaptınız."
+    continue_button: "%{site_name}'e devam edin"
+    welcome_to: "%{site_name}'e hoş geldiniz!"
     approval_required: "A moderator must manually approve your new account before you can access this forum. You'll get an email when your account is approved!"
 
   post_action_types:
@@ -1347,15 +1347,15 @@ tr:
         New users are somewhat limited for safety reasons. As you participate here, you'll gain the trust of the community, become a full citizen, and those limitations will automatically be removed. At a high enough [trust level](https://meta.discourse.org/t/what-do-user-trust-levels-do/4924), you'll gain even more abilities to help us manage our community together.
 
     welcome_user:
-      subject_template: "Welcome to %{site_name}!"
+      subject_template: "%{site_name}'e Hoş Geldiniz!"
       text_body_template: |
-        Thanks for joining %{site_name}, and welcome!
+        %{site_name}e üye olduğunuz için teşekkür ederiz.
 
         %{new_user_tips}
 
-        We believe in [civilized community behavior](%{base_url}/guidelines) at all times.
+        Her zaman [medeni bir topluluk](%{base_url}/guidelines) olacağımıza inanıyoruz.
 
-        Enjoy your stay!
+        Keyfini çıkarın!
 
     welcome_invite:
       subject_template: "Welcome to %{site_name}!"
@@ -1712,14 +1712,14 @@ tr:
         Enjoy your stay!
 
     signup:
-      subject_template: "[%{site_name}] Activate your new account"
+      subject_template: "[%{site_name}] Yeni hesabınızı onaylayın"
       text_body_template: |
-        Welcome to %{site_name}!
+        %{site_name}'e hoş geldiniz!
 
-        Click the following link to confirm and activate your new account:
+        Sitemizde yeni açtığınız hesabınızı onaylamak için aşağıdaki linke tıklayınız:
         %{base_url}/users/activate-account/%{email_token}
 
-        If the above link is not clickable, try copying and pasting it into the address bar of your web browser.
+        Eğer linke tıklanamıyorsa, tarayınızın adres satırına kopyalayıp yapıştırmayı deneyebilirsiniz.
 
   page_not_found:
     title: "The page you requested doesn't exist or is private."

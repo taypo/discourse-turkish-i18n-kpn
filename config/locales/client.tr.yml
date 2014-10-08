@@ -127,7 +127,7 @@ tr:
     you: "You"
     or: "yada"
     now: "just now"
-    read_more: 'read more'
+    read_more: 'devamını oku'
     more: "More"
     less: "Less"
     never: "never"
@@ -156,23 +156,23 @@ tr:
       title: "Suggested Topics"
 
     about:
-      simple_title: "About"
-      title: "About %{title}"
-      stats: "Site Statistics"
-      our_admins: "Our Admins"
-      our_moderators: "Our Moderators"
+      simple_title: "Hakkında"
+      title: "%{title} Hakkında"
+      stats: "Site İstatistikleri"
+      our_admins: "Site Yöneticilerimiz"
+      our_moderators: "Site Moderatörlerimiz"
       stat:
-        all_time: "All Time"
-        last_7_days: "Last 7 Days"
-      like_count: "Like Count"
-      topic_count: "Topic Count"
-      post_count: "Post Count"
-      user_count: "User Count"
+        all_time: "Tüm Zamanlar"
+        last_7_days: "Son 7 Gün"
+      like_count: "Beğeni Sayısı"
+      topic_count: "Konu Sayısı"
+      post_count: "Mesaj Sayısı"
+      user_count: "Kullanıcı Sayısı"
 
     bookmarks:
       not_logged_in: "sorry, you must be logged in to bookmark posts"
       created: "you've bookmarked this post"
-      not_bookmarked: "you've read this post; click to bookmark it"
+      not_bookmarked: "bu mesajı okudunuz; işaretlemek için tıklayın"
       last_read: "this is the last post you've read; click to bookmark it"
       remove: "Remove Bookmark"
 
@@ -485,9 +485,9 @@ tr:
 
       password:
         title: "Şifre"
-        too_short: "Şifreniz çok kısa."
+        too_short: "Şifre çok kısa."
         common: "Bu şifre çok yaygın."
-        ok: "Şifreniz uygun."
+        ok: "Şifre uygun."
         instructions: "En az %{count} karakter."
 
       associated_accounts: "Associated accounts"
@@ -654,7 +654,7 @@ tr:
       save_edit: "Save Edit"
       reply_original: "Reply on Original Topic"
       reply_here: "Reply Here"
-      reply: "Reply"
+      reply: "Cevapla"
       cancel: "İptal"
       create_topic: "Gönder"
       create_pm: "Create Private Message"
@@ -746,7 +746,7 @@ tr:
       context:
         user: "Search posts by @{{username}}"
         category: "Search the \"{{category}}\" category"
-        topic: "Search this topic"
+        topic: "Bu konuda ara"
 
     site_map: "go to another topic list or category"
     go_back: 'go back'
@@ -754,10 +754,10 @@ tr:
     current_user: 'go to your user page'
 
     starred:
-      title: 'Star'
+      title: 'Yıldız'
       help:
-        star: 'add this topic to your starred list'
-        unstar: 'remove this topic from your starred list'
+        star: 'bu konuyu yıldızlı listenize ekleyin'
+        unstar: 'bu konuyu yıldızlı listenizden çıkarın'
 
     topics:
       bulk:
@@ -779,9 +779,9 @@ tr:
           other: "You have selected <b>{{count}}</b> topics."
 
       none:
-        starred: "You have no starred topics."
-        unread: "You have no unread topics."
-        new: "You have no new topics."
+        starred: "Hiç yıldızlı konunuz yok."
+        unread: "Hiç okunmamış konunuz yok."
+        new: "Hiç yeni konu yok."
         read: "You haven't read any topics yet."
         posted: "You haven't posted in any topics yet."
         latest: "There are no latest topics. That's sad."
@@ -890,7 +890,7 @@ tr:
 
       notifications:
         reasons:
-          "3_6": 'You will receive notifications because you are watching this category.'
+          "3_6": 'Bu konuyu yakın takibe aldığınız için bildirim alacaksınız.'
           "3_5": 'You will receive notifications because you started watching this topic automatically.'
           "3_2": 'You will receive notifications because you are watching this topic.'
           "3_1": 'You will receive notifications because you created this topic.'
@@ -898,36 +898,36 @@ tr:
           "2_8": 'You will receive notifications because you are tracking this category.'
           "2_4": 'You will receive notifications because you posted a reply to this topic.'
           "2_2": 'You will receive notifications because you are tracking this topic.'
-          "2": 'You will receive notifications because you <a href="/users/{{username}}/preferences">read this topic</a>.'
-          "1_2": 'You will be notified only if someone mentions your @name or replies to your post.'
-          "1": 'You will be notified only if someone mentions your @name or replies to your post.'
+          "2": '<a href="/users/{{username}}/preferences">Bu Konu</a>''yu okuduğunuz için bildirim alacaksınız.'
+          "1_2": 'Sadece @adiniz ile size atıfta bulunulduğunda yada sizin mesajınıza cevap verildiğinde bildirim alacaksınız.'
+          "1": 'Sadece @adiniz ile size atıfta bulunulduğunda yada sizin mesajınıza cevap verildiğinde bildirim alacaksınız.'
           "0_7": 'You are ignoring all notifications in this category.'
-          "0_2": 'You are ignoring all notifications on this topic.'
-          "0": 'You are ignoring all notifications on this topic.'
+          "0_2": 'Bu konuyla ilgili bildirim almayacaksınız.'
+          "0": 'Bu konuyla ilgili bildirim almayacaksınız.'
         watching_pm:
-          title: "Watching"
-          description: "You will be notified of every new post in this private message. A count of unread and new posts will also appear next to the topic."
+          title: "Yakın Takip"
+          description: "Bu özel mesajdaki her yeni mesajda bildirim alırsınız. Okunmamış mesaj sayısı özel mesajın yanında gösterilir."
         watching:
-          title: "Watching"
-          description: "You will be notified of every new post in this topic. A count of unread and new posts will also appear next to the topic."
+          title: "Yakın Takip"
+          description: "Bu konudaki her yeni mesajda bildirim alırsınız. Okunmamış mesaj sayısı konunun yanında gösterilir."
         tracking_pm:
-          title: "Tracking"
-          description: "A count of unread and new posts will appear next to the private message. You will be notified only if someone mentions your @name or replies to your post."
+          title: "İzle"
+          description: "Okunmamış mesaj sayısı özel mesajın yanında gösterilir. Sadece @adiniz ile size atıfta bulunulduğunda yada sizin mesajınıza cevap verildiğinde bildirim alırsınız."
         tracking:
-          title: "Tracking"
-          description: "A count of unread and new posts will appear next to the topic. You will be notified only if someone mentions your @name or replies to your post. "
+          title: "İzle"
+          description: "Okunmamış mesaj sayısı konunun yanında gösterilir. Sadece @adiniz ile size atıfta bulunulduğunda yada sizin mesajınıza cevap verildiğinde bildirim alırsınız."
         regular:
-          title: "Regular"
-          description: "You will be notified only if someone mentions your @name or replies to your post."
+          title: "Normal"
+          description: "Sadece @adiniz ile size atıfta bulunulduğunda yada sizin mesajınıza cevap verildiğinde bildirim alırsınız."
         regular_pm:
-          title: "Regular"
-          description: "You will be notified only if someone mentions your @name or replies to your post in the private message."
+          title: "Normal"
+          description: "Sadece @adiniz ile size atıfta bulunulduğunda yada sizin mesajınıza cevap verildiğinde bildirim alırsınız."
         muted_pm:
-          title: "Muted"
-          description: "You will never be notified of anything about this private message."
+          title: "Sessiz"
+          description: "Bu özel mesajla ilgili hiçbir bildirim almayacaksınız."
         muted:
-          title: "Muted"
-          description: "You will never be notified of anything about this topic, and it will not appear on your unread tab."
+          title: "Sessiz"
+          description: "Bu konuyla ilgili hiçbir bildirim almayacaksınız ve okunmamışlar bölümünde gösterilmeyecek."
 
       actions:
         recover: "Un-Delete Topic"
@@ -956,8 +956,8 @@ tr:
         help: "Clear the pinned status of this topic so it no longer appears at the top of your topic list"
 
       share:
-        title: 'Share'
-        help: 'share a link to this topic'
+        title: 'Paylaş'
+        help: 'bu konuyu paylaşın'
 
       flag_topic:
         title: 'Flag'
@@ -1090,8 +1090,8 @@ tr:
         save: 'Save Options'
 
       controls:
-        reply: "begin composing a reply to this post"
-        like: "like this post"
+        reply: "bu mesaja bir cevap yazın"
+        like: "bu mesajı beğen"
         has_liked: "you've liked this post"
         undo_like: "undo like"
         edit: "edit this post"
@@ -1099,7 +1099,7 @@ tr:
         flag: "privately flag this post for attention or send a private notification about it"
         delete: "delete this post"
         undelete: "undelete this post"
-        share: "share a link to this post"
+        share: "bu mesajı paylaş"
         more: "More"
         delete_replies:
           confirm:
@@ -1337,14 +1337,14 @@ tr:
       archived:
         help: "This topic is archived; it no longer accepts new replies"
       unpinned:
-        title: "Unpinned"
-        help: "This topic is unpinned; it will display in default order"
+        title: "İğnesiz"
+        help: "Bu konu iğnesiz. Normal sırasında gösterilecek."
       pinned_globally:
-        title: "Pinned Globally"
-        help: "Bu konu global olarak pinlenmiş; tüm listelerin en üstünde görüntülenecek"
+        title: "Global İğneli"
+        help: "Bu konu global olarak iğnelenmiş; tüm listelerin en üstünde görüntülenecek"
       pinned:
-        title: "Pinned"
-        help: "Bu konu pinlenmiş; kendi kategorisinin en üstünde görüntülenecek"
+        title: "İğneli"
+        help: "Bu konu iğnelenmiş; kendi kategorisinin en üstünde görüntülenecek"
       archived:
         help: "This topic is archived; it is frozen and cannot be changed"
       invisible:
@@ -1381,13 +1381,13 @@ tr:
       with_category: "%{filter} %{category} topics"
       latest:
         title: "Güncel"
-        help: "topics with recent posts"
+        help: "yeni mesaj yazılmış konular"
       hot:
         title: "Hot"
         help: "a selection of the hottest topics"
       starred:
         title: "Yıldızlı"
-        help: "topics you starred"
+        help: "yıldız koyduğunuz konular"
       read:
         title: "Read"
         help: "topics you've read, in the order that you last read them"
@@ -1400,7 +1400,7 @@ tr:
           zero: "Okunmamış"
           one: "Okunmamış (1)"
           other: "Okunmamış ({{count}})"
-        help: "topics you are currently watching or tracking with unread posts"
+        help: "yakın takipte olduğunuz yada izlediğiniz konular"
         lower_title_with_count:
           zero: ""
           one: "1 okunmamış"
@@ -2116,7 +2116,7 @@ tr:
       download: "download"
 
     keyboard_shortcuts_help:
-      title: 'Keyboard Shortcuts'
+      title: 'Klavye Kısayolları'
       jump_to:
         title: 'Jump To'
         home: '<b>g</b>, <b>h</b> Home (Latest)'
