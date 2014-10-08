@@ -125,7 +125,7 @@ tr:
     mobile_view: "Mobil Görünüm"
     desktop_view: "Masaüstü Görünüm"
     you: "You"
-    or: "or"
+    or: "yada"
     now: "just now"
     read_more: 'read more'
     more: "More"
@@ -602,7 +602,7 @@ tr:
       blank_username_or_password: "Please enter your email or username, and password."
       reset_password: 'Reset Password'
       logging_in: "Signing In..."
-      or: "Or"
+      or: "Yada"
       authenticating: "Authenticating..."
       awaiting_confirmation: "Your account is awaiting activation, use the forgot password link to issue another activation email."
       awaiting_approval: "Your account has not been approved by a staff member yet. You will be sent an email when it is approved."
@@ -768,7 +768,7 @@ tr:
         dismiss_topics: "Dismiss Topics"
         dismiss_topics_tooltip: "Stop showing these topics in my unread list when new posts are made"
         dismiss_new: "Dismiss New"
-        toggle: "toggle bulk selection of topics"
+        toggle: "toplu konu seçimini aç yada kapat"
         actions: "Bulk Actions"
         change_category: "Change Category"
         close_topics: "Close Topics"
@@ -865,9 +865,9 @@ tr:
             other { {BOTH, select, true{and } false {are } other{}} <a href='/new'># new</a> topics}
         } remaining, or {CATEGORY, select, true {browse other topics in {catLink}} false {{latestLink}} other {}}."
 
-      browse_all_categories: Browse all categories
+      browse_all_categories: Tüm kategorilere bak
 
-      view_latest_topics: view latest topics
+      view_latest_topics: güncel konuları listele
       suggest_create_topic: Bir konu açmak ister misin?
       jump_reply_up: jump to earlier reply
       jump_reply_down: jump to later reply
