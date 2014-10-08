@@ -988,7 +988,7 @@ tr_TR:
         success: "We mailed out an invitation to <b>{{email}}</b>. We'll notify you when the invitation is redeemed. Check the invitations tab on your user page to keep track of your invites."
         error: "Sorry, we couldn't invite that person. Perhaps they are already a user?"
 
-      login_reply: 'Log In to Reply'
+      login_reply: 'Cevaplamak için giriş yapın'
 
       filters:
         n_posts:
@@ -1044,7 +1044,7 @@ tr_TR:
       edit_reason: "Reason: "
       post_number: "post {{number}}"
       in_reply_to: "reply to"
-      last_edited_on: "post last edited on"
+      last_edited_on: "konu son güncelleme: "
       reply_as_new_topic: "Reply as linked Topic"
       continue_discussion: "Continuing the discussion from {{postLink}}:"
       follow_quote: "go to the quoted post"
@@ -1341,10 +1341,10 @@ tr_TR:
         help: "This topic is unpinned; it will display in default order"
       pinned_globally:
         title: "Pinned Globally"
-        help: "This topic is pinned globally; it will display at the top of all lists"
+        help: "Bu konu global olarak pinlenmiş; tüm listelerin en üstünde görüntülenecek"
       pinned:
         title: "Pinned"
-        help: "This topic is pinned; it will display at the top of its category"
+        help: "Bu konu pinlenmiş; kendi kategorisinin en üstünde görüntülenecek"
       archived:
         help: "This topic is archived; it is frozen and cannot be changed"
       invisible:
