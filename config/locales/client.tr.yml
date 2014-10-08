@@ -297,7 +297,7 @@ tr:
       mute: "Mute"
       edit: "Edit Preferences"
       download_archive: "download archive of my posts"
-      private_message: "Private Message"
+      private_message: "Özel Mesaj"
       private_messages: "Özel Mesajlar"
       activity_stream: "Activity"
       preferences: "Ayarlar"
@@ -564,7 +564,7 @@ tr:
       disable: "Show Deleted Posts"
 
     private_message_info:
-      title: "Private Message"
+      title: "Özel Mesaj"
       invite: "Invite Others..."
       remove_allowed_user: "Do you really want to remove {{name}} from this private message?"
 
@@ -978,13 +978,13 @@ tr:
         group_name: "group name"
 
       invite_reply:
-        title: 'Invite'
-        action: 'Email Invite'
-        help: 'send invitations to friends so they can reply to this topic with a single click'
-        to_topic: "We'll send a brief email allowing your friend to immediately join and reply to this topic by clicking a link, no login required."
+        title: 'Davet Et'
+        action: 'E-Posta ile davet et'
+        help: 'arkadaşlarınıza tek tıkla bu konuya cevap verebilecekleri bir davet gönderin'
+        to_topic: "Arkadaşınıza kısa bir e-posta ile bu konuya katılıp cevap yazabilecekleri bir link gönderilecek. Giriş yapması gerekmez."
         to_forum: "We'll send a brief email allowing your friend to immediately join by clicking a link, no login required."
 
-        email_placeholder: 'name@example.com'
+        email_placeholder: 'isim@eposta.com'
         success: "We mailed out an invitation to <b>{{email}}</b>. We'll notify you when the invitation is redeemed. Check the invitations tab on your user page to keep track of your invites."
         error: "Sorry, we couldn't invite that person. Perhaps they are already a user?"
 
@@ -1045,7 +1045,7 @@ tr:
       post_number: "post {{number}}"
       in_reply_to: "reply to"
       last_edited_on: "konu son güncelleme: "
-      reply_as_new_topic: "Reply as linked Topic"
+      reply_as_new_topic: "Bağantılı yeni bir Konu olarak cevapla"
       continue_discussion: "Continuing the discussion from {{postLink}}:"
       follow_quote: "go to the quoted post"
       show_full: "Show Full Post"
@@ -1092,13 +1092,13 @@ tr:
       controls:
         reply: "bu mesaja bir cevap yazın"
         like: "bu mesajı beğen"
-        has_liked: "you've liked this post"
-        undo_like: "undo like"
-        edit: "edit this post"
+        has_liked: "bu mesajı beğen"
+        undo_like: "beğeniyi geri al"
+        edit: "bu mesajı düzenle"
         edit_anonymous: "Sorry, but you need to be logged in to edit this post."
         flag: "privately flag this post for attention or send a private notification about it"
-        delete: "delete this post"
-        undelete: "undelete this post"
+        delete: "bu mesajı sil"
+        undelete: "silmeyi iptal et ve mesajı geri al"
         share: "bu mesajı paylaş"
         more: "More"
         delete_replies:
