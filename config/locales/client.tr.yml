@@ -111,7 +111,7 @@ tr:
     log_in: "Giriş"
     age: "Age"
     last_post: "Last Post"
-    joined: "Joined"
+    joined: "Üye Oluş"
     admin_title: "Admin"
     flags_title: "Flags"
     show_more: "show more"
@@ -437,15 +437,15 @@ tr:
       categories_settings: "Kategoriler"
 
       new_topic_duration:
-        label: "Consider topics new when"
-        not_viewed: "you haven't viewed them yet"
-        last_here: "created since you were here last"
+        label: "Konuları yeni olarak göster"
+        not_viewed: "daha önce okumadıysanız"
+        last_here: "son girişinizden sonra oluşturulduysa"
         after_n_days:
-          one: "created in the last day"
-          other: "created in the last {{count}} days"
+          one: "son 24 saat içinde oluşturulduysa"
+          other: "son {{count}} gün içinde oluşturulduysa"
         after_n_weeks:
-          one: "created in the last week"
-          other: "created in the last {{count}} weeks"
+          one: "son bir hafta içinde oluşturulduysa"
+          other: "son {{count}} hafta içinde oluşturulduysa"
 
       auto_track_topics: "Automatically track topics you enter"
       auto_track_options:
@@ -748,7 +748,7 @@ tr:
         category: "Search the \"{{category}}\" category"
         topic: "Bu konuda ara"
 
-    site_map: "go to another topic list or category"
+    site_map: "diğer bir konu listesine yada kategoriye gidin"
     go_back: 'go back'
     not_logged_in_user: 'user page with summary of current activity and preferences'
     current_user: 'go to your user page'
@@ -789,9 +789,9 @@ tr:
         category: "There are no {{category}} topics."
         top: "There are no top topics."
         educate:
-          new: '<p>Your new topics appear here.</p><p>By default, topics are considered new and will show a <span class="badge new-topic badge-notification" style="vertical-align:middle;line-height:inherit;">new</span> indicator if they were created in the last 2 days.</p><p>You can change this in your <a href="%{userPrefsUrl}">preferences</a>.</p>'
-          unread: '<p>Your unread topics appear here.</p><p>By default, topics are considered unread and will show unread counts <span class="badge new-posts badge-notification">1</span> if you:</p><ul><li>Created the topic</li><li>Replied to the topic</li><li>Read the topic for more than 4 minutes</li></ul><p>Or if you have explicitly set the topic to Tracked or Watched via the notification control at the bottom of each topic.</p><p>You can change this in your <a href="%{userPrefsUrl}">preferences</a>.</p>'
-          starred: '<p>Your starred topics appear here.</p><p>To star or unstar a topic, use:</p><ul><li>the <i class="fa fa-star"></i> next to any topic title</li><li>the Star button at the bottom of each topic</li></ul>'
+          new: '<p>Yeni konular burada görüntülenir.</p><p>Normalde konular son 2 gün içerisinde oluşturulduysa yeni olarak düşünülür ve <span class="badge new-topic badge-notification" style="vertical-align:middle;line-height:inherit;">yeni</span> ibaresi ile gösterilir.</p><p>Ama bunu <a href="%{userPrefsUrl}">ayarlar</a>''dan değiştirebilirsiniz.</p>'
+          unread: '<p>Okunmamış konular burada görüntülenir.</p><p>Normalde bir konu eğer siz:</p><ul><li>Konuyu oluşturdaysanız</li><li>Konuya mesaj yazdıysanız</li><li>Konuyu 4 dakikadan fazla okuduysanız</li></ul><p>yada konunun bildirim kontrollerinden <b>Yakın Takip</b> tada <b>İzle</b> moduna aldıysanız okunmamış olarak düşünülür ve <span class="badge new-posts badge-notification">1</span> ibaresiyle okunmamış mesaj sayısı gösterilirir.<p>Ama bunu <a href="%{userPrefsUrl}">ayarlar</a>''dan değiştirebilirsiniz.</p>'
+          starred: '<p>Yıldızlı konular burada görüntülenir.</p><p>Bir konuyu yıldızlamak yada yıldızını kaldırmak için:</p><ul><li>Konu başlığı yanındaki <i class="fa fa-star"></i>ikonunu</li><li>her konu altındaki <b>Yıldız</b> butonunu</li></ul>kullanabilirsiniz'
       bottom:
         latest: "Daha fazla güncel konu yok."
         hot: "There are no more hot topics."
@@ -804,7 +804,7 @@ tr:
         top: "There are no more top topics."
 
     topic:
-      filter_to: "{{post_count}} posts in topic"
+      filter_to: "konuda {{post_count}} mesaj"
       create: 'Yeni Konu'
       create_long: 'Yeni bir Konu oluştur'
       private_message: 'Start a private message'
@@ -994,7 +994,7 @@ tr:
         n_posts:
           one: "1 post"
           other: "{{count}} posts"
-        cancel: "Show all posts in this topic again."
+        cancel: "Tekrar bu konudaki tüm mesajları göster."
 
       split_topic:
         title: "Move to New Topic"
@@ -1351,13 +1351,13 @@ tr:
         help: "This topic is unlisted; it will not be displayed in topic lists, and can only be accessed via a direct link"
 
     posts: "Mesajlar"
-    posts_lowercase: "mesajlar"
+    posts_lowercase: "mesaj"
     posts_long: "bu konuda {{number}} mesaj vardır"
     posts_likes_MF: |
-      This topic has {count, plural, one {1 post} other {# posts}} {ratio, select,
-        low {with a high like to post ratio}
-        med {with a very high like to post ratio}
-        high {with an extremely high like to post ratio}
+      Bu konuda {count, plural, one {1 mesaj} other {# mesaj}} var {ratio, select,
+        low {, ve yüksek beğenilme oranı vardır}
+        med {, ve çok yüksek beğenilme oranı vardır}
+        high {, ve manyak beğenilme oranı vardır}
         other {}}
     original_post: "Original Post"
     views: "Gösterim"
@@ -1369,7 +1369,7 @@ tr:
     likes_lowercase: "likes"
     likes_long: "there are {{number}} likes in this topic"
     users: "Users"
-    users_lowercase: "users"
+    users_lowercase: "kullanıcı"
     category_title: "Category"
     history: "History"
     changed_by: "by {{author}}"
