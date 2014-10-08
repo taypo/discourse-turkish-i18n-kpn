@@ -15,8 +15,14 @@
 # To validate this YAML file after you change it, please paste it into
 # http://yamllint.com/
 
-tr_TR:
-  site_settings:
-    enable_imgur: "Enable imgur api for uploading, don't host files locally"
-    imgur_client_id: "Your imgur.com client ID, required for image upload to function"
-    imgur_client_secret: "Your imgur.com client secret. Not currently required for image upload to function, but may be at some point."
+tr:
+  activerecord:
+    attributes:
+      post:
+        poll_options: "Poll options"
+  poll:
+    must_contain_poll_options: "must contain a list of poll options"
+    cannot_have_modified_options: "cannot be modified after the first five minutes. Contact a moderator if you need to change them."
+    cannot_add_or_remove_options: "can only be edited, not added or removed. If you need to add or remove options you should lock this topic and create a new one."
+    prefix: "Poll"
+    closed_prefix: "Closed Poll"
