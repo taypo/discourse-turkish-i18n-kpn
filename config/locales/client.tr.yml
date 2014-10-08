@@ -304,7 +304,7 @@ tr:
       bookmarks: "Yer İşaretleri"
       bio: "Benim Hakkımda"
       invited_by: "Invited By"
-      trust_level: "Trust Level"
+      trust_level: "Güven Seviyesi"
       notifications: "Bildirimler"
       disable_jump_reply: "Don't jump to your new post after replying"
       dynamic_favicon: "Show incoming message notifications on favicon (experimental)"
@@ -696,7 +696,7 @@ tr:
       hr_title: "Horizontal Rule"
       undo_title: "Geri Al"
       redo_title: "Yinele"
-      help: "Markdown Editing Help"
+      help: "Markdown Formatı Yardım"
       toggler: "mesaj panelini gizle yada göster"
 
       admin_options_title: "Optional staff settings for this topic"
@@ -850,20 +850,20 @@ tr:
       read_more: "Daha fazla okumak ister misiniz? {{catLink}} yada {{latestLink}}."
 
       # keys ending with _MF use message format, see /spec/components/js_local_helper_spec.rb for samples
-      read_more_MF: "There {
+      read_more_MF: "{
         UNREAD, plural,
         =0 {}
         one {
-          is <a href='/unread'>1 unread</a>
+          <a href='/unread'>1 okunmamış</a>
         } other {
-          are <a href='/unread'># unread</a>
+          are <a href='/unread'># okunmamış</a>
         }
         } {
           NEW, plural,
             =0 {}
-            one { {BOTH, select, true{and } false {is } other{}} <a href='/new'>1 new</a> topic}
-            other { {BOTH, select, true{and } false {are } other{}} <a href='/new'># new</a> topics}
-        } remaining, or {CATEGORY, select, true {browse other topics in {catLink}} false {{latestLink}} other {}}."
+            one { {BOTH, select, true{ve } false {} other{}} <a href='/new'>1 yeni</a> konu}
+            other { {BOTH, select, true{ve } false {} other{}} <a href='/new'># yeni</a> konu}
+        } kaldı, yada {CATEGORY, select, true {{catLink} içindeki diğer konulara bakın} false {{latestLink}} other {}}."
 
       browse_all_categories: Tüm kategorilere bak
 
@@ -871,7 +871,7 @@ tr:
       suggest_create_topic: Bir konu açmak ister misin?
       jump_reply_up: jump to earlier reply
       jump_reply_down: jump to later reply
-      deleted: "The topic has been deleted"
+      deleted: "Bu konu silinmiş"
 
       auto_close_notice: "This topic will automatically close %{timeLeft}."
       auto_close_title: 'Auto-Close Settings'
@@ -1262,7 +1262,7 @@ tr:
       color_placeholder: "Any web color"
       delete_confirm: "Are you sure you want to delete this category?"
       delete_error: "There was an error deleting the category."
-      list: "List Categories"
+      list: "Kategori Listesi"
       no_description: "Please add a description for this category."
       change_in_category_topic: "Edit Description"
       already_used: 'This color has been used by another category'
@@ -1374,7 +1374,7 @@ tr:
     history: "History"
     changed_by: "by {{author}}"
 
-    categories_list: "Categories List"
+    categories_list: "Kategori Listesi"
 
     filters:
       with_topics: "%{filter} topics"
@@ -1392,7 +1392,7 @@ tr:
         title: "Read"
         help: "topics you've read, in the order that you last read them"
       categories:
-        title: "Categories"
+        title: "Kategoriler"
         title_in: "Category - {{categoryName}}"
         help: "all topics grouped by category"
       unread:
