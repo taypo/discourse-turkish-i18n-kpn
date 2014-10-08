@@ -30,16 +30,16 @@ tr_TR:
             mb: MB
             tb: TB
     dates:
-      time: "h:mm a"
-      long_no_year: "MMM D h:mm a"
-      long_no_year_no_time: "MMM D"
-      long_with_year: "MMM D, YYYY h:mm a"
-      long_with_year_no_time: "MMM D, YYYY"
-      long_date_with_year: "MMM D, 'YY LT"
-      long_date_without_year: "MMM D, LT"
-      long_date_with_year_without_time: "MMM D, 'YY"
-      long_date_without_year_with_linebreak: "MMM D <br/>LT"
-      long_date_with_year_with_linebreak: "MMM D, 'YY <br/>LT"
+      time: "H:mm"
+      long_no_year: "DD MMM H:mm"
+      long_no_year_no_time: "D MMM"
+      long_with_year: "DD MMM YYY H:mm"
+      long_with_year_no_time: "DD MMM YYYY"
+      long_date_with_year: "D MMM, 'YY LT"
+      long_date_without_year: "D MMM, LT"
+      long_date_with_year_without_time: "D MMM, 'YY"
+      long_date_without_year_with_linebreak: "D MMM <br/>LT"
+      long_date_with_year_with_linebreak: "D MMM, 'YY <br/>LT"
       tiny:
         half_a_minute: "< 1dk"
         less_than_x_seconds:
@@ -96,9 +96,9 @@ tr_TR:
       topic: 'konu linkini paylaş'
       post: 'mesaj linkini paylaş #%{postNumber}'
       close: 'kapat'
-      twitter: "Twitter'da paylaş"
-      facebook: "Facebook'ta paylaş"
-      google+: "Google+'ta paylaş"
+      twitter: 'Twitter''da paylaş'
+      facebook: 'Facebook''ta paylaş'
+      google+: 'Google+''ta paylaş'
       email: 'e-posta olarak gönder'
 
     edit: 'edit the title and category of this topic'
