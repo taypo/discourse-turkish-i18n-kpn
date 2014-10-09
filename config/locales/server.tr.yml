@@ -84,7 +84,7 @@ tr:
     one: "Sorry, new users can only mention one other user in a post."
     other: "Sorry, new users can only mention %{count} users in a post."
   too_many_images:
-    zero: "Sorry, new users can't put images in posts."
+    zero: "Üzgünüz, yeni kullanıcılar mesajlara resim koyamazlar."
     one: "Sorry, new users can only put one image in a post."
     other: "Sorry, new users can only put %{count} images in a post."
   too_many_attachments:

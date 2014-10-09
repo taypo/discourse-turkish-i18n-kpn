@@ -114,7 +114,7 @@ tr:
     joined: "Üye Oluş"
     admin_title: "Admin"
     flags_title: "Flags"
-    show_more: "show more"
+    show_more: "daha fazla göster"
     links: "Links"
     links_lowercase: "links"
     faq: "SSS"
@@ -196,9 +196,9 @@ tr:
     saving: "Kaydediliyor..."
     saved: "kaydedildi!"
 
-    upload: "Upload"
-    uploading: "Uploading..."
-    uploaded: "Uploaded!"
+    upload: "Yükle"
+    uploading: "Yükleniyor..."
+    uploaded: "Yüklendi!"
 
     enable: "Enable"
     disable: "Disable"
@@ -532,7 +532,7 @@ tr:
     read_only_mode:
       enabled: "An administrator enabled read-only mode. You can continue to browse the site but interactions may not work."
       login_disabled: "Login is disabled while the site is in read only mode."
-    too_few_topics_notice: "En az 5 konu açıp, en az %{posts} yazarak sohbetin başlamasına yardımcı olun. Yeni kullanıcılar, okuyacakları ve katılacakları konular olmadan güven seviyeleri kazanamazlar. Bu mesaj sadece site yöneticilerine gösterilir."
+    too_few_topics_notice: "En az 5 konu açıp, en az %{posts} mesaj yazarak sohbetin başlamasına yardımcı olun. Yeni kullanıcılar, okuyacakları ve katılacakları konular olmadan güven seviyeleri kazanamazlar. Bu mesaj sadece site yöneticilerine gösterilir."
 
     learn_more: "learn more..."
 
@@ -682,7 +682,7 @@ tr:
       link_description: "bağlantı açıklmasını buraya girin"
       link_dialog_title: "Bağlantı Ekle"
       link_optional_text: "opsiyonel başlık"
-      quote_title: "blok alıntı"
+      quote_title: "Blok alıntı"
       quote_text: "Blok Alıntı"
       code_title: "Önbiçimlenmiş Metin"
       code_text: "Önbiçimlenmiş Metin için 4 boşluk girinti ekleyin"
@@ -718,24 +718,24 @@ tr:
       liked: "<i title='beğendi' class='fa fa-heart'></i><p><span>{{username}}</span> {{description}}</p>"
       private_message: "<i title='özel mesaj' class='fa fa-envelope-o'></i><p><span>{{username}}</span> {{description}}</p>"
       invited_to_private_message: "<i title='özel mesaj' class='fa fa-envelope-o'></i><p><span>{{username}}</span> {{description}}</p>"
-      invitee_accepted: "<i title='accepted your invitation' class='fa fa-user'></i><p><span>{{username}}</span> accepted your invitation</p>"
+      invitee_accepted: "<i title='davetiniz kabul edildi' class='fa fa-user'></i><p><span>{{username}}</span> davetinizi kabul etti</p>"
       moved_post: "<i title='moved post' class='fa fa-sign-out'></i><p><span>{{username}}</span> moved {{description}}</p>"
       linked: "<i title='linked post' class='fa fa-arrow-left'></i><p><span>{{username}}</span> {{description}}</p>"
-      granted_badge: "<i title='badge granted' class='fa fa-certificate'></i><p>Earned '{{description}}'</p>"
+      granted_badge: "<i title='rozet kazandınız' class='fa fa-certificate'></i><p>'{{description}}' rozeti kazandınız</p>"
 
     upload_selector:
-      title: "Add an image"
-      title_with_attachments: "Add an image or a file"
-      from_my_computer: "From my device"
-      from_the_web: "From the web"
-      remote_tip: "link to image http://example.com/image.jpg"
-      remote_tip_with_attachments: "link to image or file http://example.com/file.ext (allowed extensions: {{authorized_extensions}})."
+      title: "Resim ekleyin"
+      title_with_attachments: "Resim yada dosya ekleyin"
+      from_my_computer: "Bilgisayarımdan"
+      from_the_web: "İnternetten"
+      remote_tip: "resim bağlantısı http://example.com/image.jpg"
+      remote_tip_with_attachments: "resim yada dosya bağlantısı http://example.com/file.ext (izin verilen uzantılar: {{authorized_extensions}})."
       local_tip: "click to select an image from your device"
-      local_tip_with_attachments: "click to select an image or a file from your device (allowed extensions: {{authorized_extensions}})"
-      hint: "(you can also drag & drop into the editor to upload them)"
+      local_tip_with_attachments: "bilgisayarızdan bir resim yada dosya seçmek için tıklayınız (izin verilen uzantılar: {{authorized_extensions}})"
+      hint: "(ayrıca editör alanına sürükleyip bırakarak da dosya yükleyebilirsiniz)"
       hint_for_supported_browsers: "(you can also drag and drop or paste images into the editor to upload them)"
-      uploading: "Uploading"
-      image_link: "link your image will point to"
+      uploading: "Yükleniyor"
+      image_link: "resime tıklanınca gidilecek bağlantı"
 
     search:
       title: "konu, mesaj yada kullanıcı ara"
@@ -1126,14 +1126,14 @@ tr:
           inappropriate: "Flag it too"
           custom_flag: "Flag it too"
           bookmark: "Bookmark it too"
-          like: "Like it too"
+          like: "Sen de beğen"
           vote: "Vote for it too"
         undo:
           off_topic: "Undo flag"
           spam: "Undo flag"
           inappropriate: "Undo flag"
           bookmark: "Undo bookmark"
-          like: "Undo like"
+          like: "Beğeniyi kaldır"
           vote: "Undo vote"
         people:
           off_topic: "{{icons}} flagged this as off-topic"
@@ -1153,7 +1153,7 @@ tr:
           notify_moderators: "You flagged this for moderation"
           notify_user: "You sent a private message to this user"
           bookmark: "You bookmarked this post"
-          like: "You liked this"
+          like: "Bunu beğendiniz"
           vote: "You voted for this post"
         by_you_and_others:
           off_topic:
@@ -1200,8 +1200,8 @@ tr:
             one: "1 person bookmarked this post"
             other: "{{count}} people bookmarked this post"
           like:
-            one: "1 person liked this"
-            other: "{{count}} people liked this"
+            one: "1 kişi beğenmiş"
+            other: "{{count}} kişi beğenmiş"
           vote:
             one: "1 person voted for this post"
             other: "{{count}} people voted for this post"
@@ -2052,7 +2052,7 @@ tr:
           login: "Login"
 
       badges:
-        title: Badges
+        title: Rozetler
         new_badge: New Badge
         new: New
         name: Name
@@ -2164,7 +2164,7 @@ tr:
         mark_watching: '<b>m</b>, <b>w</b> Watch topic'
 
     badges:
-      title: Badges
+      title: Rozetler
       allow_title: "allow badge as title?"
       multiple_grant: "awarded multiple times?"
       badge_count:
