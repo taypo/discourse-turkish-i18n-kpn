@@ -105,8 +105,8 @@ tr:
     not_implemented: "That feature hasn't been implemented yet, sorry!"
     no_value: "No"
     yes_value: "Yes"
-    generic_error: "Sorry, an error has occurred."
-    generic_error_with_reason: "An error occurred: %{error}"
+    generic_error: "Üzgünüz, bir hata oluştu."
+    generic_error_with_reason: "Bir hata oluştu: %{error}"
     sign_up: "Üye Ol"
     log_in: "Giriş"
     age: "Age"
@@ -117,11 +117,11 @@ tr:
     show_more: "show more"
     links: "Links"
     links_lowercase: "links"
-    faq: "FAQ"
-    guidelines: "Guidelines"
-    privacy_policy: "Privacy Policy"
-    privacy: "Privacy"
-    terms_of_service: "Terms of Service"
+    faq: "SSS"
+    guidelines: "Yönergeler"
+    privacy_policy: "Gizlilik Politikası"
+    privacy: "Gizlilik"
+    terms_of_service: "Hizmet Kullanım Koşulları"
     mobile_view: "Mobil Görünüm"
     desktop_view: "Masaüstü Görünüm"
     you: "You"
@@ -673,27 +673,27 @@ tr:
       show_preview: 'önizlemeyi göster &raquo;'
       hide_preview: '&laquo; önizlemeyi gizle'
 
-      quote_post_title: "Quote whole post"
-      bold_title: "Strong"
-      bold_text: "strong text"
-      italic_title: "Emphasis"
-      italic_text: "emphasized text"
-      link_title: "Hyperlink"
-      link_description: "enter link description here"
-      link_dialog_title: "Insert Hyperlink"
-      link_optional_text: "optional title"
-      quote_title: "Blockquote"
-      quote_text: "Blockquote"
-      code_title: "Preformatted text"
-      code_text: "indent preformatted text by 4 spaces"
-      upload_title: "Upload"
-      upload_description: "enter upload description here"
-      olist_title: "Numbered List"
-      ulist_title: "Bulleted List"
-      list_item: "List item"
-      heading_title: "Heading"
-      heading_text: "Heading"
-      hr_title: "Horizontal Rule"
+      quote_post_title: "Tüm mesajı alıntıla"
+      bold_title: "Kalın"
+      bold_text: "kalın metin"
+      italic_title: "İtalik"
+      italic_text: "italik metin"
+      link_title: "Bağlantı"
+      link_description: "bağlantı açıklmasını buraya girin"
+      link_dialog_title: "Bağlantı Ekle"
+      link_optional_text: "opsiyonel başlık"
+      quote_title: "blok alıntı"
+      quote_text: "Blok Alıntı"
+      code_title: "Önbiçimlenmiş Metin"
+      code_text: "Önbiçimlenmiş Metin için 4 boşluk girinti ekleyin"
+      upload_title: "Yükle"
+      upload_description: "yükleme açıklamasını buraya girin"
+      olist_title: "Numaralı Liste"
+      ulist_title: "Maddeli Liste"
+      list_item: "Liste öğesi"
+      heading_title: "Başlık"
+      heading_text: "Başlık"
+      hr_title: "Yatay Cetvel"
       undo_title: "Geri Al"
       redo_title: "Yinele"
       help: "Markdown Formatı Yardım"
@@ -960,9 +960,9 @@ tr:
         help: 'bu konuyu paylaşın'
 
       flag_topic:
-        title: 'Flag'
-        help: 'privately flag this topic for attention or send a private notification about it'
-        success_message: 'You successfully flagged this topic.'
+        title: 'Şikayet'
+        help: 'bu konuyu moderatörlerin incelemesi için gizli olarak işaretleyin'
+        success_message: 'Konuyu başarılı olarak şikayet ettiniz.'
 
       inviting: "Inviting..."
       automatically_add_to_groups_optional: "This invite also includes access to these groups: (optional, admin only)"
@@ -1300,8 +1300,8 @@ tr:
           description: "You will not be notified of anything about new topics in these categories, and they will not appear on your unread tab."
 
     flagging:
-      title: 'Why are you privately flagging this post?'
-      action: 'Flag Post'
+      title: 'Bu mesajı neden şikayet ediyorsunuz?'
+      action: 'Mesajı Şikayet Et'
       take_action: "Take Action"
       notify_action: 'Private message'
       delete_spammer: "Delete Spammer"
@@ -1318,8 +1318,8 @@ tr:
         left: "{{n}} remaining"
 
     flagging_topic:
-      title: "Why are you privately flagging this topic?"
-      action: "Flag Topic"
+      title: "Bu konuyu neden şikayet ediyorsunuz?"
+      action: "Konuyu Şikayet Et"
       notify_action: "Private message"
 
     topic_map:
