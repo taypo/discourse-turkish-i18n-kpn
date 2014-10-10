@@ -160,43 +160,43 @@ tr:
       For more, [see our community guidelines](/guidelines). This panel will only appear for your first %{education_posts_text}.
 
     avatar: |
-      ### How about a new picture for your account?
+      ### Hesabınız için yeni bir resme ne dersiniz?
+    
+      Birkaç konu ve mesaj paylaştınız, ancak hala size özgü bir avatarınız yok, herkesinkiyle aynı standart avatarla devam ediyorsunuz. 
 
-      You've posted a few topics and replies, but your avatar isn't as unique as you are -- it's the same default avatar all new users have.
+      **[Kullanıcı Profilinizi](%{profile_path})**  gitmeyi ve sizi temsil edecek özgün bir resim yüklemeye ne dersiniz?
 
-      Have you considered **[visiting your user profile](%{profile_path})** and uploading a custom image that represents you?
-
-      It's easier to follow community discussions and find interesting people in conversations when everyone has a unique avatar!
+      Herkesin kendine özgü bir avatarı olursa topluluğu ve üyeleri takip etmek daha kolay ve eğlenceli olacaktır.
 
     sequential_replies: |
-      ### Consider replying to several posts at once
+      ### Tek seferde bir cevap vermeyi deneyin
 
-      Rather than many sequential replies to a topic, please consider a single reply that includes quotes or @name references to previous posts.
+      Bir konu başlığına herkese ayrı ayrı ve alt alta cevaplar yazmak yerine alıntılar yaparak veya @isim ile bahsederek tek cevap yazmayı deneyebilirsiniz.
 
-      You can edit your previous reply to add a quote by highlighting text and selecting the <b>quote reply</b> button that appears.
+      Eski mesajlarızı düzenlemeye girip, başka metinlerden alıntı sonradan da ekleyebilirsiniz.  Tek yapmanız gereken alıntılamak istediğiniz metni seçmek ve <b>alıntıyla cevapla</b> butonuna basmak.
 
-      It's easier for everyone to read topics that have fewer in-depth replies versus lots of small, individual replies.
+      Kısa kısa tekil cevaplar yerine,  tek mesajda toplanmış cevaplar herkesin takibi için çok daha kolaydır.
 
     dominating_topic: |
-      ### Let others join the conversation
+      ### Bırakın herkes sohbete katılsın
 
-      This topic is clearly important to you &ndash; you've posted more than %{percent}% of the replies here.
+      Bu konu sizin için çok önemli görünüyor &ndash; baksanıza,  yazılmış cevapların %{percent}% dan fazlası size ait.
 
-      Are you sure you're providing adequate time for other people to share their points of view, too?
+      Diğerlerine de fikirlerini sunmak için yeterli zamanı tanıdığınızdan emin misiniz?
 
     too_many_replies: |
-      ### You have reached the reply limit for this topic
+      ### Bu konu için izin verilen cevap adedine ulaştınız
 
-      We're sorry, but new users are temporarily limited to %{newuser_max_replies_per_topic} replies in the same topic.
+      Üzgünüz, ancak yeni üyeler bir konu içerisinde  %{newuser_max_replies_per_topic} kez cevaplama yapabilirler. Sadece geçici bir süre.
 
-      Instead of adding another reply, please consider editing your previous replies, or visiting other topics.
+      Şuna ne dersiniz: bir cevap daha vermek yerine eski mesajınızı düzenleyebilirsiniz, veya başka bir konuda sohbete devam edebilirsiniz.
 
     reviving_old_topic: |
-      ### Revive this topic?
+      ### Konuyu hortlatmak mı istiyorsun?
 
-      The last reply to this topic is now over %{days} days old. Your reply will bump the topic to the top of its list and notify anyone previously involved in the conversation.
+      Burada yazılmış son cevabın üstünden  %{days} gün geçmiş.  Yazacağın mesaj konuyu listenin başına taşıyacak ve zamanında konuda paylaşımı olan herkese bildirim gitmesine sebep olacaktır.
 
-      Are you sure you want to continue this old conversation?
+      Bu eskimiş konuyu canlandırmak istediğine emin misin?
 
   activerecord:
     attributes:

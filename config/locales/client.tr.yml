@@ -55,8 +55,8 @@ tr:
           one:   "1dk"
           other: "%{count}dk"
         about_x_hours:
-          one:   "1sa"
-          other: "%{count}sa"
+          one:   "1sn"
+          other: "%{count}sn"
         x_days:
           one:   "1g"
           other: "%{count}g"
@@ -633,7 +633,7 @@ tr:
     composer:
       add_warning: "This is an official warning."
       posting_not_on_topic: "Which topic do you want to reply to?"
-      saving_draft_tip: "saving"
+      saving_draft_tip: "Kaydediliyor"
       saved_draft_tip: "kaydedildi"
       saved_local_draft_tip: "yerel kaydedildi"
       similar_topics: "Your topic is similar to..."
@@ -644,12 +644,12 @@ tr:
         need_more_for_reply: "Mesaj için {{n}} karakter daha gerekli"
 
       error:
-        title_missing: "Title is required"
-        title_too_short: "Title must be at least {{min}} characters"
-        title_too_long: "Title can't be more than {{max}} characters"
-        post_missing: "Post can't be empty"
-        post_length: "Post must be at least {{min}} characters"
-        category_missing: "You must choose a category"
+        title_missing: "Başlık girmelisiniz"
+        title_too_short: "Başlık en az {{min}} karakter olmalı"
+        title_too_long: "Başlık {{max}} karakterden fazla olamaz"
+        post_missing: "Mesaj boş olamaz"
+        post_length: "Mesaj en az {{min}} karakter olmalı"
+        category_missing: "Bir kategori seçmelisiniz"
 
       save_edit: "Düzenlemeyi Kaydet"
       reply_original: "Reply on Original Topic"
@@ -879,14 +879,14 @@ tr:
       auto_close_remove: "Don't Auto-Close This Topic"
 
       progress:
-        title: topic progress
-        go_top: "top"
-        go_bottom: "bottom"
-        go: "go"
-        jump_bottom_with_number: "jump to post %{post_number}"
-        total: total posts
-        current: current post
-        position: "post %{current} of %{total}"
+        title: konuda ilerleme
+        go_top: "en üst"
+        go_bottom: "en alt"
+        go: "git"
+        jump_bottom_with_number: "%{post_number} numaralı mesaja git"
+        total: toplam mesaj
+        current: görünen mesaj
+        position: "mesaj %{current}/%{total}"
 
       notifications:
         reasons:
@@ -1039,7 +1039,7 @@ tr:
     post:
       reply: "Replying to {{link}} by {{replyAvatar}} {{username}}"
       reply_topic: "Cevapla: {{link}}"
-      quote_reply: "quote reply"
+      quote_reply: "alıntıyla cevapla"
       edit: "{{replyAvatar}} {{username}}'nın yazdığı {{link}} düzenleniyor"
       edit_reason: "Reason: "
       post_number: "post {{number}}"
@@ -1175,8 +1175,8 @@ tr:
             one: "You and 1 other bookmarked this post"
             other: "You and {{count}} other people bookmarked this post"
           like:
-            one: "You and 1 other liked this"
-            other: "You and {{count}} other people liked this"
+            one: "Sen ve 1 kişi daha beğenmiş"
+            other: "Sen ve {{count}} kişi daha beğenmiş"
           vote:
             one: "You and 1 other voted for this post"
             other: "You and {{count}} other people voted for this post"
