@@ -1045,11 +1045,11 @@ tr:
       post_number: "post {{number}}"
       in_reply_to: "reply to"
       last_edited_on: "konu son güncelleme: "
-      reply_as_new_topic: "Bağantılı yeni bir Konu olarak cevapla"
-      continue_discussion: "Continuing the discussion from {{postLink}}:"
-      follow_quote: "go to the quoted post"
-      show_full: "Show Full Post"
-      show_hidden: 'View hidden content.'
+      reply_as_new_topic: "Bağlantılı Konuyla Cevapla"
+      continue_discussion: "{{postLink}} 'dan geldik bu konuya:"
+      follow_quote: "Alıntı yapılan mesaja git"
+      show_full: "Mesajın bütününü göster"
+      show_hidden: 'Gizli içeriği göster'
       deleted_by_author:
         one: "(post withdrawn by author, will be automatically deleted in %{count} hour unless flagged)"
         other: "(post withdrawn by author, will be automatically deleted in %{count} hours unless flagged)"
