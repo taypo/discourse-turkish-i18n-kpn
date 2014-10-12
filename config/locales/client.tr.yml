@@ -501,7 +501,7 @@ tr:
         title: "Title"
 
       filters:
-        all: "All"
+        all: "Tümü"
 
       stream:
         posted_by: "Posted by"
@@ -509,24 +509,24 @@ tr:
         private_message: "private message"
         the_topic: "the topic"
 
-    loading: "Loading..."
+    loading: "Yükleniyor..."
     errors:
-      prev_page: "while trying to load"
+      prev_page: "sayfayı yüklemeye çalışırken hata oluştu"
       reasons:
-        network: "Network Error"
-        server: "Server Error"
-        forbidden: "Access Denied"
-        unknown: "Error"
+        network: "Ağ Hatası"
+        server: "Sunucu Hatası"
+        forbidden: "Erişim Reddedildi"
+        unknown: "Hata"
       desc:
-        network: "Please check your connection."
+        network: "Lütfen internet bağlantınızı kontrol edin."
         network_fixed: "Looks like it's back."
-        server: "Error code: {{status}}"
+        server: "Hata kodu: {{status}}"
         forbidden: "You're not allowed to view that."
-        unknown: "Something went wrong."
+        unknown: "Birşeyler yolunda gitmedi."
       buttons:
-        back: "Go Back"
-        again: "Try Again"
-        fixed: "Load Page"
+        back: "Geri Dön"
+        again: "Tekrar Dene"
+        fixed: "Sayfayı Yükle"
     close: "Close"
     assets_changed_confirm: "This site was just updated. Refresh now for the latest version?"
     read_only_mode:
@@ -821,8 +821,8 @@ tr:
       loading: 'Loading topic...'
       invalid_access:
         title: "Topic is private"
-        description: "Sorry, you don't have access to that topic!"
-        login_required: "You need to log in to see that topic."
+        description: "Üzgünüz, bu konuya erişiminiz bulunmamaktadır!"
+        login_required: "Bu konuyu görmek için giriş yapmalısınız."
       server_error:
         title: "Topic failed to load"
         description: "Sorry, we couldn't load that topic, possibly due to a connection problem. Please try again. If the problem persists, let us know."
@@ -846,7 +846,7 @@ tr:
       options: "Topic Options"
       show_links: "show links within this topic"
       toggle_information: "toggle topic details"
-      read_more_in_category: "Daha fazla okumak ister misiniz? {{catLink}} kategorisindeki diğer konulara yada {{latestLink}}."
+      read_more_in_category: "Daha fazla okumak ister misiniz? {{catLink}} kategorisindeki diğer konulara bak, yada {{latestLink}}."
       read_more: "Daha fazla okumak ister misiniz? {{catLink}} yada {{latestLink}}."
 
       # keys ending with _MF use message format, see /spec/components/js_local_helper_spec.rb for samples

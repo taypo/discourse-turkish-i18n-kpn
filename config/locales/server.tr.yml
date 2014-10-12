@@ -288,15 +288,15 @@ tr:
       topic_exists_no_oldest: "Can't delete this category because topic count is %{count}."
   trust_levels:
     newuser:
-      title: "new user"
+      title: "yeni kullanıcı"
     basic:
-      title: "basic user"
+      title: "temel kullanıcı"
     regular:
-      title: "member"
+      title: "iyi kullanıcı"
     leader:
-      title: "regular"
+      title: "düzenli kullanıcı"
     elder:
-      title: "leader"
+      title: "lider kullanıcı"
     change_failed_explanation: "You attempted to demote %{user_name} to '%{new_trust_level}'. However their trust level is already '%{current_trust_level}'. %{user_name} will remain at '%{current_trust_level}' - if you wish to demote user lock trust level first"
 
 
