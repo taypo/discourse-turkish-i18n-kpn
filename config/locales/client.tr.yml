@@ -55,8 +55,8 @@ tr:
           one:   "1dk"
           other: "%{count}dk"
         about_x_hours:
-          one:   "1sn"
-          other: "%{count}sn"
+          one:   "1sa"
+          other: "%{count}sa"
         x_days:
           one:   "1g"
           other: "%{count}g"
