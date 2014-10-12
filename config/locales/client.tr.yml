@@ -891,17 +891,17 @@ tr:
       notifications:
         reasons:
           "3_6": 'Bu konuyu yakın takibe aldığınız için bildirim alacaksınız.'
-          "3_5": 'You will receive notifications because you started watching this topic automatically.'
-          "3_2": 'You will receive notifications because you are watching this topic.'
-          "3_1": 'You will receive notifications because you created this topic.'
-          "3": 'You will receive notifications because you are watching this topic.'
-          "2_8": 'You will receive notifications because you are tracking this category.'
-          "2_4": 'Bu konuya cevap yazdığınız için bildirim alacaksınız.'
-          "2_2": 'You will receive notifications because you are tracking this topic.'
+          "3_5": 'Bu konuyu otomatik izlemeye aldığımız için bildirim alacaksınız.'
+          "3_2": 'Bu konuyu izlediğiniz için bildirim alacaksınız.'
+          "3_1": 'Bu konuyu açtığınız için bildirim alacaksınız.'
+          "3": 'Bu konuyu izlediğiniz için bildirim alacaksınız.'
+          "2_8": 'Bu kategoriyi izlediğiniz için bildirim alacaksınız.'
+          "2_4": 'Bu konuyu cevapladığınız için bildirim alacaksınız.'
+          "2_2": 'Bu konuyu izlediğiniz için bildirim alacaksınız.'
           "2": '<a href="/users/{{username}}/preferences">Bu Konu</a>''yu okuduğunuz için bildirim alacaksınız.'
-          "1_2": 'Sadece @adiniz ile size atıfta bulunulduğunda yada sizin mesajınıza cevap verildiğinde bildirim alacaksınız.'
-          "1": 'Sadece @adiniz ile size atıfta bulunulduğunda yada sizin mesajınıza cevap verildiğinde bildirim alacaksınız.'
-          "0_7": 'You are ignoring all notifications in this category.'
+          "1_2": 'Sadece @adiniz bahsedildiğinde yada mesajınıza cevap verildiğinde bildirim alacaksınız.'
+          "1": 'Sadece @adiniz bahsedildiğinde yada mesajınıza cevap verildiğinde bildirim alacaksınız.'
+          "0_7": 'Bu kategoriyle ilgili bildirim almayacaksınız.'
           "0_2": 'Bu konuyla ilgili bildirim almayacaksınız.'
           "0": 'Bu konuyla ilgili bildirim almayacaksınız.'
         watching_pm:
@@ -1065,23 +1065,23 @@ tr:
         other: "Replies"
 
       errors:
-        create: "Sorry, there was an error creating your post. Please try again."
-        edit: "Sorry, there was an error editing your post. Please try again."
-        upload: "Sorry, there was an error uploading that file. Please try again."
-        attachment_too_large: "Sorry, the file you are trying to upload is too big (maximum size is {{max_size_kb}}kb)."
-        image_too_large: "Sorry, the image you are trying to upload is too big (maximum size is {{max_size_kb}}kb), please resize it and try again."
-        too_many_uploads: "Sorry, you can only upload one file at a time."
-        upload_not_authorized: "Sorry, the file you are trying to upload is not authorized (authorized extension: {{authorized_extensions}})."
-        image_upload_not_allowed_for_new_user: "Sorry, new users can not upload images."
-        attachment_upload_not_allowed_for_new_user: "Sorry, new users can not upload attachments."
-        attachment_download_requires_login: "Sorry, you need to be logged in to download attachments."
+        create: "Üzgünüz, mesajınızı oluştururken bir hata oluştu. Lütfen tekrar deneyin."
+        edit: "Üzgünüz, mesajınızı düzenlerken bir hata oluştu. Lütfen tekrar deneyin."
+        upload: "Üzgünüz, dosya yüklenirken bir hata oluştu. Lütfen tekrar deneyin."
+        attachment_too_large: "Üzgünüz, yüklemek istediğiniz dosya boyutu çok fazla (en fazla {{max_size_kb}}kb)."
+        image_too_large: "Üzgünüz, yüklemek istediğiniz resmin boyutu çok fazla (en fazla {{max_size_kb}}kb). Yeniden boyutlandırarak tekrar deneyiniz."
+        too_many_uploads: "Üzgünüz, tek seferde en fazla 1 dosya yüklenebilir"
+        upload_not_authorized: "Üzgünüz, yüklediğiniz dosya formatı uygun değil (izin verilen formatlar: {{authorized_extensions}})."
+        image_upload_not_allowed_for_new_user: "Üzgünüz, yeni üyeler resim yükleyemezler."
+        attachment_upload_not_allowed_for_new_user: "Üzgünüz, yeni üyeler dosya ekleyemezler."
+        attachment_download_requires_login: "Üzgünüz, ekleri indirebilmek için giriş yapmalısınız."
 
       abandon:
-        confirm: "Are you sure you want to abandon your post?"
-        no_value: "No, keep"
-        yes_value: "Yes, abandon"
+        confirm: "Bu mesajı yazmaktan vazgeçiyorsun, emin misin?"
+        no_value: "Hayır, yazacağım"
+        yes_value: "Evet, vazgeçtim"
 
-      via_email: "this post arrived via email"
+      via_email: "bu mesaj e-posta ile gönderilmiştir."
 
       wiki:
         about: "this post is a wiki; basic users can edit it"
