@@ -1037,11 +1037,11 @@ tr:
           other: "You have selected <b>{{count}}</b> posts."
 
     post:
-      reply: "Replying to {{link}} by {{replyAvatar}} {{username}}"
+      reply: "{{replyAvatar}} {{username}} 'nın yazdığı {{link}} cevaplanıyor"
       reply_topic: "Cevapla: {{link}}"
       quote_reply: "alıntıyla cevapla"
       edit: "{{replyAvatar}} {{username}}'nın yazdığı {{link}} düzenleniyor"
-      edit_reason: "Reason: "
+      edit_reason: "Sebep: "
       post_number: "post {{number}}"
       in_reply_to: "reply to"
       last_edited_on: "konu son güncelleme: "
