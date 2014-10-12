@@ -306,29 +306,29 @@ tr:
       invited_by: "Invited By"
       trust_level: "Güven Seviyesi"
       notifications: "Bildirimler"
-      disable_jump_reply: "Don't jump to your new post after replying"
-      dynamic_favicon: "Show incoming message notifications on favicon (experimental)"
+      disable_jump_reply: "Cevap yazdığımda sayfayı yeni mesaja kaydırma"
+      dynamic_favicon: "Bildirimleri site ikonunda göster (deneysel)"
       edit_history_public: "Let other users view my post revisions"
-      external_links_in_new_tab: "Open all external links in a new tab"
-      enable_quoting: "Enable quote reply for highlighted text"
+      external_links_in_new_tab: "Tüm harici linkleri yeni bir tabda aç"
+      enable_quoting: "Seçili metnin alıntıyla cevaplanmasına izin ver"
       change: "change"
       moderator: "{{user}} is a moderator"
       admin: "{{user}} is an admin"
       moderator_tooltip: "This user is a moderator"
       admin_tooltip: "This user is an admin"
       suspended_notice: "This user is suspended until {{date}}."
-      suspended_reason: "Reason: "
-      mailing_list_mode: "Receive an email for every new post (unless you mute the topic or category)"
-      watched_categories: "Watched"
+      suspended_reason: "Sebep: "
+      mailing_list_mode: "Her yeni mesaj içine e-posta gönder (sessize alınan konu ve kategoriler hariç)"
+      watched_categories: "Yakın Takiptekiler"
       watched_categories_instructions: "You will automatically watch all new topics in these categories. You will be notified of all new posts and topics, plus the count of unread and new posts will also appear next to the topic's listing."
-      tracked_categories: "Tracked"
+      tracked_categories: "İzlenenler"
       tracked_categories_instructions: "You will automatically track all new topics in these categories. A count of unread and new posts will appear next to the topic."
-      muted_categories: "Muted"
+      muted_categories: "Sessize Alınanlar"
       muted_categories_instructions: "You will not be notified of anything about new topics in these categories, and they will not appear on your unread tab."
-      delete_account: "Delete My Account"
-      delete_account_confirm: "Are you sure you want to permanently delete your account? This action cannot be undone!"
-      deleted_yourself: "Your account has been deleted successfully."
-      delete_yourself_not_allowed: "You cannot delete your account right now. Contact an admin to do delete your account for you."
+      delete_account: "Hesabımı Sil"
+      delete_account_confirm: "Hesabınızı temelli silmek istediğinizden emin misiniz? Bu işlem geri alınamaz!"
+      deleted_yourself: "Hesabınız başarıyla silindi."
+      delete_yourself_not_allowed: "Hesabınızı şu anda silemezsiniz. Bir yönetici ile irtibata geçerek sizin için hesabınızı silmesini isteyebilirsiniz."
       unread_message_count: "Özel Mesajlar"
 
       staff_counters:
@@ -447,16 +447,16 @@ tr:
           one: "son bir hafta içinde oluşturulduysa"
           other: "son {{count}} hafta içinde oluşturulduysa"
 
-      auto_track_topics: "Automatically track topics you enter"
+      auto_track_topics: "Okuduğum konuları otomatik olarak takibe al"
       auto_track_options:
-        never: "never"
-        always: "always"
+        never: "Hiçbir zaman"
+        always: "Her zaman"
         after_n_seconds:
-          one: "after 1 second"
-          other: "after {{count}} seconds"
+          one: "1 saniye sonra"
+          other: "{{count}} saniye sonra"
         after_n_minutes:
-          one: "after 1 minute"
-          other: "after {{count}} minutes"
+          one: "1 dakika sonra"
+          other: "{{count}} dakika sonra"
 
       invited:
         search: "type to search invites..."
@@ -898,7 +898,7 @@ tr:
           "2_8": 'Bu kategoriyi izlediğiniz için bildirim alacaksınız.'
           "2_4": 'Bu konuyu cevapladığınız için bildirim alacaksınız.'
           "2_2": 'Bu konuyu izlediğiniz için bildirim alacaksınız.'
-          "2": '<a href="/users/{{username}}/preferences">Bu Konu</a>''yu okuduğunuz için bildirim alacaksınız.'
+          "2": '<a href="/users/{{username}}/preferences">Bu Konu''yu okuduğunuz</a> için bildirim alacaksınız.'
           "1_2": 'Sadece @adiniz bahsedildiğinde yada mesajınıza cevap verildiğinde bildirim alacaksınız.'
           "1": 'Sadece @adiniz bahsedildiğinde yada mesajınıza cevap verildiğinde bildirim alacaksınız.'
           "0_7": 'Bu kategoriyle ilgili bildirim almayacaksınız.'
@@ -2118,50 +2118,50 @@ tr:
     keyboard_shortcuts_help:
       title: 'Klavye Kısayolları'
       jump_to:
-        title: 'Jump To'
-        home: '<b>g</b>, <b>h</b> Home (Latest)'
-        latest: '<b>g</b>, <b>l</b> Latest'
-        new: '<b>g</b>, <b>n</b> New'
-        unread: '<b>g</b>, <b>u</b> Unread'
-        starred: '<b>g</b>, <b>f</b> Starred'
-        categories: '<b>g</b>, <b>c</b> Categories'
-        top: '<b>g</b>, <b>t</b> Top'
+        title: 'Zıpla'
+        home: '<b>g</b>, <b>h</b> Ana Sayfa (Güncel)'
+        latest: '<b>g</b>, <b>l</b> Güncel'
+        new: '<b>g</b>, <b>n</b> Yeni'
+        unread: '<b>g</b>, <b>u</b> Okunmamış'
+        starred: '<b>g</b>, <b>f</b> Yıldızlı'
+        categories: '' #<b>g</b>, <b>c</b> Categories'
+        top: '<b>g</b>, <b>t</b> En üst'
       navigation:
-        title: 'Navigation'
-        jump: '<b>#</b> Go to post #'
-        back: '<b>u</b> Back'
-        up_down: '<b>k</b>/<b>j</b> Move selection &uarr; &darr;'
-        open: '<b>o</b> or <b>Enter</b> Open selected topic'
-        next_prev: '<b>shift j</b>/<b>shift k</b> Next/previous section'
+        title: 'Gezinme'
+        jump: '<b>#</b> # numaralı mesaja git'
+        back: '<b>u</b> Geri dön'
+        up_down: '<b>k</b>/<b>j</b> Seçileni taşı &uarr; &darr;'
+        open: '<b>o</b> or <b>Enter</b> Seçili konuyu aç'
+        next_prev: '<b>shift j</b>/<b>shift k</b> Önceki/Sonraki bölüm'
       application:
-        title: 'Application'
-        create: '<b>c</b> Create a new topic'
-        notifications: '<b>n</b> Open notifications'
-        site_map_menu: '<b>=</b> Open site menu'
-        user_profile_menu: '<b>p</b> Open user menu'
-        show_incoming_updated_topics: '<b>.</b> Show updated topics'
-        search: '<b>/</b> Search'
-        help: '<b>?</b> Open keyboard help'
+        title: 'Uygulama'
+        create: '<b>c</b> Yeni bir konu aç'
+        notifications: '<b>n</b> Bildirimleri aç'
+        site_map_menu: '<b>=</b> Site menüsünü aç'
+        user_profile_menu: '<b>p</b> Kullanıcı menünüsü aç'
+        show_incoming_updated_topics: '<b>.</b> Güncellenen konuları göster'
+        search: '<b>/</b> Ara'
+        help: '<b>?</b> Klavye yardımını aç'
         dismiss_new_posts: '<b>x</b>, <b>r</b> Dismiss New/Posts'
         dismiss_topics: '<b>x</b>, <b>t</b> Dismiss Topics'
       actions:
         title: 'Actions'
-        star: '<b>f</b> Star topic'
-        share_topic: '<b>shift s</b> Share topic'
-        share_post: '<b>s</b> Share post'
-        reply_as_new_topic: '<b>t</b> Reply as linked topic'
-        reply_topic: '<b>shift r</b> Reply to topic'
-        reply_post: '<b>r</b> Reply to post'
-        quote_post: '<b>q</b> Quote post'
-        like: '<b>l</b> Like post'
-        flag: '<b>!</b> Flag post'
-        bookmark: '<b>b</b> Bookmark post'
-        edit: '<b>e</b> Edit post'
-        delete: '<b>d</b> Delete post'
-        mark_muted: '<b>m</b>, <b>m</b> Mute topic'
-        mark_regular: '<b>m</b>, <b>r</b> Regular (default) topic'
-        mark_tracking: '<b>m</b>, <b>t</b> Track topic'
-        mark_watching: '<b>m</b>, <b>w</b> Watch topic'
+        star: '<b>f</b> Konuya yıldız koy'
+        share_topic: '<b>shift s</b> Konuyu paylaş'
+        share_post: '<b>s</b> Mesajı paylaş'
+        reply_as_new_topic: '<b>t</b> Bağlantılı konuyla cevapla'
+        reply_topic: '<b>shift r</b> Konuya cevap yaz'
+        reply_post: '<b>r</b> Mesaja cevap yaz'
+        quote_post: '<b>q</b> Mesajdan alıntı yap'
+        like: '<b>l</b> Mesajı beğen'
+        flag: '<b>!</b> Mesajı şikayet et'
+        bookmark: '<b>b</b> Mesajı yer işaretlerine ekle'
+        edit: '<b>e</b> Mesajı düzenle'
+        delete: '<b>d</b> Mesajı sil'
+        mark_muted: '<b>m</b>, <b>m</b> Konuyu sessize al'
+        mark_regular: '<b>m</b>, <b>r</b> Konuyu normale al'
+        mark_tracking: '<b>m</b>, <b>t</b> Konuyu izlemeye al'
+        mark_watching: '<b>m</b>, <b>w</b> Konuyu yakın takibe al'
 
     badges:
       title: Rozetler
