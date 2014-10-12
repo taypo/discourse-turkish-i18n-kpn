@@ -116,7 +116,7 @@ tr:
     flags_title: "Flags"
     show_more: "daha fazla göster"
     links: "Links"
-    links_lowercase: "links"
+    links_lowercase: "bağlantı"
     faq: "SSS"
     guidelines: "Yönergeler"
     privacy_policy: "Gizlilik Politikası"
@@ -460,8 +460,8 @@ tr:
 
       invited:
         search: "type to search invites..."
-        title: "Invites"
-        user: "Invited User"
+        title: "Davetler"
+        user: "Davetli Kullanıcılar"
         none: "You haven't invited anyone here yet."
         truncated: "Showing the first {{count}} invites."
         redeemed: "Redeemed Invites"
@@ -565,7 +565,7 @@ tr:
 
     private_message_info:
       title: "Özel Mesaj"
-      invite: "Invite Others..."
+      invite: "Başkalarını Davet Et..."
       remove_allowed_user: "Do you really want to remove {{name}} from this private message?"
 
     email: 'E-Posta'
@@ -657,10 +657,10 @@ tr:
       reply: "Cevapla"
       cancel: "İptal"
       create_topic: "Gönder"
-      create_pm: "Create Private Message"
+      create_pm: "Özel Mesaj Gönder"
       title: "Yada Ctrl+Enter ile gönderebilirsiniz"
 
-      users_placeholder: "Add a user"
+      users_placeholder: "Kullanıcı ekle"
       title_placeholder: "Basit bir cümleyle konu başlığı?"
       edit_reason_placeholder: "neden düzenliyorsunuz?"
       show_edit_reason: "(düzenleme gerekçesi ekle)"
@@ -1331,7 +1331,7 @@ tr:
 
     topic_statuses:
       warning:
-        help: "This is an official warning."
+        help: "Bu resmi bir uyarıdır."
       locked:
         help: "This topic is closed; it no longer accepts new replies"
       archived:
