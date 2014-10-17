@@ -344,11 +344,11 @@ tr:
         unread: "Okunmamış"
 
       change_password:
-        success: "(email sent)"
-        in_progress: "(sending email)"
+        success: "(e-posta gönderildi)"
+        in_progress: "(e-posta gönderiliyor)"
         error: "(error)"
         action: "Şifre Sıfırlamak İçin E-Posta Gönder"
-        set_password: "Set Password"
+        set_password: "Şifre Belirle"
 
       change_about:
         title: "Change About Me"
@@ -361,10 +361,10 @@ tr:
         invalid: "That username is invalid. It must only include numbers and letters"
 
       change_email:
-        title: "Change Email"
-        taken: "Sorry, that email is not available."
-        error: "There was an error changing your email. Perhaps that address is already in use?"
-        success: "We've sent an email to that address. Please follow the confirmation instructions."
+        title: "E-posta değiştir"
+        taken: "Üzgünüz, e-posta kullanımda."
+        error: "E-posta değiştirilirken hata oluştu. Bu e-posta zaten kullanımda olabilir mi?"
+        success: "E-posta adresinize bir doğrulama kodu gönderildi. Mesajdaki yönergeleri takip ederek doğrulayabilirsiniz."
 
       change_avatar:
         title: "Avatarınızı Değiştirin"
@@ -385,7 +385,7 @@ tr:
         instructions: "Diğer kullanıcılara gösterilmez."
         ok: "Doğru günüyor. Onaylamak için bir e-posta gönderilecek."
         invalid: "Lütfen geçerli bir e-posta adresi giriniz."
-        authenticated: "Your email has been authenticated by {{provider}}."
+        authenticated: "E-postanız {{provider}} tarafından doğrulandı."
         frequency: "Sadece sizi bir süredir görmediğimizde ve ilgili konuyu/mesajı zaten okumadıysanız e-posta gönderiyoruz."
 
       name:
@@ -398,13 +398,13 @@ tr:
         instructions: "Tekil, boşluk kullanmadan ve kısa."
         short_instructions: "İnsanlar size @{{username}} şeklinde atıfta bulunabilir."
         available: "Kullanıcı adı uygun."
-        global_match: "Email matches the registered username."
+        global_match: "E-posta kayıtlı kullanıcı adı ile örtüştü."
         global_mismatch: "Kullanıcı adı var. Şunları deneyebilirsiniz: {{suggestion}}?"
         not_available: "Kullanıcı adı uygun değil. Şunları deneyebilirsiniz: {{suggestion}}?"
         too_short: "Kullanıcı adınız çok kısa."
         too_long: "Kullanıcı adınız çok uzun."
         checking: "Kullanıcı adı uygunluğu kontrol ediliyor..."
-        enter_email: 'Username found. Enter matching email.'
+        enter_email: 'Kullanıcı adı bulundu. E-postanızı giriniz.'
         prefilled: "Email matches this registered username."
 
       locale:
@@ -416,7 +416,7 @@ tr:
         title: "Password Again"
 
       last_posted: "Son Mesaj"
-      last_emailed: "Last Emailed"
+      last_emailed: "Son E-postalanan"
       last_seen: "Son Ziyaret"
       created: "Üye Oluş"
       log_out: "Çıkış"
@@ -578,30 +578,30 @@ tr:
 
     create_account:
       title: "Yeni Hesap Oluştur"
-      failed: "Something went wrong, perhaps this email is already registered, try the forgot password link"
+      failed: "Hata, bu e-posta kullanınmda olabilir, şifremi kaybettim linkini deneyiniz."
 
     forgot_password:
       title: "Şifre Hatırlatma"
       action: "Şifremi unuttum"
       invite: "Kullanıcı adınızı yada e-posta adresinizi yazarsanız size şifre yenileme e-postası gönderelim."
       reset: "Gönder"
-      complete_username: "If an account matches the username <b>%{username}</b>, you should receive an email with instructions on how to reset your password shortly."
-      complete_email: "If an account matches <b>%{email}</b>, you should receive an email with instructions on how to reset your password shortly."
-      complete_username_found: "We found an account that matches the username <b>%{username}</b>, you should receive an email with instructions on how to reset your password shortly."
-      complete_email_found: "We found an account that matches <b>%{email}</b>, you should receive an email with instructions on how to reset your password shortly."
+      complete_username: "Kullanıcı adınız:<b>%{username}</b> ile eşleşirse e-posta adresinize şifrenizi yenilemek için yapmanız gerekenler gönderilecektir."
+      complete_email: "Hesaıbınız <b>%{email}</b> ile eşleşirse, e-posta adresinize şifrenizi yenilemek için yapmanız gerekenler gönderilecektir."
+      complete_username_found: "<b>%{username}</b> ile eşleşen bir hesap bulundu, e-posta adresinize şifrenizi yenilemek için yapmanız gerekenler gönderilecektir."
+      complete_email_found: "<b>%{email}</b> ile eşleşen bir hesap bulundu, e-posta adresinize şifrenizi yenilemek için yapmanız gerekenler gönderilecektir."
 
-      complete_username_not_found: "No account matches the username <b>%{username}</b>"
-      complete_email_not_found: "No account matches <b>%{email}</b>"
+      complete_username_not_found: "<b>%{username}</b> ile eşleşen hesap bulunamadı"
+      complete_email_not_found: "<b>%{email} ile eşleşen hesap bulunamadı</b>"
     login:
       title: "Giriş"
       username: "Kullanıcı"
       password: "Şifre"
       email_placeholder: "e-posta yada kullanıcı adı"
       caps_lock_warning: "Caps Lock açık"
-      error: "Unknown error"
-      blank_username_or_password: "Please enter your email or username, and password."
-      reset_password: 'Reset Password'
-      logging_in: "Signing In..."
+      error: "Bilinmeyen hata"
+      blank_username_or_password: "Lütfen e-posta veya kullanıcı adınızla birlikte şifrenizi giriniz."
+      reset_password: 'Şifreyi sıfırla'
+      logging_in: "Giriş yapılıyor..."
       or: "Yada"
       authenticating: "Authenticating..."
       awaiting_confirmation: "Your account is awaiting activation, use the forgot password link to issue another activation email."
