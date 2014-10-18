@@ -818,9 +818,9 @@ tr:
         one: '1 unread topic'
         other: '{{count}} unread topics'
       title: 'Konu'
-      loading: 'Loading topic...'
+      loading: 'Konu yükleniyor...'
       invalid_access:
-        title: "Topic is private"
+        title: "Gizli bir konu"
         description: "Üzgünüz, bu konuya erişiminiz bulunmamaktadır!"
         login_required: "Bu konuyu görmek için giriş yapmalısınız."
       server_error:
@@ -1051,15 +1051,15 @@ tr:
       show_full: "Mesajın bütününü göster"
       show_hidden: 'Gizli içeriği göster'
       deleted_by_author:
-        one: "(post withdrawn by author, will be automatically deleted in %{count} hour unless flagged)"
-        other: "(post withdrawn by author, will be automatically deleted in %{count} hours unless flagged)"
+        one: "(mesaj yazarı tarafından silinmiş, eğer şikayet edilmediyse %{count} saat içinde otomatik olarak kaldırılacaktır)"
+        other: "(mesaj yazarı tarafından silinmiş, eğer şikayet edilmediyse %{count} saat içinde otomatik olarak kaldırılacaktır)"
       expand_collapse: "expand/collapse"
       gap:
-        one: "1 post hidden"
-        other: "{{count}} posts hidden"
-      more_links: "{{count}} more..."
+        one: "1 mesaj saklı"
+        other: "{{count}} mesaj saklı"
+      more_links: "{{count}} daha var..."
 
-      unread: "Post is unread"
+      unread: "Mesaj okunmamış"
       has_replies:
         one: "Reply"
         other: "Replies"
