@@ -405,15 +405,15 @@ tr:
         too_long: "Kullanıcı adınız çok uzun."
         checking: "Kullanıcı adı uygunluğu kontrol ediliyor..."
         enter_email: 'Kullanıcı adı bulundu. E-postanızı giriniz.'
-        prefilled: "Email matches this registered username."
+        prefilled: "E-posta kayıtlı kullanıcı adı ile örtüştü."
 
       locale:
-        title: "Interface language"
-        instructions: "User interface language. It will change when you refresh the page."
-        default: "(default)"
+        title: "Arayüz dili"
+        instructions: "Kullanıcı arayüzü dili. Sayfayı yenilediğinizde değişecektir."
+        default: "(varsayılan)"
 
       password_confirmation:
-        title: "Password Again"
+        title: "Tekrar şifre"
 
       last_posted: "Son Mesaj"
       last_emailed: "Son E-postalanan"
@@ -603,40 +603,40 @@ tr:
       reset_password: 'Şifreyi sıfırla'
       logging_in: "Giriş yapılıyor..."
       or: "Yada"
-      authenticating: "Authenticating..."
-      awaiting_confirmation: "Your account is awaiting activation, use the forgot password link to issue another activation email."
-      awaiting_approval: "Your account has not been approved by a staff member yet. You will be sent an email when it is approved."
-      requires_invite: "Sorry, access to this forum is by invite only."
-      not_activated: "You can't log in yet. We previously sent an activation email to you at <b>{{sentTo}}</b>. Please follow the instructions in that email to activate your account."
-      not_allowed_from_ip_address: "You can't login from that IP address."
-      resend_activation_email: "Click here to send the activation email again."
-      sent_activation_email_again: "We sent another activation email to you at <b>{{currentEmail}}</b>. It might take a few minutes for it to arrive; be sure to check your spam folder."
+      authenticating: "Kimlik doğrulanıyor..."
+      awaiting_confirmation: "Hesabınız aktivasyon bekliyor, şifremi unuttum yoluyla yeni bir aktivasyon maili alabilirsiniz."
+      awaiting_approval: "Hesabınız henüz onaylanmadı. Onay verildiğinde bir e-posta bildirimi alacaksınız."
+      requires_invite: "Ügünüz, erişim sadece davetiye ile mümkün."
+      not_activated: "Henüz giriş yapamazsınız. Bir aktivasyon e-postası gönderilmişti: <b>{{sentTo}}</b>. Lütfen o mesajdaki yönergeleri takip ediniz.."
+      not_allowed_from_ip_address: "Bu IP adresinden giriş yapamazsınız."
+      resend_activation_email: "Aktivasyon e-postası için tekrar tıklayınız."
+      sent_activation_email_again: "<b>{{currentEmail}}</b> hesabına yeni bir aktivasyon e-postası gönderildi."
       google:
         title: "Google Hesabımı Kullan"
-        message: "Authenticating with Google (make sure pop up blockers are not enabled)"
+        message: "Google ile kimlik doğrulanıyor  (pop-up engelleyicilerinizi kontrol ediniz.)"
       google_oauth2:
         title: "Google Hesabımı Kullan"
-        message: "Authenticating with Google (make sure pop up blockers are not enabled)"
+        message: "Google ile kimlik doğrulanıyor  (pop-up engelleyicilerinizi kontrol ediniz.)"
       twitter:
         title: "Twitter Hesabımı Kullan"
-        message: "Authenticating with Twitter (make sure pop up blockers are not enabled)"
+        message: "Twitter ile kimlik doğrulanıyor  (pop-up engelleyicilerinizi kontrol ediniz.)"
       facebook:
         title: "Facebook Hesabımı Kullan"
-        message: "Authenticating with Facebook (make sure pop up blockers are not enabled)"
+        message: "Facebook ile kimlik doğrulanıyor  (pop-up engelleyicilerinizi kontrol ediniz.)"
       yahoo:
         title: "with Yahoo"
-        message: "Authenticating with Yahoo (make sure pop up blockers are not enabled)"
+        message: "Yahoo ile kimlik doğrulanıyor  (pop-up engelleyicilerinizi kontrol ediniz.)"
       github:
         title: "with GitHub"
-        message: "Authenticating with GitHub (make sure pop up blockers are not enabled)"
+        message: "Github ile kimlik doğrulanıyor  (pop-up engelleyicilerinizi kontrol ediniz.)"
 
     composer:
-      add_warning: "This is an official warning."
-      posting_not_on_topic: "Which topic do you want to reply to?"
+      add_warning: "Bu bir uyarıdır."
+      posting_not_on_topic: "Hangi konuyu cevaplamak istiyorsunuz?"
       saving_draft_tip: "Kaydediliyor"
       saved_draft_tip: "kaydedildi"
       saved_local_draft_tip: "yerel kaydedildi"
-      similar_topics: "Your topic is similar to..."
+      similar_topics: "Sizinkine benzer başlıklar..."
       drafts_offline: "drafts offline"
 
       min_length:
@@ -666,9 +666,9 @@ tr:
       show_edit_reason: "(düzenleme gerekçesi ekle)"
       reply_placeholder: "Buraya yazın. Markdown yada BBCode kullanabilirsiniz. Sürükleyerek yada yapıştırarak(paste) resim yükleyebilirsiniz."
       view_new_post: "Yeni açtığınız konuyu görüntüleyin."
-      saving: "Saving..."
-      saved: "Saved!"
-      saved_draft: "You have a post draft in progress. Select this bar to resume editing."
+      saving: "Kaydediliyor..."
+      saved: "Kaydedildi!"
+      saved_draft: "Yazmakta olduğunuz bir mesaj var. Düzenlemeye devam için bu barı kullanınız."
       uploading: "Yükleniyor..."
       show_preview: 'önizlemeyi göster &raquo;'
       hide_preview: '&laquo; önizlemeyi gizle'
