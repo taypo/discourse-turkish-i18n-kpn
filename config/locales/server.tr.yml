@@ -1642,34 +1642,34 @@ tr:
         %{respond_instructions}
 
     digest:
-      why: "A brief summary of %{site_link} since we last saw you on %{last_seen_at}."
-      subject_template: "[%{site_name}] Digest for %{date}"
-      new_activity: "New activity on your topics and posts:"
-      top_topics: "Popular posts"
-      other_new_topics: "Popular topics"
-      unsubscribe: "This digest is sent as a courtesy notification from %{site_link} when we haven't seen you in a while. To unsubscribe %{unsubscribe_link}."
-      click_here: "click here"
-      from: "%{site_name} digest"
-      read_more: "Read More"
-      more_topics: "There were %{new_topics_since_seen} other new topics posted since you last visited on %{last_seen_at}."
-      more_topics_category: "There were %{new_topics_since_seen} other new topics posted in these categories since you last visited on %{last_seen_at}:"
+      why: "%{last_seen_at} deki son ziyaretinizden beri %{site_link} 'de şunlar paylaşıldı."
+      subject_template: "[%{site_name}] Özet: %{date}"
+      new_activity: "Konu ve mesajlarında yeni eylemler:"
+      top_topics: "Populer mesajlar"
+      other_new_topics: "Populer konular"
+      unsubscribe: "Bu özet mesaj %{site_link} 'e bir süredir uğramadığınızdan bilgi için gönderildi. Üyelikten ayrıl: %{unsubscribe_link}."
+      click_here: "Buraya tıklayınız"
+      from: "%{site_name} özet"
+      read_more: "Daha fazlası"
+      more_topics: "Son ziyaretinizden beri %{new_topics_since_seen} farklı yeni konu açıldı."
+      more_topics_category: "Son ziyaretinizden beri bu kategorilerde %{new_topics_since_seen} farklı yeni konu açıldı."
 
       posts:
-        one: "1 post"
-        other: "%{count} posts"
+        one: "1 mesaj"
+        other: "%{count} mesaj"
 
     forgot_password:
-      subject_template: "[%{site_name}] Password reset"
+      subject_template: "[%{site_name}] Şifreyi sıfırla"
       text_body_template: |
-        Somebody asked to reset your password on [%{site_name}](%{base_url}).
+        Birisi şifrenizi sıfırlama isteğinde bulundu [%{site_name}](%{base_url}).
 
-        If it was not you, you can safely ignore this email.
+        Eğer bu siz değilseniz, bu mesajı görmezden geliniz.
 
-        Click the following link to choose a new password:
+        Yeni bir şifre için aşağıdaki linki tıklayınız:
         %{base_url}/users/password-reset/%{email_token}
 
     set_password:
-      subject_template: "[%{site_name}] Set Password"
+      subject_template: "[%{site_name}] Şifre belirle"
       text_body_template: |
         Somebody asked to add a password to your account on [%{site_name}](%{base_url}). Alternatively, you can log in using any supported online service (Google, Facebook, etc) that is associated with this validated email address.
 
