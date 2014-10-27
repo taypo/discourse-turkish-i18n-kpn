@@ -794,20 +794,20 @@ tr:
           starred: '<p>Yıldızlı konular burada görüntülenir.</p><p>Bir konuyu yıldızlamak yada yıldızını kaldırmak için:</p><ul><li>Konu başlığı yanındaki <i class="fa fa-star"></i>ikonunu</li><li>her konu altındaki <b>Yıldız</b> butonunu</li></ul>kullanabilirsiniz'
       bottom:
         latest: "Daha fazla güncel konu yok."
-        hot: "There are no more hot topics."
-        posted: "There are no more posted topics."
-        read: "There are no more read topics."
-        new: "There are no more new topics."
-        unread: "There are no more unread topics."
-        starred: "There are no more starred topics."
+        hot: "Daha fazla gündemde konu yok."
+        posted: "Daha fazla açılmış konu yok."
+        read: "Daha fazla okunmuş konu yok."
+        new: "Daha fazla yeni konu yok."
+        unread: "Daha fazla okunmamış konu yok."
+        starred: "Daha fazla yıldızlı konu yok."
         category: "Daha fazla {{category}} konusu yok."
-        top: "There are no more top topics."
+        top: "Daha fazla popüler konu yok."
 
     topic:
       filter_to: "konuda {{post_count}} mesaj"
       create: 'Yeni Konu'
       create_long: 'Yeni bir Konu oluştur'
-      private_message: 'Start a private message'
+      private_message: 'Özel mesaj yaz'
       list: 'Konular'
       new: 'new topic'
       unread: 'unread'
