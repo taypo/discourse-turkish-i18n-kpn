@@ -116,6 +116,7 @@ tr:
     flags_title: "Flags"
     show_more: "daha fazla göster"
     links: "Bağlantılar"
+    show_help: "yardım"
     links_lowercase: "bağlantı"
     faq: "SSS"
     guidelines: "Yönergeler"
@@ -295,7 +296,7 @@ tr:
       said: "{{username}}:"
       profile: "Profil"
       mute: "Sessize Al"
-      edit: "Seçenekleri Düzenle"
+      edit: "Tercihleri Düzenle"
       download_archive: "mesajlarımın arşivini indir"
       private_message: "Özel Mesaj"
       private_messages: "Özel Mesajlar"
@@ -379,6 +380,14 @@ tr:
 
       change_profile_background:
         title: "Profil arka plan resmi"
+        instructions: "Profil arka planları ortalanacaktır ve genişlikleri varsayılan olarak 850px olacaktır."
+
+      change_card_background:
+        title: "Kullanıcı kartı arka plan resmi"
+        instructions: "Aarka plan resimleri ortalanacaktır ve genişlikleri varsayılan olarak 590px olacaktır."
+
+      card_badge:
+        title: "Kullanıcı kartı rozeti"
 
       email:
         title: "E-posta"
