@@ -1731,8 +1731,8 @@ tr:
 
   login_required:
     welcome_message: |
-      #[Welcome to %{title}](#welcome)
-      An account is required. Please create an account or log in to continue.
+      #[%{title} sayfasına hoş geldiniz](#welcome)
+      Siteyi kullanmak için hesap açmak gerekiyor. Lütfen bir hesap yaratın ya da devam etmek için oturum açın.
 
   terms_of_service:
     title: "Terms of Service"
