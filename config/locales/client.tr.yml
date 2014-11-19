@@ -2125,7 +2125,7 @@ tr:
             with_post_time: <span class="username">%{username}</span> for post in %{link} at <span class="time">%{time}</span>
             with_time: <span class="username">%{username}</span> at <span class="time">%{time}</span>
         none_selected: "Select a badge" 
-		
+
     lightbox:
       download: "indir"
 
