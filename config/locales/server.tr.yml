@@ -134,8 +134,8 @@ tr:
 
   education:
     until_posts:
-      one: "1 post"
-      other: "%{count} posts"
+      one: "1 mesaj"
+      other: "%{count} mesaj"
 
     'new-topic': |
       Welcome to %{site_name} &mdash; **thanks for starting a new conversation!**
@@ -1118,38 +1118,46 @@ tr:
       blocked: "is blocked."
 
   invite_mailer:
-    subject_template: "%{invitee_name} invited you to '%{topic_title}' on %{site_domain_name}"
+    subject_template: "%{invitee_name} seni %{site_domain_name} otamındaki '%{topic_title}' konusuna katılmaya davet etti"
     text_body_template: |
-      %{invitee_name} invited you to a discussion
+      %{invitee_name} seni bir tartışmaya davet etti
 
       > **%{topic_title}**
       >
       > %{topic_excerpt}
 
-      at
+      Forum
 
       > %{site_title} -- %{site_description}
 
-      If you're interested, click the link below:
+      Eğer istiyorsan aşağıdaki bağlantıya tıklayarak katılabilirsin
 
       %{invite_link}
 
-      This invitation is from a trusted user, so you can reply to the discussion immediately.
+      Bu davet güvenilir bir kullanıcımız tarafından gönderildi, bu nedenle hemen tartışmaya katılabilirsin.
 
   invite_forum_mailer:
-    subject_template: "%{invitee_name} invited you to join %{site_domain_name}"
+    subject_template: "%{invitee_name} seni %{site_domain_name} ortamına katılmaya davet etti"
     text_body_template: |
-      %{invitee_name} invited you to join
+      %{invitee_name} seni katılmaya davet etti
 
       > **%{site_title}**
       >
       > %{site_description}
 
-      If you're interested, click the link below:
+      Eğer istiyorsan aşağıdaki bağlantıya tıklayarak katılabilirsin
 
       %{invite_link}
 
-      This invitation is from a trusted user, so you won't need to log in.
+      Bu davet güvenilir bir kullanıcımız tarafından gönderildi, bu nedenle oturum açmana gerek olmayacak. Daha sonra parola belirlemen için bir eposta daha ileteceğiz.
+
+  invite_password_instructions:
+    subject_template: "%{site_name} hesabınız için bir şifre belirleyin"
+    text_body_template: |
+      %{site_name} için sana gönderilen daveti kabul ettiğin için teşekkürler -- hoşgeldin!
+
+      Oturum açmak için bir şifre belirlemelisin bunun için aşağıdaki bağlantıya tıkla
+      %{base_url}/users/password-reset/%{email_token}
 
   test_mailer:
     subject_template: "[%{site_name}] Email Deliverability Test"
