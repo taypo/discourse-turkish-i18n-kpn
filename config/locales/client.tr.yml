@@ -113,7 +113,7 @@ tr:
     last_post: "Son Mesaj"
     joined: "Üyelik Başlangıcı"
     admin_title: "Admin"
-    flags_title: "Flags"
+    flags_title: "Şikayetler"
     show_more: "daha fazla göster"
     links: "Bağlantılar"
     show_help: "yardım"
@@ -142,17 +142,17 @@ tr:
       other: "{{count}} karakter"
 
     in_n_seconds:
-      one: "in 1 second"
-      other: "in {{count}} seconds"
+      one: "1 saniyede"
+      other: "{{count}} saniyede"
     in_n_minutes:
-      one: "in 1 minute"
-      other: "in {{count}} minutes"
+      one: "1 dakikada"
+      other: "{{count}} dakikada"
     in_n_hours:
-      one: "in 1 hour"
-      other: "in {{count}} hours"
+      one: "1 saatte"
+      other: "{{count}} saatte"
     in_n_days:
-      one: "in 1 day"
-      other: "in {{count}} days"
+      one: "1 günde"
+      other: "{{count}} günde"
 
     suggested_topics:
       title: "Önerilen Konular"
@@ -243,7 +243,7 @@ tr:
       posts: "Mesajlar"
       alias_levels:
         title: "Bu grubu kimler ikinci isim olarak kullanabilir?"
-        nobody: "Hiçkimse"
+        nobody: "Hiç kimse"
         only_admins: "Sadece adminler"
         mods_and_admins: "Sadece adminler ve moderatörler"
         members_mods_and_admins: "Sadece grup üyeleri, adminler ve moderatörler"
@@ -334,8 +334,8 @@ tr:
       unread_message_count: "Özel Mesajlar"
 
       staff_counters:
-        flags_given: "işe yarar flagler"
-        flagged_posts: "flaglenmiş mesajlar"
+        flags_given: "işe yarar şikayetler"
+        flagged_posts: "şikayet edilmiş mesajlar"
         deleted_posts: "silinmiş mesajlar"
         suspensions: "askıya alınmalar"
         warnings_received: "uyarılar"
@@ -469,6 +469,7 @@ tr:
           other: "{{count}} dakika sonra"
 
       invited:
+        reinvite: "Yeniden Davet Et"
         search: "davetlerde arama yapmak için yazın..."
         title: "Davetler"
         user: "Davetli Kullanıcılar"
@@ -972,7 +973,7 @@ tr:
       flag_topic:
         title: 'Şikayet'
         help: 'bu konuyu moderatörlerin incelemesi için gizli olarak işaretleyin'
-        success_message: 'Konuyu başarılı olarak şikayet ettiniz.'
+        success_message: 'Bilgi moderatörlere ulaştı.'
 
       inviting: "Davet gönderiliyor..."
       automatically_add_to_groups_optional: "Bu davet şu gruplara da erişim içeriyor: (opsiyonel, adminlere özel)"
@@ -1032,19 +1033,19 @@ tr:
         instructions:
           one: "Lütfen <b>{{old_user}}</b> tarafından yazılmış mesajın yeni kullanıcısını seçin."
           other: "Lütfen <b>{{old_user}}</b> tarafından yazılmış {{count}} mesajın yeni kullanıcısını seçin. "
-        instructions_warn: "Note that any notifications about this post will not be transferred to the new user retroactively.<br>Warning: Currently, no post-dependent data is transferred over to the new user. Use with caution."
+        instructions_warn: "Bu mesaj ile ilgili bildirimler geriye dönük olarak dönüştürülmeyecek.<br>Dikkat: Mesajla ilgili hiçbir veri yeni kullanıcıya aktarılmaz. Dikkatli kullanın."
 
       multi_select:
-        select: 'select'
-        selected: 'selected ({{count}})'
-        select_replies: 'select +replies'
-        delete: delete selected
-        cancel: cancel selecting
-        select_all: select all
-        deselect_all: deselect all
+        select: 'seç'
+        selected: 'seçili ({{count}})'
+        select_replies: '+yanıtları seç'
+        delete: seçiliyi sil
+        cancel: seçimi kaldır
+        select_all: tümünü seç
+        deselect_all: tüm seçimleri kaldır
         description:
-          one: You have selected <b>1</b> post.
-          other: "You have selected <b>{{count}}</b> posts."
+          one: <b>1</b> mesaj seçtiniz.
+          other: "<b>{{count}}</b> mesaj seçtiniz."
 
     post:
       reply: "{{replyAvatar}} {{username}} 'nın yazdığı {{link}} cevaplanıyor"
@@ -1052,7 +1053,7 @@ tr:
       quote_reply: "alıntıyla cevapla"
       edit: "{{replyAvatar}} {{username}}'nın yazdığı {{link}} düzenleniyor"
       edit_reason: "Sebep: "
-      post_number: "mesaj no {{number}}"
+      post_number: "mesaj {{number}}"
       in_reply_to: "yanıt olarak"
       last_edited_on: "konu son güncelleme: "
       reply_as_new_topic: "Bağlantılı Konuyla Cevapla"
@@ -1126,100 +1127,100 @@ tr:
         unhide: "Göster"
 
       actions:
-        flag: 'Flag'
+        flag: 'Şikayet Et'
         defer_flags:
-          one: "Defer flag"
-          other: "Defer flags"
+          one: "Şikayeti Ertele"
+          other: "Şikayetleri Ertele"
         it_too:
-          off_topic: "Flag it too"
-          spam: "Flag it too"
-          inappropriate: "Flag it too"
-          custom_flag: "Flag it too"
-          bookmark: "Bookmark it too"
+          off_topic: "Bunu da ekle"
+          spam: "Bunu da ekle"
+          inappropriate: "Bunu da ekle"
+          custom_flag: "Bunu da ekle"
+          bookmark: "Bunu da bookmarkla"
           like: "Sen de beğen"
-          vote: "Vote for it too"
+          vote: "Bunun için de oy kullan"
         undo:
-          off_topic: "Undo flag"
-          spam: "Undo flag"
-          inappropriate: "Undo flag"
-          bookmark: "Undo bookmark"
-          like: "Beğeniyi kaldır"
-          vote: "Undo vote"
+          off_topic: "Şikayeti Kaldır"
+          spam: "Şikayeti Kaldır"
+          inappropriate: "Şikayeti Kaldır"
+          bookmark: "Bookmarkı Kaldır"
+          like: "Beğeniyi Kaldır"
+          vote: "Oyunu Geri Al"
         people:
-          off_topic: "{{icons}} flagged this as off-topic"
-          spam: "{{icons}} flagged this as spam"
-          inappropriate: "{{icons}} flagged this as inappropriate"
-          notify_moderators: "{{icons}} notified moderators"
-          notify_moderators_with_url: "{{icons}} <a href='{{postUrl}}'>notified moderators</a>"
-          notify_user: "{{icons}} sent a private message"
-          notify_user_with_url: "{{icons}} sent a <a href='{{postUrl}}'>private message</a>"
-          bookmark: "{{icons}} bookmarked this"
-          like: "{{icons}} liked this"
-          vote: "{{icons}} voted for this"
+          off_topic: "konu dışı olarak şikayet edenler {{icons}}"
+          spam: "spam olarak şikayet edenler {{icons}}"
+          inappropriate: "uygunsuz olarak şikayet edenler {{icons}}"
+          notify_moderators: "moderatörleri uyaranlar {{icons}}"
+          notify_moderators_with_url: "<a href='{{postUrl}}'>moderatörleri uyaranlar</a> {{icons}}"
+          notify_user: "özel mesaj gönderenler {{icons}}"
+          notify_user_with_url: "<a href='{{postUrl}}'>özel mesaj</a> gönderenler {{icons}}"
+          bookmark: "bookmarklayanlar {{icons}}"
+          like: "beğenenler {{icons}}"
+          vote: "oy kullananlar {{icons}}"
         by_you:
-          off_topic: "You flagged this as off-topic"
-          spam: "You flagged this as spam"
-          inappropriate: "You flagged this as inappropriate"
-          notify_moderators: "You flagged this for moderation"
-          notify_user: "You sent a private message to this user"
-          bookmark: "You bookmarked this post"
-          like: "Bunu beğendiniz"
-          vote: "You voted for this post"
+          off_topic: "Bunu konu dışı olarak şikayet ettin"
+          spam: "Bunu spam olarak şikayet ettin"
+          inappropriate: "Bunu uygunsuz olarak şikayet ettin"
+          notify_moderators: "Bunu moderatörlerin dikkatine sundun"
+          notify_user: "Bu kullanıcıya özel mesaj gönderdin"
+          bookmark: "Bu mesajı bookmarkladın"
+          like: "Bunu beğendin"
+          vote: "Bu mesaj için oy kullandın"
         by_you_and_others:
           off_topic:
-            one: "You and 1 other flagged this as off-topic"
-            other: "You and {{count}} other people flagged this as off-topic"
+            one: "Sen ve bir kişi daha bunu konu dışı olarak şikayet ettiniz"
+            other: "Sen ve {{count}} kişi daha bunu konu dışı olarak şikayet ettiniz"
           spam:
-            one: "You and 1 other flagged this as spam"
-            other: "You and {{count}} other people flagged this as spam"
+            one: "Sen ve bir kişi daha bunu spam olarak şikayet ettiniz"
+            other: "Sen ve {{count}} kişi daha bunu spam olarak şikayet ettiniz"
           inappropriate:
-            one: "You and 1 other flagged this as inappropriate"
-            other: "You and {{count}} other people flagged this as inappropriate"
+            one: "Sen ve bir kişi daha bunu uygunsuz olarak şikayet ettiniz"
+            other: "Sen ve {{count}} kişi daha bunu uygunsuz olarak şikayet ettiniz"
           notify_moderators:
-            one: "You and 1 other flagged this for moderation"
-            other: "You and {{count}} other people flagged this for moderation"
+            one: "Sen ve bir kişi daha bunu moderatörlerin dikkatine sundunuz"
+            other: "Sen ve {{count}} kişi daha bunu moderatörlerin dikkatine sundunuz"
           notify_user:
-            one: "You and 1 other sent a private message to this user"
-            other: "You and {{count}} other people sent a private message to this user"
+            one: "Sen ve bir kişi daha bu kullanıcıya özel mesaj gönderdiniz"
+            other: "Sen ve {{count}} kişi daha bu kullanıcıya özel mesaj gönderdiniz"
           bookmark:
-            one: "You and 1 other bookmarked this post"
-            other: "You and {{count}} other people bookmarked this post"
+            one: "Sen ve bir kişi daha bu mesajı bookmarkladınız"
+            other: "Sen ve {{count}} kişi daha bu mesajı bookmarkladınız"
           like:
-            one: "Sen ve 1 kişi daha beğenmiş"
-            other: "Sen ve {{count}} kişi daha beğenmiş"
+            one: "Sen ve 1 kişi daha bunu beğendiniz"
+            other: "Sen ve {{count}} kişi daha beğendiniz"
           vote:
-            one: "You and 1 other voted for this post"
-            other: "You and {{count}} other people voted for this post"
+            one: "Sen ve 1 kişi daha bu mesaj için oy kullanmışsınız"
+            other: "Sen ve {{count}} kişi daha bu mesaj için oy kullanmışsınız"
         by_others:
           off_topic:
-            one: "1 person flagged this as off-topic"
-            other: "{{count}} people flagged this as off-topic"
+            one: "1 kişi bunu konu dışı olarak şikayet etti"
+            other: "{{count}} kişi bunu konu dışı olarak şikayet etti"
           spam:
-            one: "1 person flagged this as spam"
-            other: "{{count}} people flagged this as spam"
+            one: "1 kişi bunu spam olarak şikayet etti"
+            other: "{{count}} kişi bunu spam olarak şikayet etti"
           inappropriate:
-            one: "1 person flagged this as inappropriate"
-            other: "{{count}} people flagged this as inappropriate"
+            one: "1 kişi bunu uygunsuz olarak şikayet etti"
+            other: "{{count}} kişi bunu uygunsuz olarak şikayet etti"
           notify_moderators:
-            one: "1 person flagged this for moderation"
-            other: "{{count}} people flagged this for moderation"
+            one: "1 kişi bunu moderatörlerin dikkatine sundu"
+            other: "{{count}} kişi bunu moderatörlerin dikkatine sundu"
           notify_user:
-            one: "1 person sent a private message to this user"
-            other: "{{count}} sent a private message to this user"
+            one: "1 kişi bu kullanıcıya özel mesaj gönderdi"
+            other: "{{count}} kişi bu kullanıcıya özel mesaj gönderdi"
           bookmark:
-            one: "1 person bookmarked this post"
-            other: "{{count}} people bookmarked this post"
+            one: "1 kişi bu mesajı bookmarkladı"
+            other: "{{count}} kişi bu mesajı bookmarkladı"
           like:
-            one: "1 kişi beğenmiş"
-            other: "{{count}} kişi beğenmiş"
+            one: "1 kişi beğendi"
+            other: "{{count}} kişi beğendi"
           vote:
-            one: "1 person voted for this post"
-            other: "{{count}} people voted for this post"
+            one: "1 kişi bu mesaj için oy kullandı"
+            other: "{{count}} kişi bu mesaj için oy kullandı"
 
       edits:
-        one: 1 edit
-        other: "{{count}} edits"
-        zero: no edits
+        one: 1 değişiklik
+        other: "{{count}} değişiklik"
+        zero: değişmemiş
 
       delete:
         confirm:
@@ -1250,8 +1251,8 @@ tr:
       can: 'can&hellip; '
       none: '(no category)'
       choose: 'Select a category&hellip;'
-      edit: 'edit'
-      edit_long: "Edit"
+      edit: 'düzenle'
+      edit_long: "Düzenle"
       view: 'View Topics in Category'
       general: 'General'
       settings: 'Settings'
@@ -1297,40 +1298,40 @@ tr:
         title: ''
         reasons:
         watching:
-          title: "Watching"
-          description: "You will automatically watch all new topics in these categories. You will be notified of all new posts and topics, plus the count of unread and new posts will also appear next to the topic."
+          title: "Yakın Takip"
+          description: "Bu kategorideki tüm yeni konuları otomatik olarak yakın takibe alırsınız. Her yeni mesaj ve konu hakkında bilgilendirilirsiniz. Bunun yanı sıra okunmamış ve yeni mesaj sayılarını konunun yanında görürsünüz."
         tracking:
-          title: "Tracking"
-          description: "You will automatically track all new topics in these categories. A count of unread and new posts will appear next to the topic."
+          title: "İzle"
+          description: "Bu kategorideki tüm yeni konuları otomatik olarak yakın takibe alırsınız. Okunmamış ve yeni mesaj sayılarını konunun yanında görürsünüz."
         regular:
-          title: "Regular"
-          description: "You will be notified only if someone mentions your @name or replies to your post."
+          title: "Normal"
+          description: "Biri @adınız ile size atıfta bulunduğunda ya da mesajınıza yanıt yazdığında bilgilendirilirsiniz."
         muted:
-          title: "Muted"
-          description: "You will not be notified of anything about new topics in these categories, and they will not appear on your unread tab."
+          title: "Sessiz"
+          description: "Bu kategorideki yeni konularla ilgili biç bilgilendirme almazsınız. Okunmamış sekmesinde de görmezsiniz."
 
     flagging:
       title: 'Bu mesajı neden şikayet ediyorsunuz?'
       action: 'Mesajı Şikayet Et'
-      take_action: "Take Action"
-      notify_action: 'Private message'
-      delete_spammer: "Delete Spammer"
-      delete_confirm: "You are about to delete <b>%{posts}</b> posts and <b>%{topics}</b> topics from this user, remove their account, block signups from their IP address <b>%{ip_address}</b>, and add their email address <b>%{email}</b> to a permanent block list. Are you sure this user is really a spammer?"
-      yes_delete_spammer: "Yes, Delete Spammer"
-      submit_tooltip: "Submit the private flag"
-      take_action_tooltip: "Reach the flag threshold immediately, rather than waiting for more community flags"
-      cant: "Sorry, you can't flag this post at this time."
-      custom_placeholder_notify_user: "Why does this post require you to speak to this user directly and privately? Be specific, be constructive, and always be kind."
-      custom_placeholder_notify_moderators: "Why does this post require moderator attention? Let us know specifically what you are concerned about, and provide relevant links where possible."
+      take_action: "Bir Şey Yap"
+      notify_action: 'Özel mesaj'
+      delete_spammer: "Spamciyi Sil"
+      delete_confirm: "Bu kullanıcının <b>%{posts}</b> mesajını ve <b>%{topics}</b> konusunu silmek, hesabını kapatmak, ip adresleri olan <b>%{ip_address}</b> adreslerden kaydolmayı engellemek ve <b>%{email}</b> epostalarını kalıcı olarak bloklanmış listesine eklemek üzeresiniz. Bu kullanıcının gerçekten sipamci olduğundan emin misiniz?"
+      yes_delete_spammer: "Evet, spamciyi sil"
+      submit_tooltip: "Özel şikayeti gönder"
+      take_action_tooltip: "Topluluktan şikayet beklemek yerine anında şikayet sınırına yükselt"
+      cant: "Özür dileriz, bu mesajı şu an şikayet edemezsiniz."
+      custom_placeholder_notify_user: "Bu mesaj neden kullanıcı ile direkt ve özel bir iletişime geçmenizi gerektiriyor? Lütfen açık, yapıcı ve kibar olun."
+      custom_placeholder_notify_moderators: "Bu mesaj neden moderatör dikkati gerektiriyor? Tam olarak ne kast ettiğinizi bize açıkça belirtin ve gerekli yerlerde uygunsa bağlantı kullanın."
       custom_message:
-        at_least: "enter at least {{n}} characters"
-        more: "{{n}} to go..."
-        left: "{{n}} remaining"
+        at_least: "en az {{n}} karakter girin"
+        more: "{{n}} daha var..."
+        left: "{{n}} kalan"
 
     flagging_topic:
       title: "Bu konuyu neden şikayet ediyorsunuz?"
       action: "Konuyu Şikayet Et"
-      notify_action: "Private message"
+      notify_action: "Özel mesaj"
 
     topic_map:
       title: "Konu Özeti"
@@ -1343,22 +1344,22 @@ tr:
       warning:
         help: "Bu resmi bir uyarıdır."
       locked:
-        help: "This topic is closed; it no longer accepts new replies"
+        help: "Bu konu kapatılmış; artık yanıt yazılamaz"
       archived:
-        help: "This topic is archived; it no longer accepts new replies"
+        help: "Bu konu arşivlenmiş; artık yanıt yazılamaz"
       unpinned:
-        title: "İğnesiz"
-        help: "Bu konu iğnesiz. Normal sırasında gösterilecek."
+        title: "İğnelenmemiş"
+        help: "Bu konu iğnelenmemiş. Normal sırasında gösterilecek."
       pinned_globally:
         title: "Global İğneli"
         help: "Bu konu global olarak iğnelenmiş; tüm listelerin en üstünde görüntülenecek"
       pinned:
-        title: "İğneli"
+        title: "İğnelenmiş"
         help: "Bu konu iğnelenmiş; kendi kategorisinin en üstünde görüntülenecek"
       archived:
-        help: "This topic is archived; it is frozen and cannot be changed"
+        help: "Bu konu arşivlenmiş; dondurulmuş, artık değiştirilemez"
       invisible:
-        help: "This topic is unlisted; it will not be displayed in topic lists, and can only be accessed via a direct link"
+        help: "Bu konu listelenmiyor; konu listesinde görünmeyecek ve sadece doğrudan bağlantısı ile erişilebilecek"
 
     posts: "Mesajlar"
     posts_lowercase: "mesaj"
@@ -1508,9 +1509,9 @@ tr:
         by: "by"
 
       flags:
-        title: "Flags"
-        old: "Old"
-        active: "Active"
+        title: "Şikayetler"
+        old: "Eski"
+        active: "Aktif"
 
         agree: "Agree"
         agree_title: "Confirm this flag as valid and correct"
@@ -2190,8 +2191,8 @@ tr:
       granted:
         one:   "1 kez verilmiş"
         other: "%{count} kez verilmiş"
-      select_badge_for_title: Select a badge to use as your title
-      no_title: "<no title>"
+      select_badge_for_title: Ünvan olarak kullanmak için bir rozet seçin
+      no_title: "<başlıksız>"
       badge_grouping:
         getting_started:
           name: Getting Started
