@@ -115,6 +115,7 @@ tr:
     admin_title: "Admin"
     flags_title: "Flags"
     show_more: "daha fazla göster"
+    show_help: "yardım"
     links: "Links"
     links_lowercase: "bağlantı"
     faq: "SSS"
@@ -262,10 +263,10 @@ tr:
       "13": "Gelen Kutusu"
 
     categories:
-      all: "all categories"
-      all_subcategories: "all"
-      no_subcategory: "none"
-      category: "Category"
+      all: "tüm kategoriler"
+      all_subcategories: "tümü"
+      no_subcategory: "hiçbiri"
+      category: "Kategori"
       posts: "Mesajlar"
       topics: "Konular"
       latest: "Latest"
@@ -762,21 +763,21 @@ tr:
     topics:
       bulk:
         reset_read: "Reset Read"
-        delete: "Delete Topics"
+        delete: "Konuları Sil"
         dismiss_posts: "Dismiss Posts"
         dismiss_posts_tooltip: "Clear unread counts on these topics but continue to show them on my unread list when new posts are made"
         dismiss_topics: "Dismiss Topics"
         dismiss_topics_tooltip: "Stop showing these topics in my unread list when new posts are made"
         dismiss_new: "Dismiss New"
         toggle: "toplu konu seçimini aç yada kapat"
-        actions: "Bulk Actions"
-        change_category: "Change Category"
-        close_topics: "Close Topics"
-        archive_topics: "Archive Topics"
-        notification_level: "Change Notification Level"
+        actions: "Toplu İşemler"
+        change_category: "Kategori Değiştir"
+        close_topics: "Konuları Kapat"
+        archive_topics: "Konuları Arşivle"
+        notification_level: "Bildirim Seviyesini Değiştir"
         selected:
-          one: "You have selected <b>1</b> topic."
-          other: "You have selected <b>{{count}}</b> topics."
+          one: "<b>1</b> konu seçtiniz."
+          other: "<b>{{count}}</b> konu seçtiniz."
 
       none:
         starred: "Hiç yıldızlı konunuz yok."
@@ -1245,8 +1246,8 @@ tr:
       view: 'View Topics in Category'
       general: 'General'
       settings: 'Settings'
-      delete: 'Delete Category'
-      create: 'Create Category'
+      delete: 'Kategori Sil'
+      create: 'Yeni Kategori'
       save: 'Save Category'
       creation_error: There has been an error during the creation of the category.
       save_error: There was an error saving the category.
