@@ -1288,17 +1288,17 @@ tr:
         title: ''
         reasons:
         watching:
-          title: "Watching"
-          description: "You will automatically watch all new topics in these categories. You will be notified of all new posts and topics, plus the count of unread and new posts will also appear next to the topic."
+          title: "Yakın Takip"
+          description: "Bu kategorideki tüm konuları otomatik olarak yakın takibe alırsınız. Tüm yeni konu ve mesajlarda bildirim alırsınız, ek olarak okunmamış ve yeni mesaj sayıları konu başlığı yanında gösterilir."
         tracking:
-          title: "Tracking"
-          description: "You will automatically track all new topics in these categories. A count of unread and new posts will appear next to the topic."
+          title: "İzle"
+          description: "Bu kategorideki tüm konuları otomatik olarak izlemeye alırsınız. Okunmamış ve yeni mesaj sayıları konu başlığı yanında gösterilir."
         regular:
-          title: "Regular"
-          description: "You will be notified only if someone mentions your @name or replies to your post."
+          title: "Normal"
+          description: "Sadece @adiniz ile size atıfta bulunulduğunda yada sizin mesajınıza cevap verildiğinde bildirim alırsınız."
         muted:
-          title: "Muted"
-          description: "You will not be notified of anything about new topics in these categories, and they will not appear on your unread tab."
+          title: "Sessiz"
+          description: "Bu konuyla ilgili hiçbir bildirim almayacaksınız ve okunmamışlar bölümünde gösterilmeyecek."
 
     flagging:
       title: 'Bu mesajı neden şikayet ediyorsunuz?'
@@ -1369,9 +1369,9 @@ tr:
     likes: "Likes"
     likes_lowercase: "likes"
     likes_long: "there are {{number}} likes in this topic"
-    users: "Users"
+    users: "Kullanıcılar"
     users_lowercase: "kullanıcı"
-    category_title: "Category"
+    category_title: "Kategori"
     history: "History"
     changed_by: "by {{author}}"
 
