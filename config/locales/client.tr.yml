@@ -172,11 +172,11 @@ tr:
       user_count: "Kullanıcı Sayısı"
 
     bookmarks:
-      not_logged_in: "özür dileriz, mesajları bookmarklamak için oturum açmış olmalısınız"
-      created: "bu mesajı bookmarkladınız"
-      not_bookmarked: "bu mesajı bookmarklamak için tıklayın"
-      last_read: "bu okuduğunuz son mesajdı; bookmarklamak için tıklayın"
-      remove: "Bookmarkı Kaldır"
+      not_logged_in: "özür dileriz, mesajları yer işaretlerine eklemek için oturum açmış olmalısınız"
+      created: "bu mesajı yer işaretlerine eklediniz"
+      not_bookmarked: "bu mesajı yer işaretlerine eklemek için tıklayın"
+      last_read: "bu okuduğunuz son mesajdı; yer işaretlerine eklemek için tıklayın"
+      remove: "Yer İşaretini Kaldır"
 
     topic_count_latest:
       one: "{{count}} adet yeni veya güncellenmiş başlık."
@@ -294,6 +294,8 @@ tr:
       no_other_accounts: (yok)
 
     user:
+      dismiss_notifications: "Bildirimleri Temizle"
+      admin_delete: "Sil"
       said: "{{username}}:"
       profile: "Profil"
       mute: "Sessize Al"
@@ -711,7 +713,13 @@ tr:
       toggler: "mesaj panelini gizle ya da göster"
 
       admin_options_title: "Optional staff settings for this topic"
-      auto_close_label: "Auto-close topic time:"
+      auto_close:
+        label: "Auto-close topic time:"
+        error: "Please enter a valid value."
+        based_on_last_post: "based on last post"
+        limited:
+          units: "(# of hours, a time, or a timestamp)"
+          examples: 'enter absolute time or number of hours — 24, 17:00, 2013-11-22 14:00'
       auto_close_units: "(# of hours, a time, or a timestamp)"
       auto_close_examples: 'enter absolute time or number of hours — 24, 17:00, 2013-11-22 14:00'
       auto_close_error: "Please enter a valid value."
@@ -1136,14 +1144,14 @@ tr:
           spam: "Bunu da ekle"
           inappropriate: "Bunu da ekle"
           custom_flag: "Bunu da ekle"
-          bookmark: "Bunu da bookmarkla"
+          bookmark: "Bunu da yer işaretlerine ekle"
           like: "Sen de beğen"
           vote: "Bunun için de oy kullan"
         undo:
           off_topic: "Şikayeti Kaldır"
           spam: "Şikayeti Kaldır"
           inappropriate: "Şikayeti Kaldır"
-          bookmark: "Bookmarkı Kaldır"
+          bookmark: "Yer İşaretini Kaldır"
           like: "Beğeniyi Kaldır"
           vote: "Oyunu Geri Al"
         people:
@@ -1154,7 +1162,7 @@ tr:
           notify_moderators_with_url: "<a href='{{postUrl}}'>moderatörleri uyaranlar</a> {{icons}}"
           notify_user: "özel mesaj gönderenler {{icons}}"
           notify_user_with_url: "<a href='{{postUrl}}'>özel mesaj</a> gönderenler {{icons}}"
-          bookmark: "bookmarklayanlar {{icons}}"
+          bookmark: "yer işaretlerine ekleyenler {{icons}}"
           like: "beğenenler {{icons}}"
           vote: "oy kullananlar {{icons}}"
         by_you:
@@ -1163,7 +1171,7 @@ tr:
           inappropriate: "Bunu uygunsuz olarak şikayet ettin"
           notify_moderators: "Bunu moderatörlerin dikkatine sundun"
           notify_user: "Bu kullanıcıya özel mesaj gönderdin"
-          bookmark: "Bu mesajı bookmarkladın"
+          bookmark: "Bu mesajı yer işaretlerine ekledin"
           like: "Bunu beğendin"
           vote: "Bu mesaj için oy kullandın"
         by_you_and_others:
@@ -1183,8 +1191,8 @@ tr:
             one: "Sen ve bir kişi daha bu kullanıcıya özel mesaj gönderdiniz"
             other: "Sen ve {{count}} kişi daha bu kullanıcıya özel mesaj gönderdiniz"
           bookmark:
-            one: "Sen ve bir kişi daha bu mesajı bookmarkladınız"
-            other: "Sen ve {{count}} kişi daha bu mesajı bookmarkladınız"
+            one: "Sen ve bir kişi daha bu mesajı yer işaretlerine eklediniz"
+            other: "Sen ve {{count}} kişi daha bu mesajı yer işaretlerine eklediniz"
           like:
             one: "Sen ve 1 kişi daha bunu beğendiniz"
             other: "Sen ve {{count}} kişi daha beğendiniz"
@@ -1208,8 +1216,8 @@ tr:
             one: "1 kişi bu kullanıcıya özel mesaj gönderdi"
             other: "{{count}} kişi bu kullanıcıya özel mesaj gönderdi"
           bookmark:
-            one: "1 kişi bu mesajı bookmarkladı"
-            other: "{{count}} kişi bu mesajı bookmarkladı"
+            one: "1 kişi bu mesajı yer işaretlerine ekledi"
+            other: "{{count}} kişi bu mesajı yer işaretlerine ekledi"
           like:
             one: "1 kişi beğendi"
             other: "{{count}} kişi beğendi"
@@ -1376,8 +1384,8 @@ tr:
     replies: "Cevaplar"
     views_long: "bu konu {{number}} kez görüntülenmiş"
     activity: "Aktif"
-    likes: "Beğeniler"
-    likes_lowercase: "beğeniler"
+    likes: "Beğeni"
+    likes_lowercase: "beğeni"
     likes_long: "bu konuda {{number}} beğeni var"
     users: "Kullanıcılar"
     users_lowercase: "kullanıcı"
@@ -1892,6 +1900,7 @@ tr:
         check_email:
           title: "Reveal this user's email address"
           text: "Show"
+        show_emails: "E-postaları Göster"
 
       user:
         suspend_failed: "Something went wrong suspending this user {{error}}"
@@ -2126,6 +2135,7 @@ tr:
             with_post_time: <span class="username">%{username}</span> for post in %{link} at <span class="time">%{time}</span>
             with_time: <span class="username">%{username}</span> at <span class="time">%{time}</span>
         none_selected: "Select a badge" 
+        image: "İmaj"
 
     lightbox:
       download: "indir"
