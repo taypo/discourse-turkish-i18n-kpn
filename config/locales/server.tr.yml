@@ -1722,7 +1722,7 @@ tr:
     signup:
       subject_template: "[%{site_name}] Yeni hesabınızı onaylayın"
       text_body_template: |
-        %{site_name} ortamına hoşgeld!
+        %{site_name} ortamına hoşgeldin!
 
         Sitemizde yeni açtığınız hesabınızı onaylamak için aşağıdaki linke tıklayınız:
         %{base_url}/users/activate-account/%{email_token}
