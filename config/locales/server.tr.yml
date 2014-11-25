@@ -1363,26 +1363,26 @@ tr:
 
         Her zaman [medeni bir topluluk](%{base_url}/guidelines) olacağımıza inanıyoruz.
 
-        Keyfini çıkarın!
+        Forumun keyfini çıkar!
 
     welcome_invite:
-      subject_template: "Welcome to %{site_name}!"
+      subject_template: "%{site_name} ortamına hoşgeldin!"
       text_body_template: |
-        Thanks for accepting your invitation to %{site_name} -- welcome!
+        %{site_name} davetini kabul ettiğin için teşekkürler -- hoşgeldin!
 
-        We've automatically generated a username for you: **%{username}**, but you can change it any time by visiting [your user profile][prefs].
+        Senin için bir kullanıcı adı oluşturduk; **%{username}**, ama istediğin zaman [profil sayfandan][prefs] değiştirebilirsin.
 
-        To log in again, either:
+        Yeniden giriş yapmak için aşağıdakilerden birini yapabilirsin;
 
-        1. Log in using any method you like -- but it must resolve to the **same email address** that you received your original invitation email at. Otherwise we won't be able to tell it is you!
+        1. İstediğin bir giriş yöntemini kullanabilirsin -- ama bu yöntem daveti aldığın eposta adresin olan **same email address** ile örtüşmeli. Aksi taktirde sen olduğunu belirleyemeyiz!
 
-        2. Create a unique password for [your user profile][prefs], and use it to log in.
+        2. [Profil sayfanda][prefs] bir şifre oluştur ve giriş için onu kullan.
 
         %{new_user_tips}
 
-        We believe in [civilized community behavior](%{base_url}/guidelines) at all times.
+        Her zaman [medeni bir topluluk ](%{base_url}/guidelines) olacağımıza inanıyoruz.
 
-        Enjoy your stay!
+        Forumun keyfini çıkar!
 
         [prefs]: %{user_preferences_url}
 
@@ -1582,22 +1582,22 @@ tr:
   subject_pm: "[PM] "
 
   user_notifications:
-    previous_discussion: "Previous Replies"
+    previous_discussion: "Önceki Yanıtlar"
     unsubscribe:
-      title: "Unsubscribe"
-      description: "Not interested in getting these emails? No problem! Click below to unsubscribe instantly:"
+      title: "Aboneliği Kaldır"
+      description: "Artık bu epostalarla ilgilenmiyor musunuz? Sorun değil! Aboneliği hemen kaldırmak için aşağıya tıklayın:"
 
-    reply_by_email: "To respond, reply to this email or visit %{base_url}%{url} in your browser."
-    visit_link_to_respond: "To respond, visit %{base_url}%{url} in your browser."
+    reply_by_email: "Yanıt vermek için, bu epostaya yanıt verin ya da tarayıcınızda %{base_url}%{url} adresine gidin."
+    visit_link_to_respond: "Yanıt vermek için, tarayıcınızda %{base_url}%{url} adresine gidin."
 
-    posted_by: "Posted by %{username} on %{post_date}"
+    posted_by: "%{username} tarafından %{post_date} tarihinde yazılmış"
 
     user_invited_to_private_message_pm:
-      subject_template: "[%{site_name}] %{username} invited you to a private message '%{topic_title}'"
+      subject_template: "[%{site_name}] %{username} sizi '%{topic_title}' başlıklı özel mesaja davet ediyor"
       text_body_template: |
-        %{username} invited you to a private message '%{topic_title}' on %{site_name}:
+        %{username} sizi %{site_name} ortamındaki '%{topic_title}' başlıklı özel mesaja davet ediyor:
 
-        Please visit this link to view the topic: %{base_url}%{url}
+        Konuyu görmek için şuraya tıklayın: %{base_url}%{url}
 
     user_replied:
       subject_template: "[%{site_name}] %{topic_title}"
@@ -1702,22 +1702,22 @@ tr:
         %{base_url}/users/authorize-email/%{email_token}
 
     signup_after_approval:
-      subject_template: "You've been approved on %{site_name}!"
+      subject_template: "%{site_name} ortamına üyeliğin onaylandı!"
       text_body_template: |
-        Welcome to %{site_name}!
+        %{site_name} ortamına hoşgeldin!
 
-        A staff member approved your account on %{site_name}.
+        Bir ekip üyesi %{site_name} hesabını onayladı.
 
-        Click the following link to confirm and activate your new account:
+        Hesabını geçerli kılmak ve aktive etmek için aşağıdaki bağlantıyı takip et;
         %{base_url}/users/activate-account/%{email_token}
 
-        If the above link is not clickable, try copying and pasting it into the address bar of your web browser.
+        Eğer yukarıdaki bağlantı tıklanmıyorsa, adresi kopyalayadıktan sonra web tarayıcının adres barına yapıştırıp öyle gitmeyi dene.
 
         %{new_user_tips}
 
-        We believe in [civilized community behavior](%{base_url}/guidelines) at all times.
+        Her zaman [medeni bir topluluk](%{base_url}/guidelines) olacağımıza inanıyoruz.
 
-        Enjoy your stay!
+        Forumun keyfini çıkar!
 
     signup:
       subject_template: "[%{site_name}] Yeni hesabınızı onaylayın"
