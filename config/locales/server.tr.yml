@@ -407,7 +407,7 @@ tr:
     already_done: "Üzgünüz, bu hesap onaylama linki artık geçerli değil. Belki de hesabınız daha önceden onaylanmıştır."
     please_continue: "Yeni hesabınız onaylandı ve giriş yaptınız."
     continue_button: "%{site_name} ortamına devam edin"
-    welcome_to: "%{site_name} ortamına hoş geldiniz!"
+    welcome_to: "%{site_name} ortamına hoşgeldin!"
     approval_required: "Foruma erişebilmeniz için heasbınızı bir moderatörün onaylaması gerekiyor. Onaylama gerçekleştiğinde bir eposta alacaksınız!"
 
   post_action_types:
@@ -1655,7 +1655,7 @@ tr:
       new_activity: "Konu ve mesajlarında yeni eylemler:"
       top_topics: "Populer mesajlar"
       other_new_topics: "Populer konular"
-      unsubscribe: "Bu özet mesaj %{site_link} 'e bir süredir uğramadığınızdan bilgi için gönderildi. Üyelikten ayrıl: %{unsubscribe_link}."
+      unsubscribe: "Bu özet mesaj %{site_link} sayfasına bir süredir uğramadığınızdan bilgi için gönderildi. Üyelikten ayrıl: %{unsubscribe_link}."
       click_here: "Buraya tıklayınız"
       from: "%{site_name} özet"
       read_more: "Daha fazlası"
@@ -1722,7 +1722,7 @@ tr:
     signup:
       subject_template: "[%{site_name}] Yeni hesabınızı onaylayın"
       text_body_template: |
-        %{site_name}'e hoş geldiniz!
+        %{site_name} ortamına hoşgeld!
 
         Sitemizde yeni açtığınız hesabınızı onaylamak için aşağıdaki linke tıklayınız:
         %{base_url}/users/activate-account/%{email_token}
@@ -1739,7 +1739,7 @@ tr:
 
   login_required:
     welcome_message: |
-      #[%{title} sayfasına hoş geldiniz](#welcome)
+      #[%{title} sayfasına hoşgeldin](#welcome)
       Siteyi kullanmak için hesap açmak gerekiyor. Lütfen bir hesap yaratın ya da devam etmek için oturum açın.
 
   terms_of_service:
