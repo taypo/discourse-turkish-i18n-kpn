@@ -1355,9 +1355,9 @@ tr:
         New users are somewhat limited for safety reasons. As you participate here, you'll gain the trust of the community, become a full citizen, and those limitations will automatically be removed. At a high enough [trust level](https://meta.discourse.org/t/what-do-user-trust-levels-do/4924), you'll gain even more abilities to help us manage our community together.
 
     welcome_user:
-      subject_template: "%{site_name}'e Hoş Geldiniz!"
+      subject_template: "%{site_name} ortamına hoşgeldin!"
       text_body_template: |
-        %{site_name}e üye olduğunuz için teşekkür ederiz.
+        %{site_name} ortamına üye olduğunuz için teşekkür ederiz.
 
         %{new_user_tips}
 
