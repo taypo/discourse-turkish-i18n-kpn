@@ -57,8 +57,8 @@ tr:
   read_only_mode_enabled: "The site is in read only mode. Interactions are disabled."
 
   too_many_replies:
-    one: "Özür dileriz, yeni kullanıcılar bir konuya sadece bir yanıt yazabilir."
-    other: "Özür dileriz, yeni kullanıcılar bir konuya sadece %{count} yanıt yazabilir."
+    one: "Üzgünüz, yeni kullanıcılar bir konuya sadece bir yanıt yazabilir."
+    other: "Üzgünüz, yeni kullanıcılar bir konuya sadece %{count} yanıt yazabilir."
 
   embed:
     start_discussion: "Tartışma Başlat"
@@ -72,8 +72,8 @@ tr:
     imported_from: "Bu eşlik eden bir tartışma, orijinal tartışma için şuraya bakın; %{link}"
     in_reply_to: "▶ %{username}"
     replies:
-      one: "1 reply"
-      other: "%{count} replies"
+      one: "1 yanıt"
+      other: "%{count} yanıt"
 
   too_many_mentions:
     zero: "Üzgünüz, diğer kullanıcılara atıfta bulunamazsınız."
@@ -1034,14 +1034,14 @@ tr:
   search:
     within_post: "#%{post_number} by %{username}"
     types:
-      category: 'Categories'
-      topic: 'Results'
-      user: 'Users'
+      category: 'Kategoriler'
+      topic: 'Sonuçlar'
+      user: 'Kullanıcılar'
 
-  original_poster: "Original Poster"
-  most_posts: "Most Posts"
-  most_recent_poster: "Most Recent Poster"
-  frequent_poster: "Frequent Poster"
+  original_poster: "Konuyu açan"
+  most_posts: "En çok yazan"
+  most_recent_poster: "En son yazan"
+  frequent_poster: "Sık yazan"
 
   redirected_to_top_reasons:
     new_user: "Forumumuza hoşgeldin! Bunlar son zamanlarda açılmış popüler konular."
@@ -1049,7 +1049,7 @@ tr:
 
   move_posts:
     new_topic_moderator_post:
-      one: "I moved a post to a new topic: %{topic_link}"
+      one: "Bir mesajı yeni bir konuya taşıdımI moved a post to a new topic: %{topic_link}"
       other: "I moved %{count} posts to a new topic: %{topic_link}"
     existing_topic_moderator_post:
       one: "I moved a post to an existing topic: %{topic_link}"
@@ -1076,10 +1076,10 @@ tr:
       one: "Bu konu 1 dakikadan sonra otomatik olarak kapatıldı. Artık yanıt yazılamaz."
       other: "Bu konu %{count} dakikadan sonra otomatik olarak kapatıldı. Artık yanıt yazılamaz."
     autoclosed_disabled: "Bu konu artık açık. Yanıt yazılabilir."
-    pinned_enabled: "Bu konu olarak iğnelendi. Kendi kategorisinde en üst sırada görüntülenecek. Bir ekip üyesi herkes için iğneyi kaldırabilir ya da her kullanıcı kendisi için iğneyi kaldırabilir."
-    pinned_disabled: "Bu konunun iğnesi kaldırıldı. Artık kendi kategorisinde en üstte görüntülenmeyecek."
-    pinned_globally_enabled: "Bu konu global olarak iğnelendi. Kendi kategorisinde ve tüm konular listesinde en üst sırada görüntülenecek. Bir ekip üyesi herkes için iğneyi kaldırabilir ya da her kullanıcı kendisi için iğneyi kaldırabilir."
-    pinned_globally_disabled: "Bu konunun iğnesi kaldırıldı. Artık en üstte görüntülenmeyecek."
+    pinned_enabled: "Bu konu üste tutturuldu. Kendi kategorisinde en üst sırada görüntülenecek. Bir ekip üyesi herkes için geri çekebilir ya da her kullanıcı bunu kendisi için yapabilir."
+    pinned_disabled: "Bu konu artık üste tutturulmuş değil. Bundan böyle kendi kategorisinde en üstte görüntülenmeyecek."
+    pinned_globally_enabled: "Bu konu site genelinde üste tutturuldu. Kendi kategorisinde ve tüm konular listesinde en üst sırada görüntülenecek. Bir ekip üyesi herkes için geri çekebilir ya da her kullanıcı bunu kendisi için yapabilir."
+    pinned_globally_disabled: "Bu konu artık üste tutturulmuş değil. Bundan böyle en üstte görüntülenmeyecek."
     visible_enabled: "Bu konu artık listeleniyor. Konular listesinde görülebilecek."
     visible_disabled: "Bu konu artık listelenmiyor. Konular listesinde görünmeyecek. Sadece doğrudan bağlantısı ile erişilebilir."
 
@@ -1576,7 +1576,7 @@ tr:
       subject_template: "Downloading remote images disabled"
       text_body_template: "The `download_remote_images_to_local` setting was disabled because the disk space limit at `download_remote_images_threshold` was reached."
 
-  unsubscribe_link: "To unsubscribe from these emails, visit your [user preferences](%{user_preferences_url})."
+  unsubscribe_link: "Bu epostaları almak istemiyorsanız forumdaki [kullanıcı ayarlarınızı](%{user_preferences_url}) değiştirin."
 
   subject_re: "Re: "
   subject_pm: "[PM] "
@@ -1730,11 +1730,11 @@ tr:
         Eğer linke tıklanamıyorsa, tarayınızın adres satırına kopyalayıp yapıştırmayı deneyebilirsiniz.
 
   page_not_found:
-    title: "The page you requested doesn't exist or is private."
-    popular_topics: "Popular"
-    recent_topics: "Recent"
-    see_more: "More"
-    search_title: "Search this site"
+    title: "Ulaşmaya çalıştığınız sayfa ya yok ya da erişimi kısıtlı."
+    popular_topics: "Popüler"
+    recent_topics: "Son Yazılanlar"
+    see_more: "Daha fazla"
+    search_title: "Arama yap"
     search_google: "Google"
 
   login_required:
