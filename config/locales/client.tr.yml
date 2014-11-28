@@ -1335,11 +1335,11 @@ tr:
         at_least: "en az {{n}} karakter girin"
         more: "{{n}} daha var..."
         left: "{{n}} kalan"
-      private_reminder:"şikayetleri sadece adminler ve moderatörler görür"
+      private_reminder: "Şikayetleri sadece adminler ve moderatörler görür"
       formatted_name:
         off_topic: "Bu mesaj konu dışı"
         inappropriate: "Bu mesaj uygunsuz"
-        spam:"Bu mesaj spam"
+        spam: "Bu mesaj spam"
 
     flagging_topic:
       title: "Bu konuyu neden şikayet ediyorsunuz?"
