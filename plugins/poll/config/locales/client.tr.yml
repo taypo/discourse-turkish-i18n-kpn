@@ -19,12 +19,12 @@ tr:
   js:
     poll:
       voteCount:
-        one: "1 vote"
-        other: "%{count} votes"
+        one: "1 oy"
+        other: "%{count} oy"
 
       results:
-        show: Show Results
-        hide: Hide Results
+        show: Sonuçları göster
+        hide: Sonuçları gizle
 
-      close_poll: "Close Poll"
-      open_poll: "Open Poll"
+      close_poll: "Anketi kapat"
+      open_poll: "Anketi aç"

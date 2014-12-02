@@ -19,10 +19,10 @@ tr:
   activerecord:
     attributes:
       post:
-        poll_options: "Poll options"
+        poll_options: "Anket seçenekleri"
   poll:
-    must_contain_poll_options: "must contain a list of poll options"
-    cannot_have_modified_options: "cannot be modified after the first five minutes. Contact a moderator if you need to change them."
-    cannot_add_or_remove_options: "can only be edited, not added or removed. If you need to add or remove options you should lock this topic and create a new one."
-    prefix: "Poll"
-    closed_prefix: "Closed Poll"
+    must_contain_poll_options: "seçeneklerin bir listesini içermeli."
+    cannot_have_modified_options: "ilk beş dakika sonrasında değiştirilemez. Değiştirmeniz gerekiyorsa bir moderatörle iletişime geçin."
+    cannot_add_or_remove_options: "sadece düzenlenebilir, eklenemez ya da silinemez. Seçenek eklemek ya da silmek istiyorsanız bu konuyu kilitleyin ve yeni bir tane yaratın."
+    prefix: "Anket"
+    closed_prefix: "Anketi Kapat"
