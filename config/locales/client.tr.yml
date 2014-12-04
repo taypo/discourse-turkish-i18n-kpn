@@ -1166,64 +1166,64 @@ tr:
           like: "Beğenenler: {{icons}}"
           vote: "Oy kullananlar: {{icons}}"
         by_you:
-          off_topic: "Bunu konu dışı olarak şikayet ettin."
-          spam: "Bunu spam olarak şikayet ettin."
-          inappropriate: "Bunu uygunsuz olarak şikayet ettin."
-          notify_moderators: "Bunu moderatörlerin dikkatine sundun."
-          notify_user: "Bu kullanıcıya özel mesaj gönderdin."
-          bookmark: "Bu mesajı yer işaretlerine ekledin."
-          like: "Bunu mesajı beğendin."
-          vote: "Bu mesaj için oy kullandın."
+          off_topic: "Bunu konu dışı olarak şikayet ettin"
+          spam: "Bunu spam olarak şikayet ettin"
+          inappropriate: "Bunu uygunsuz olarak şikayet ettin"
+          notify_moderators: "Bunu moderatörlerin dikkatine sundun"
+          notify_user: "Bu kullanıcıya özel mesaj gönderdin"
+          bookmark: "Bu mesajı yer işaretlerine ekledin"
+          like: "Bunu mesajı beğendin"
+          vote: "Bu mesaj için oy kullandın"
         by_you_and_others:
           off_topic:
-            one: "Sen ve bir kişi daha bunu konu dışı olarak şikayet ettiniz."
-            other: "Sen ve {{count}} kişi daha bunu konu dışı olarak şikayet ettiniz."
+            one: "Sen ve bir kişi daha bunu konu dışı olarak şikayet ettiniz"
+            other: "Sen ve {{count}} kişi daha bunu konu dışı olarak şikayet ettiniz"
           spam:
-            one: "Sen ve bir kişi daha bunu spam olarak şikayet ettiniz."
-            other: "Sen ve {{count}} kişi daha bunu spam olarak şikayet ettiniz."
+            one: "Sen ve bir kişi daha bunu spam olarak şikayet ettiniz"
+            other: "Sen ve {{count}} kişi daha bunu spam olarak şikayet ettiniz"
           inappropriate:
-            one: "Sen ve bir kişi daha bunu uygunsuz olarak şikayet ettiniz."
-            other: "Sen ve {{count}} kişi daha bunu uygunsuz olarak şikayet ettiniz."
+            one: "Sen ve bir kişi daha bunu uygunsuz olarak şikayet ettiniz"
+            other: "Sen ve {{count}} kişi daha bunu uygunsuz olarak şikayet ettiniz"
           notify_moderators:
-            one: "Sen ve bir kişi daha bunu moderatörlerin dikkatine sundunuz."
-            other: "Sen ve {{count}} kişi daha bunu moderatörlerin dikkatine sundunuz."
+            one: "Sen ve bir kişi daha bunu moderatörlerin dikkatine sundunuz"
+            other: "Sen ve {{count}} kişi daha bunu moderatörlerin dikkatine sundunuz"
           notify_user:
-            one: "Sen ve bir kişi daha bu kullanıcıya özel mesaj gönderdiniz."
-            other: "Sen ve {{count}} kişi daha bu kullanıcıya özel mesaj gönderdiniz."
+            one: "Sen ve bir kişi daha bu kullanıcıya özel mesaj gönderdiniz"
+            other: "Sen ve {{count}} kişi daha bu kullanıcıya özel mesaj gönderdiniz"
           bookmark:
-            one: "Sen ve bir kişi daha bu mesajı yer işaretlerine eklediniz."
-            other: "Sen ve {{count}} kişi daha bu mesajı yer işaretlerine eklediniz."
+            one: "Sen ve bir kişi daha bu mesajı yer işaretlerine eklediniz"
+            other: "Sen ve {{count}} kişi daha bu mesajı yer işaretlerine eklediniz"
           like:
-            one: "Sen ve 1 kişi daha bu mesajı beğendiniz."
-            other: "Sen ve {{count}} kişi daha bu mesajı beğendiniz."
+            one: "Sen ve 1 kişi daha bu mesajı beğendiniz"
+            other: "Sen ve {{count}} kişi daha bu mesajı beğendiniz"
           vote:
-            one: "Sen ve 1 kişi daha bu mesaj için oy kullanmışsınız."
-            other: "Sen ve {{count}} kişi daha bu mesaj için oy kullanmışsınız."
+            one: "Sen ve 1 kişi daha bu mesaj için oy kullanmışsınız"
+            other: "Sen ve {{count}} kişi daha bu mesaj için oy kullanmışsınız"
         by_others:
           off_topic:
-            one: "1 kişi bunu konu dışı olarak şikayet etti."
-            other: "{{count}} kişi bunu konu dışı olarak şikayet etti."
+            one: "1 kişi bunu konu dışı olarak şikayet etti"
+            other: "{{count}} kişi bunu konu dışı olarak şikayet etti"
           spam:
-            one: "1 kişi bunu spam olarak şikayet etti."
-            other: "{{count}} kişi bunu spam olarak şikayet etti."
+            one: "1 kişi bunu spam olarak şikayet etti"
+            other: "{{count}} kişi bunu spam olarak şikayet etti"
           inappropriate:
-            one: "1 kişi bunu uygunsuz olarak şikayet etti."
-            other: "{{count}} kişi bunu uygunsuz olarak şikayet etti."
+            one: "1 kişi bunu uygunsuz olarak şikayet etti"
+            other: "{{count}} kişi bunu uygunsuz olarak şikayet etti"
           notify_moderators:
-            one: "1 kişi bunu moderatörlerin dikkatine sundu."
-            other: "{{count}} kişi bunu moderatörlerin dikkatine sundu."
+            one: "1 kişi bunu moderatörlerin dikkatine sundu"
+            other: "{{count}} kişi bunu moderatörlerin dikkatine sundu"
           notify_user:
-            one: "1 kişi bu kullanıcıya özel mesaj gönderdi."
-            other: "{{count}} kişi bu kullanıcıya özel mesaj gönderdi."
+            one: "1 kişi bu kullanıcıya özel mesaj gönderdi"
+            other: "{{count}} kişi bu kullanıcıya özel mesaj gönderdi"
           bookmark:
-            one: "1 kişi bu mesajı yer işaretlerine ekledi."
-            other: "{{count}} kişi bu mesajı yer işaretlerine ekledi."
+            one: "1 kişi bu mesajı yer işaretlerine ekledi"
+            other: "{{count}} kişi bu mesajı yer işaretlerine ekledi"
           like:
-            one: "1 kişi bu mesajı beğendi."
-            other: "{{count}} kişi bu mesajı beğendi."
+            one: "1 kişi bu mesajı beğendi"
+            other: "{{count}} kişi bu mesajı beğendi"
           vote:
-            one: "1 kişi bu mesaj için oy kullandı."
-            other: "{{count}} kişi bu mesaj için oy kullandı."
+            one: "1 kişi bu mesaj için oy kullandı"
+            other: "{{count}} kişi bu mesaj için oy kullandı"
 
       edits:
         one: 1 değişiklik
@@ -2149,6 +2149,7 @@ tr:
             with_post_time: <span class="username">%{username}</span> for post in %{link} at <span class="time">%{time}</span>
             with_time: <span class="username">%{username}</span> at <span class="time">%{time}</span>
         none_selected: "Select a badge" 
+        none: "None"
         image: "İmaj"
         icon_help: "Ya bir Font Awesome sınıfı ya da imaj URLi yazın"
 
