@@ -1378,14 +1378,14 @@ tr:
     categories_list: "Kategori Listesi"
 
     filters:
-      with_topics: "%{filter} topics"
-      with_category: "%{filter} %{category} topics"
+      with_topics: "%{filter} konular"
+      with_category: "%{filter} %{category} konuları"
       latest:
         title: "Güncel"
         help: "yeni mesaj yazılmış konular"
       hot:
-        title: "Hot"
-        help: "a selection of the hottest topics"
+        title: "Popüler"
+        help: "popüler konulardan bir seçki"
       starred:
         title: "Yıldızlı"
         help: "yıldız koyduğunuz konular"
@@ -1394,8 +1394,8 @@ tr:
         help: "topics you've read, in the order that you last read them"
       categories:
         title: "Kategoriler"
-        title_in: "Category - {{categoryName}}"
-        help: "all topics grouped by category"
+        title_in: "Kategori - {{categoryName}}"
+        help: "kategorisine göre guruplamış tüm konular"
       unread:
         title:
           zero: "Okunmamış"
