@@ -331,7 +331,7 @@ tr:
       unread_message_count: "Özel Mesajlar"
 
       staff_counters:
-        flags_given: "İşe yarar şikayetler"
+        flags_given: "İşe yarar şikayet"
         flagged_posts: "Şikayet edilmiş mesajlar"
         deleted_posts: "Silinmiş mesajlar"
         suspensions: "Askıya alınmalar"
@@ -1616,6 +1616,7 @@ tr:
             other: "spam x{{count}}"
 
       groups:
+        name: "Name"
         primary: "Primary Group"
         no_primary: "(no primary group)"
         title: "Groups"
@@ -1630,7 +1631,11 @@ tr:
         delete_confirm: "Delete this group?"
         delete_failed: "Unable to delete group. If this is an automatic group, it cannot be destroyed."
         custom: "Custom"
+        add: "Add"
+        add_members: "Add members"
         automatic: "Automatic"
+        automatic_membership_email_domains: "Users who register with an email domain that exactly matches one in this list will be automatically added to this group:"
+        automatic_membership_retroactive: "Apply the same email domain rule to add existing registered users"
 
       api:
         generate_master: "Generate Master API Key"
@@ -1707,7 +1712,11 @@ tr:
           title: "Export user list in a CSV file."
         success: "Export has been initiated, you will be notified shortly with progress."
         failed: "Export failed. Please check the logs."
-
+      
+      invite:
+        button_text: "Send Invites"
+        button_title: "Send Invites"
+        
       customize:
         title: "Customize"
         long_title: "Site Customizations"
