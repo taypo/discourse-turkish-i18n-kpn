@@ -229,6 +229,27 @@ tr:
       sent_by_user: "<a href='{{userUrl}}'>{{user}}</a> tarafından gönderildi."
       sent_by_you: "<a href='{{userUrl}}'>Sen</a> gönderdin."
 
+    directory:
+      filter_name: "filter by username"
+      title: "Users"
+      likes_given: "Given"
+      likes_received: "Received"
+      topics_entered: "Entered"
+      topics_entered_long: "Topics Entered"
+      time_read: "Time Read"
+      topic_count: "Topics"
+      topic_count_long: "Topics Created"
+      post_count: "Replies"
+      post_count_long: "Replies Posted"
+      no_results: "No results were found."
+      days_visited: "Visits"
+      days_visited_long: "Days Visited"
+      posts_read: "Read"
+      posts_read_long: "Posts Read"
+      total_rows:
+        one: "1 user"
+        other: "%{count} users"
+
     groups:
       visible: "Grup tüm kullanıcılar tarafından görülebilir"
       title:
@@ -1268,6 +1289,8 @@ tr:
       delete: 'Kategoriyi Sil'
       create: 'Kategori Yarat'
       save: 'Kategoriyi Kaydet'
+      slug: 'Kategori Kısaadı'
+      slug_placeholder: '(isteğe bağlı) URLde kullanmak için tire-ile-ayrılmış kelimeler'
       creation_error: Kategori yaratılırken hata oluştu.
       save_error: Kategoriyi kaydederken bir hata oluştu.
       name: "Kategori adı"
@@ -1453,6 +1476,8 @@ tr:
       top:
         title: "Popüler"
         help: "Yılın, ayın, haftanın ya da günün en popüler konuları"
+        all:
+          title: "Tüm Zamanlar"
         yearly:
           title: "Yılın Popülerleri"
         monthly:
