@@ -19,6 +19,14 @@ tr:
     short_date_no_year: "D MMM"
     short_date: "D MMM, YYYY"
     long_date: "D MMMM YYYY H:mm"
+  datetime_formats: &datetime_formats
+    formats:
+      short: "%d-%m-%Y"
+      short_no_year: "%B %-d"
+      date_only: "%B %-d, %Y"
+  date:
+    month_names: [null, Ocak, Şubat, Mart, Nisan, Mayıs, Haziran, Temmuz, Ağustos, Eylül, Ekim, Kasım, Aralık]
+    <<: *datetime_formats
   time:
     formats:
       short: "%d-%m-%Y"
@@ -37,14 +45,56 @@ tr:
 
   purge_reason: "Automatically deleted due to being old and unverified"
   disable_remote_images_download_reason: "Remote images download was disabled because there wasn't enough disk space available."
-
-  errors:
+  anonymous: "Anonim"
+  errors: &errors
+    format: '%{attribute} %{message}'
     messages:
       too_long_validation: "%{max} karakterle sınırlı; siz %{length} girdiniz."
       invalid_boolean: "Geçersiz boolean."
+      taken: "alınmış"
+      accepted: onaylanmalı
+      blank: boş bırakılamaz
+      present: boş bırakılmalı
+      confirmation: "%{attribute} ile eşleşmiyor"
+      empty: boş olamaz
+      equal_to: '%{count} rakamına eşit olmalı'
+      even: çift sayı olmalı
+      exclusion: rezerve edildi
+      greater_than: '%{count} rakamından fazla olmalı'
+      greater_than_or_equal_to: '%{count} rakamına eşit veya daha fazla olmalı'
+      has_already_been_used: "önceden kullanıldı"
+      inclusion: listeye dahil edilmemiş
+      invalid: geçersiz
+      is_invalid: "geçersiz; biraz daha açıklayıcı olmaya çalışın"
+      less_than: '%{count} rakamından az olmalı'
+      less_than_or_equal_to: '%{count} rakamına eşit veya daha az olmalı'
+      not_a_number: sayı değil
+      not_an_integer: tam sayı değil
+      odd: tek sayı olmalı
+      record_invalid: 'Doğrulama başarısız: %{errors}'
+      restrict_dependent_destroy:
+        one: "Kayıt silinemiyor çünkü bir bağımlı %{record} var"
+        many: "Kayıt silinemiyor çünkü bir bağımlı %{record} var"
+      too_long:
+        other: çok uzun (en fazla %{count} karakter olabilir)
+      too_short:
+        other: çok kısa (en az %{count} karakter olabilir)
+      wrong_length:
+        other: yanlış uzunlukta (%{count} karakter olmalı)
+      other_than: "%{count} dışında bir rakam olmalı"
+    template:
+      body: 'Şu alanlarla ilgili problem yaşandı:'
+      header:
+        other: '%{count} hata bu %{model} kaydının alınmasını engelledi'
     embed:
       load_from_remote: "Mesaj yüklenirken hata oluştu."
-
+    site_settings:
+      min_username_length_exists: "En kısa kullanıcı adının üstünde en küçük kullanıcı adı uzunluğu ayarlayamazsınız."
+      min_username_length_range: "En büyük değerin üstünde en küçük değer ayarlayamazsınız."
+      max_username_length_exists: "En uzun kullanıcı adının altında en büyük kullanıcı adı uzunluğu ayarlayamazsınız."
+      max_username_length_range: "En küçük değer altında en büyük değer ayarlayamazsınız."
+      default_categories_already_selected: "Bir başka listede kullanılan bir kategoriyi seçemezsiniz."
+      s3_upload_bucket_is_required: "Bir 's3_upload_bucket' tanımlamadıysanız, S3 yüklemelerini etkinleştiremezsiniz."
   bulk_invite:
     file_should_be_csv: "The uploaded file should be of csv or txt format."
 
@@ -54,8 +104,11 @@ tr:
     not_enough_space_on_disk: "There is not enough space on disk to upload this backup."
 
   not_logged_in: "You need to be logged in to do that."
+  not_found: "İstenilen URL ya da kaynak bulunamadı."
+  invalid_access: "İstenilen kaynağı görüntüleyebilmeniz için izniniz yok."
   read_only_mode_enabled: "The site is in read only mode. Interactions are disabled."
-
+  reading_time: "Okuma Zamanı"
+  likes: "Beğeniler"
   too_many_replies:
     one: "Üzgünüz, yeni kullanıcılar bir konuya sadece bir yanıt yazabilir."
     other: "Üzgünüz, yeni kullanıcılar bir konuya sadece %{count} yanıt yazabilir."
@@ -74,30 +127,34 @@ tr:
     replies:
       one: "1 yanıt"
       other: "%{count} yanıt"
-
+  no_mentions_allowed: "Üzgünüz, diğer kullanıcılardan bahsedemezsiniz."
   too_many_mentions:
     zero: "Üzgünüz, diğer kullanıcılara atıfta bulunamazsınız."
     one: "Üzgünüz, bir mesajda sadece bir kullanıcıya atıfta bulunabilirsiniz."
     other: "Üzgünüz, bir mesajda sadece %{count} kullanıcıya atıfta bulunabilirsiniz."
+  no_mentions_allowed_newuser: "Üzgünüz, yeni kullanıcılar diğer kullanıcılardan bahsedemezler."
   too_many_mentions_newuser:
     zero: "Üzgünüz, yeni kullanıcılar diğer kullanıcılara atıfta bulunamaz."
     one: "Üzgünüz, yeni kullanıcılar bir mesajda sadece bir kullanıcıya atıfta bulunabilir."
     other: "Üzgünüz, yeni kullanıcılar bir mesajda sadece %{count} kullanıcıya atıfta bulunabilir."
+  no_images_allowed: "Üzgünüz, yeni kullanıcılar gönderilere resim ekleyemezler."
   too_many_images:
     zero: "Üzgünüz, yeni kullanıcılar mesajlara resim ekleyemezler."
     one: "Üzgünüz, yeni kullanıcılar bir mesaja sadece bir resim ekleyebilir."
     other: "Üzgünüz, yeni kullanıcılar bir mesaja sadece %{count} resim ekleyebilir."
+  no_attachments_allowed: "Üzgünüz, yeni kullanıcılar gönderilere bir şey ekleyemezler."
   too_many_attachments:
     zero: "Üzgünüz, yeni kullanıcılar mesajlara ek yapamazlar."
     one: "Üzgünüz, yeni kullanıcılar bir mesaja sadece bir ek yapabilir."
     other: "Üzgünüz, yeni kullanıcılar bir mesaja sadece %{count} ek yapabilir."
+  no_links_allowed: "Üzgünüz, yeni kullanıcılar gönderilere bağlantı ekleyemezler."
   too_many_links:
     zero: "Üzgünüz, yeni kullanıcılar mesajlara bağlantı ekleyemez."
     one: "Üzgünüz, yeni kullanıcılar bir mesaja sadece bir bağlantı ekleyebilir."
     other: "Üzgünüz, yeni kullanıcılar bir mesaja sadece %{count} bağlantı ekleyebilir"
   spamming_host: "Üzgünüz, o siteye bağlantı veremezsiniz."
   user_is_suspended: "Askıya alınmış kullanıcılar mesaj yazamaz."
-
+  topic_not_found: "Bir şeyler ters gitti. Muhtemelen siz konuya bakarken bu konu kapatıldı ya da silindi."
   just_posted_that: "yakında yazdığınız bir mesaja çok benziyor"
   has_already_been_used: "kullanılmış"
   invalid_characters: "geçersiz karakterler içeriyor"
@@ -105,6 +162,7 @@ tr:
   next_page: "sonraki sayfa →"
   prev_page: "← önceki sayfa"
   page_num: "Sayfa %{num}"
+  home_title: "Anasayfa"
   topics_in_category: "'%{category}' kategorisindeki konular"
   rss_posts_in_topic: "'%{topic}' konusunun RSS bağlantısı"
   rss_topics_in_category: "'%{category}' kategorisindeki konuların RSS bağlantısı"
@@ -116,11 +174,17 @@ tr:
   rss_description:
     latest: "Son konular"
     hot: "Gündemdeki konular"
+    posts: "Son mesajlar"
   too_late_to_edit: "Bu mesaj çok eski. Artık değiştirilemez veya silinemez."
-
+  excerpt_image: "resim"
+  queue:
+    delete_reason: "Gönderi yönetim sırası aracılığıyla silindi"
   groups:
     errors:
       can_not_modify_automatic: "You can not modify an automatic group"
+      member_already_exist: "'%{username}' zaten grubun bir üyesi."
+      invalid_domain: "'%{domain}' geçerli bir alan adı değil."
+      invalid_incoming_email: "'%{incoming_email}' geçerli bir e-posta adresi değil."
     default_names:
       everyone: "everyone"
       admins: "admins"
@@ -217,20 +281,24 @@ tr:
           attributes:
             base:
               warning_requires_pm: "Özel mesajlara sadece uyarı ekleyebilirsiniz."
-              too_many_users: "Her seferinde yalnızca bir kullanıcıya uyarı gönderebilirsiniz."
+              too_many_users: "Her seferinde yalnızca bir kullanıcıya uyarı gönderebilirsiniz."         
+              cant_send_pm: "Üzgünüz, seçtiğiniz kullanıcıya özel mesaj gönderemezsiniz."
+              no_user_selected: "Geçerli bir kullanıcı seçmelisiniz."
             archetype:
               cant_send_pm: "Üzgünüz, o kullanıcıya özel mesaj iletemezsiniz."
         user:
           attributes:
             password:
               common: "en sık kullanılan 10000 şifre arasında. Daha güvenli bir şifre seçin."
+              same_as_username: "kullanıcı adınızla aynı. Lütfen daha güvenli bir şifre seçiniz."
+              same_as_email: "e-posta adresinizle aynı. Lütfen daha güvenli bir şifre seçiniz."
             ip_address:
               signup_not_allowed: "Bu hesaptan kaydolmak şu an için yasak."
         color_scheme_color:
           attributes:
             hex:
               invalid: "geçerli bir renk değil"
-
+      <<: *errors
   user_profile:
     no_info_me: "<div class='missing-profile'>Profilinizin Hakkımda bölümü boş, <a href='/users/%{username_lower}/preferences/about-me'>bir şeyler yazmak ister misiniz?</a></div>"
     no_info_other: "<div class='missing-profile'>%{name} profilinin Hakkımda bölümüne henüz bir şey yazmamış</div>"
@@ -279,6 +347,7 @@ tr:
       uncategorized_parent: "Uncategorized can't have a parent category"
       self_parent: "A subcategory's parent cannot be itself"
       depth: "You can't nest a subcategory under another"
+      email_in_already_exist: "Gelen e-posta adresi '%{email_in}' %{category_name}' kategorisi için zaten kullanılıyor."
     cannot_delete:
       uncategorized: "Can't delete Uncategorized"
       has_subcategories: "Can't delete this category because it has sub-categories."
@@ -291,6 +360,8 @@ tr:
       title: "Yeni kullanıcı"
     basic:
       title: "Temel kullanıcı"
+    member:
+      title: "Normal üye"
     regular:
       title: "Düzenli kullanıcı"
     leader:
@@ -303,6 +374,16 @@ tr:
   rate_limiter:
     slow_down: "Bu işlemi çok fazla sayıda kullandınız, bir süre sonra yeniden deneyin."
     too_many_requests: "Bu işlemi bir günde kaç defa yapabileceğinizi belirleyen limitler var. Lütfen yeniden denemeden önce %{time_left} bekleyin."
+    by_type:
+      first_day_replies_per_day: "Yeni bir kullanıcının ilk gününde verebileceği maksimum cevap sayısına ulaştınız. Lütfen tekrar denemek için %{time_left} bekleyin."
+      first_day_topics_per_day: "Yeni bir kullanıcının ilk gününde oluşturabileceğiz maksimum konu sayısına ulaştınız. Lütfen tekrar denemek için %{time_left} bekleyin."
+      create_topic: "Kısa sürede çok sayıda konu oluşturmaya çalıştınız. Lütfen tekrar denemek için %{time_left} bekleyin."
+      create_post: "Kısa sürede çok sayıda cevap yazmaya çalıştınız. Lütfen tekrar denemek için %{time_left} bekleyin."
+      topics_per_day: "Bugün oluşturabileceğiniz maksimum konu sayısına ulaştınız. Lütfen tekrar denemek için %{time_left} bekleyin."
+      pms_per_day: "Bugün oluşturabileceğiniz maksimum mesaj sayısına ulaştınız. Lütfen tekrar denemek için %{time_left} bekleyin."
+      create_like: "Bugün yapabileceğiniz maksimum beğeni sayısına ulaştınız. Lütfen tekrar denemek için %{time_left} bekleyin."
+      create_bookmark: "Bugün yapabileceğiniz maksimum işaretleme sayısına ulaştınız. Lütfen tekrar denemek için %{time_left} bekleyin."
+      edit_post: "Bugün yapabileceğiniz maksimum düzenleme sayısına ulaştınız. Lütfen tekrar denemek için %{time_left} bekleyin."
     hours:
       one: "1 saat"
       other: "%{count} saat"
@@ -409,7 +490,7 @@ tr:
     continue_button: "%{site_name} ortamına devam edin"
     welcome_to: "%{site_name} ortamına hoşgeldin!"
     approval_required: "Foruma erişebilmeniz için heasbınızı bir moderatörün onaylaması gerekiyor. Onaylama gerçekleştiğinde bir eposta alacaksınız!"
-
+    missing_session: "Hesabınızın oluşturulup oluşturulamadığını tespit edemedik, lütfen çerezlerin etkin olduğundan emin olun."
   post_action_types:
     off_topic:
       title: 'Konu Dışı'
@@ -419,6 +500,8 @@ tr:
       title: 'Spam'
       description: 'Bu mesaj spam veya reklam. Ne faydalı ne de konuyla alakalı.'
       long_form: 'spam olarak şikayet ettin'
+      email_title: '"%{title}" spam olarak işaretlendi'
+      email_body: "%{link}\n\n%{message}"
     inappropriate:
       title: 'Uygunsuz'
       description: 'Bu mesaj normal bir insanın saldırgan, aşağılayıcı veya <a href="/guidelines">toluluk kullanım kurallarıyla uyuşmaz</a> olarak algılayacağı cinsten.'
@@ -472,6 +555,7 @@ tr:
     regular:
       title: "Düzenli Konu"
     banner:
+      title: "Banner Konusu"
       message:
         make: "Bu konu banner yapıldı. Kullanıcı tarafından kapatılmadıkça her sayfanın en üstünde görüntülenecek."
         remove: "Bu konu banner olmaktan çıkarıldı. Artık her sayfanın üzerinde görüntülenmeyecek."
@@ -1018,6 +1102,7 @@ tr:
       invalid_string_max: "Must be no more than %{max} characters."
 
   notification_types:
+    group_mentioned: "%{link} sayfasında %{group_name} hakkında bahsedildi."
     mentioned: "%{display_username} sana atıfta bulundu; %{link} "
     liked: "%{display_username} mesajını beğendi; %{link}"
     replied: "%{display_username} mesajına yanıt yazı; %{link}"
@@ -1027,6 +1112,7 @@ tr:
     moved_post: "%{display_username} mesajını şuraya taşıdı; %{link}"
     private_message: "%{display_username} sana özel mesaj gönderdi: %{link}"
     invited_to_private_message: "%{display_username} seni özel bir yazışmaya davet etti: %{link}"
+    invited_to_topic: "%{display_username} seni bir konuya davet etti: %{link}"
     invitee_accepted: "%{display_username} davetini kabul etti"
     linked: "%{display_username} seni bağlantılandırdı; %{link}"
     granted_badge: "Rozet kazandın; %{link}"
@@ -1037,6 +1123,11 @@ tr:
       category: 'Kategoriler'
       topic: 'Sonuçlar'
       user: 'Kullanıcılar'
+  sso:
+    not_found: "Hesap aranamıyor ya da oluşturulamıyor, site admini ile iletişime geçin"
+    account_not_approved: "Hesap henüz onaylanmamış, onaylandığında e-posta ile haberdar edileceksiniz"
+    unknown_error: "Bilgi güncellenirken hata oluştu, site admini ile iletişime geçin"
+    timeout_expired: "Seansınız zaman aşımına uğradı, lütfen tekrar giriş yapmayı deneyin"
 
   original_poster: "Konuyu açan"
   most_posts: "En çok yazan"
@@ -1057,7 +1148,11 @@ tr:
 
   change_owner:
     post_revision_text: "Ownership transferred from %{old_user} to %{new_user}"
-
+    deleted_user: "silinmiş kullanıcı"
+  emoji:
+    errors:
+      name_already_exists: "Üzgünüz, '%{name}' ismi zaten bir başka emoji tarafından kullanılıyor."
+      error_while_storing_emoji: "Üzgünüz, emoji kaydedilirken bir hata oluştu."
   topic_statuses:
     archived_enabled: "Bu konu arşivlendi. Donduruldu ve hiçbir şekilde değiştirilemez."
     archived_disabled: "Bu konu arşiv olmaktan çıkarıldı. Artık değiştirilebilir."
@@ -1075,7 +1170,14 @@ tr:
       zero: "Bu konu 1 dakikadan sonra otomatik olarak kapatıldı. Artık yanıt yazılamaz."
       one: "Bu konu 1 dakikadan sonra otomatik olarak kapatıldı. Artık yanıt yazılamaz."
       other: "Bu konu %{count} dakikadan sonra otomatik olarak kapatıldı. Artık yanıt yazılamaz."
+    autoclosed_enabled_lastpost_days:
+      other: "Bu konu son cevaptan %{count} gün sonra otomatik olarak kapatıldı. Yeni cevap girilmesine izin verilmiyor."
+    autoclosed_enabled_lastpost_hours:
+      other: "Bu konu son cevaptan %{count} saat sonra otomatik olarak kapatıldı. Yeni cevap girilmesine izin verilmiyor."
+    autoclosed_enabled_lastpost_minutes:
+      other: "Bu konu son cevaptan %{count} dakika sonra otomatik olarak kapatıldı. Yeni cevap girilmesine izin verilmiyor."
     autoclosed_disabled: "Bu konu artık açık. Yanıt yazılabilir."
+    autoclosed_disabled_lastpost: "Konu şimdi açıldı. Yeni cevaplara izin var."
     pinned_enabled: "Bu konu üste tutturuldu. Kendi kategorisinde en üst sırada görüntülenecek. Bir ekip üyesi herkes için geri çekebilir ya da her kullanıcı bunu kendisi için yapabilir."
     pinned_disabled: "Bu konu artık üste tutturulmuş değil. Bundan böyle kendi kategorisinde en üstte görüntülenmeyecek."
     pinned_globally_enabled: "Bu konu site genelinde üste tutturuldu. Kendi kategorisinde ve tüm konular listesinde en üst sırada görüntülenecek. Bir ekip üyesi herkes için geri çekebilir ya da her kullanıcı bunu kendisi için yapabilir."
@@ -1091,6 +1193,7 @@ tr:
     activate_email: "<p>You're almost done! We sent an activation mail to <b>%{email}</b>. Please follow the instructions in the email to activate your account.</p><p>If it doesn't arrive, check your spam folder, or try to log in again to send another activation mail.</p>"
     not_activated: "You can't log in yet. We sent an activation email to you. Please follow the instructions in the email to activate your account."
     not_allowed_from_ip_address: "You can't login as %{username} from that IP address."
+    admin_not_allowed_from_ip_address: "Bu IP adresinden admin olarak giriş yapamazsınız."
     suspended: "You can't log in until %{date}."
     suspended_with_reason: "You can't log in until %{date}. The reason you were suspended: %{reason}"
     errors: "%{errors}"
@@ -1101,7 +1204,9 @@ tr:
     new_registrations_disabled: "New account registrations are not allowed at this time."
     password_too_long: "Passwords are limited to 200 characters."
     missing_user_field: "You have not completed all the user fields"
-
+    email_too_long: "Vermiş olduğun e-posta çok uzun. E-posta kutusu isimleri 254, alan adı isimleri ise 253 karakterden daha uzun olamaz."
+    reserved_username: "Bu kullanıcı adını kullanamazsın."
+    close_window: "Doğrulama tamamlandı. Devam etmek için bu pencereyi kapatın."
   user:
     no_accounts_associated: "No accounts associated"
     username:
@@ -1111,12 +1216,14 @@ tr:
       unique: "must be unique"
       blank: "must be present"
       must_begin_with_alphanumeric: "must begin with a letter or number"
+      must_end_with_alphanumeric: "bir harf, sayı yada alt tire ile bitmeli"
+      must_not_contain_two_special_chars_in_seq: "2 ya da daha fazla uzunlukta özel karakter dizisi (.-_) içermemeli"
     email:
       not_allowed: "is not allowed from that email provider. Please use another email address."
       blocked: "is not allowed."
     ip_address:
       blocked: "is blocked."
-
+      max_new_accounts_per_registration_ip: "Mevcut IP adresiniz üzerinden yeni kayıt işlemine izin verilmiyor. (Belirlenen maksimum limit aşıldı.) Bir yetkili ile iletişime geçin."
   invite_mailer:
     subject_template: "%{invitee_name} seni %{site_domain_name} otamındaki '%{topic_title}' konusuna katılmaya davet etti"
     text_body_template: |
@@ -1250,7 +1357,12 @@ tr:
     subject_template:
       one: "1 flag waiting to be handled"
       other: "%{count} flags waiting to be handled"
-
+  queued_posts_reminder:
+    subject_template:
+      other: "[%{site_name}] %{count} konu incelenmeyi bekliyor."
+    text_body_template: |
+      Merhaba,
+      Yeni kullanıcılar tarafından oluşturulmuş ve onayınızı bekleyen konular bulunuyor. [Konuları şuradan inceleyebilirsiniz.](%{base_url}/queued-posts).
   flag_reasons:
     off_topic: "Mesajın **konu dışı** olarak şikayet edildi: topluluk, başlık ve ilk mesaj düşünüldüğünde mesajının bu konuya ait olmadığını düşünüyor."
     inappropriate: "Mesajın **uygunsuz** olarak şikayet edildi: topluluk, mesajının saldırgan, aşağılayıcı veya [topluluk kurallarına göre](/guidelines) uygunsuz olduğunu düşünüyor."
@@ -1263,7 +1375,7 @@ tr:
     disagreed: "Thanks for letting us know. We're looking into it."
     deferred: "Thanks for letting us know. We're looking into it."
     deferred_and_deleted: "Thanks for letting us know. We've removed the post."
-
+  temporarily_closed_due_to_flags: "Bu konu topluluk tarafından çok fazla rapor edildiği için geçici olarak kapatılmıştır."
   system_messages:
     post_hidden:
       subject_template: "Post hidden due to community flagging"
@@ -1598,7 +1710,21 @@ tr:
         %{username} sizi %{site_name} ortamındaki '%{topic_title}' başlıklı özel mesaja davet ediyor:
 
         Konuyu görmek için şuraya tıklayın: %{base_url}%{url}
+    user_invited_to_topic:
+      subject_template: "[%{site_name}] %{username} sizi bir konuya davet etti '%{topic_title}'"
+      text_body_template: |
 
+        %{username} sizi bir tartışmaya davet etti
+
+        > %{site_title} -- %{site_description}
+
+        adresinde
+
+        > **%{topic_title}**
+        >
+        > %{topic_excerpt}
+
+        Mesajı görüntülemek için lütfen bu bağlantıyı ziyaret edin: %{base_url}%{url}
     user_replied:
       subject_template: "[%{site_name}] %{topic_title}"
       text_body_template: |
@@ -1628,7 +1754,8 @@ tr:
 
         ---
         %{respond_instructions}
-
+    user_group_mentioned:
+      subject_template: "[%{site_name}] %{topic_title}"
     user_posted:
       subject_template: "[%{site_name}] %{topic_title}"
       text_body_template: |
@@ -1685,7 +1812,15 @@ tr:
 
         Click the following link to choose a password:
         %{base_url}/users/password-reset/%{email_token}
+    admin_login:
+      subject_template: "[%{site_name}] Giriş"
+      text_body_template: |
+        [%{site_name}](%{base_url}) sitesinde, biri hesabınıza giriş yapmaya talebinde bulundu.
 
+        Eğer talepte bulunan siz değilseniz, bu e-postayı görmezden gelebilirsiniz.
+
+        Giriş yapmak için aşağıdaki bağlantıya tıklayın:
+        %{base_url}/users/password-reset/%{email_token}
     account_created:
       subject_template: "[%{site_name}] Your New Account"
       text_body_template: |
@@ -1693,7 +1828,12 @@ tr:
 
         Click the following link to choose a password for your new account:
         %{base_url}/users/password-reset/%{email_token}
+    confirm_new_email:
+      subject_template: "[%{site_name}] Yeni e-posta adresinizi onaylayın"
+      text_body_template: |
+        Aşağıdaki bağlantıya tıklayarak %{site_name} sitesindeki yeni e-posta adresinizi onaylayın:
 
+        %{base_url}/users/authorize-email/%{email_token}
     authorize_email:
       subject_template: "[%{site_name}] Confirm your new email address"
       text_body_template: |
@@ -1753,6 +1893,7 @@ tr:
     unauthorized: "Sorry, the file you are trying to upload is not authorized (authorized extensions: %{authorized_extensions})."
     pasted_image_filename: "Pasted image"
     store_failure: "Failed to store upload #%{upload_id} for user #%{user_id}."
+    file_missing: "Affedersiniz, yükleme için bir dosya sağlamalısınız."
     attachments:
       too_large: "Sorry, the file you are trying to upload is too big (maximum size is %{max_size_kb}%kb)."
     images:
@@ -1760,13 +1901,15 @@ tr:
       fetch_failure: "Sorry, there has been an error while fetching the image."
       unknown_image_type: "Sorry, but the file you tried to upload doesn't appear to be an image."
       size_not_found: "Sorry, but we couldn't determine the size of the image. Maybe your image is corrupted?"
-
+  avatar:
+    missing: "Üzgünüz, fakat seçmiş olduğunuz avatar sunucuda bulunamadı. Tekrar yüklemeyi deneyebilir misiniz?"
   flag_reason:
     sockpuppet: "A new user created a topic, and another new user at the same IP address replied. See the flag_sockpuppets site setting."
     spam_hosts: "This new user tried to create multiple posts with links to the same domain. See the newuser_spam_host_threshold site setting."
 
   email_log:
     no_user: "Can't find user with id %{user_id}"
+    anonymous_user: "Kullanıcı anonim"
     suspended_not_pm: "User is suspended, not a private message"
     seen_recently: "User was seen recently"
     post_not_found: "Can't find a post with id %{post_id}"
@@ -1782,12 +1925,14 @@ tr:
 
   color_schemes:
     base_theme_name: "Base"
-
+  about: "Hakkında"
   guidelines: "Guidelines"
   privacy: "Privacy"
 
   edit_this_page: "Edit this page"
-
+  csv_export:
+    boolean_yes: "Evet"
+    boolean_no: "Hayır"
   static_topic_first_reply: |
     Edit the first post in this topic to change the contents of the %{page_name} page.
 
