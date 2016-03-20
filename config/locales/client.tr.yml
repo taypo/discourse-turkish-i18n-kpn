@@ -744,8 +744,8 @@ tr:
       value_prop: "Bir hesap oluşturduğunuzda, tam olarak neyi okuyor olduğunuzu hatırlarız, böylece her zaman okumayı bırakmış olduğunuz yere geri gelirsiniz.  Ayrıca burada, yeni gönderiler yazıldığında eposta yoluyla bildirim alırsınız. Ve sevgiyi paylaşmak için gönderileri beğenebilirsiniz. :heartbeat:"
     summary:
       enabled_description: "Bu konunun, kullanıcılar tarafından en ilginç bulunan mesajlarından oluşturulmuş özetini görüyorsunuz."
-      description: "<b>{{count}}</b> adet yanıt var."
-      description_time: "<b>{{count}}</b> adet yanıt var. Tahmini okuma süresi <b>{{readingTime}} dakika</b>."
+      description: "<b>{{replyCount}}</b> adet yanıt var."
+      description_time: "<b>{{replyCount}}</b> adet yanıt var. Tahmini okuma süresi <b>{{readingTime}} dakika</b>."
       enable: 'Bu Konunun Özetini Göster'
       disable: 'Tüm Mesajları Göster'
 
@@ -1390,6 +1390,7 @@ tr:
         one: "Yanıt"
         other: "Yanıt"
       has_likes:
+        one: "1 Beğeni"
         other: "{{count}} Beğeni"
       has_likes_title:
         other: "{{count}} kişi bu mesajı beğendi"
